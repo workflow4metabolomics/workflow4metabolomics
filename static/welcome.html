@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="style/base.css" type="text/css" />
+
+
+<!-- // modif : lecorguille -->
+    <script src="W4M/jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+    <script src="W4M/jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+    <link rel="stylesheet" href="W4M/jquery-ui-1.11.4.custom/jquery-ui.css">
+
+    <script>
+	$(document).ready(function () {
+		$(function() {
+			$( "#W4M #accordion > div" ).accordion({ heightStyle: "content",collapsible: true });}
+		);
+		$(function() {
+			$( "#W4M #changelog_accordion" ).accordion({ heightStyle: "content",collapsible: true });
+		})
+		$(function() {
+			$( "#W4M #tutorial_accordion" ).accordion({ heightStyle: "content",collapsible: true });
+		})
+/**$("#W4M #tutorial_accordion > div").accordion({ heightStyle: "content",collapsible: true });*/
+		$(function() {
+			$( "#W4M .collapseclose" ).accordion({ active: false });}
+		);
+	});
+	// fonction toogle for diplay block <-> none
+    	function toogleDisplay(id)
+    	{	
+		if (document.getElementById(id).style.display == "block") {
+	    	document.getElementById(id).style.display = "none";
+		}
+		else {
+	   	 document.getElementById(id).style.display = "block";
+		}
+    	}
+    
+	</script>
+
+	<style>
+		
+		#W4M  ul {
+			list-style-type: none;
+			margin-left:0;
+		}
+		#W4M  ul > li > ul {
+			list-style-type: disc;
+			margin-left:20px;
+		}
+		#W4M  ul > li > ul > li > ul {
+			list-style-type: square;
+			margin-left:20px;
+		}
+
+		video {
+			padding-top: 15px;
+			padding-bottom: 25px;
+		}
+		.donemessagelarge, .warningmessagelarge, .infomessagelarge {
+			padding-top:2px;
+			padding-bottom:5px;
+		}
+		h1, h2 {
+			margin-top:8.5px;
+		}
+	</style>
+<!-- // modif fin : lecorguille -->
+
+</head>
+<body>
+    <div class="document">
+	<div width="auto" align="center">
+			<img src="W4M/logo-ifb-mono-metabohub_2.1.png" style="max-width:1200px;width:100%;" />
+	</div>
+
+	<div class="donemessagelarge">
+            <h1>version 2.5.x</h1>
+	    <strong>Publication:</strong> Franck Giacomoni, Gildas Le Corguillé, Misharl Monsoor, Marion Landi, Pierre Pericard, Mélanie Pétéra, Christophe Duperier, Marie Tremblay-Franco, Jean-François Martin, Daniel Jacob, Sophie Goulitquer, Etienne A. Thévenot and Christophe Caron (2014). <strong>Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics</strong>. Bioinformatics  <a href="http://bioinformatics.oxfordjournals.org/content/early/2014/12/18/bioinformatics.btu813" target="_blank">doi:10.1093/bioinformatics/btu813</a><br/><br/>
+	    <b>Help and support: <a href="mailto:support@workflow4metabolomics.org">support@workflow4metabolomics.org</a></b>
+	</div>
+ 
+
+	<div class="warningmessagelarge">
+
+		<h2>Information/Warning</h2>
+
+		<ul>
+			<li>11/03/16: Due to our cluster maintenance,the Galaxy W4M instance will be down from 2 days (From 11/03/16 to 13/03/16). </li>
+			<li>17/02/16: We have just write a tutorial in the Tutorials section below: Prepare your data to ease your data import.</li>
+		</ul> 
+    </div>
+		<!--<ul>
+			<li>08/06/2015 - W4M is now in maintenance. You can face some access problems during reboots.</li>
+		</ul>
+	       29/07/2014 - Some scripts can be disrupted due to problems around R
+		22/01/2015 - Maintenance: W4M will be stopped at <blink><strong><font color="red">17:00 TODAY</font></strong></blink> for an expected duration of 1 hour (Update of Galaxy: security and features)
+		<ul>
+			<li> 10/02/2015 - W4M is now in maintenance. You can face some access problems since we are rebooting it. </li>
+			<li> 10/02/2015 - You may encounter some problems when re-running former datasets, the tools (specially around xcms and CAMERA) became obsolete. You can run new one in the tools panel. We will try to fix this issue as soon as possible. </li>
+		</ul>
+        </div>-->
+	<!--<div class="warningmessagelarge">-->
+	<!--<div class="infomessagelarge">
+		<h2>Latest news</h2>
+	
+		<ul>
+			<li>08/06/2015 - Workflow4Metabolomics v2.1 (2.0 phase 2) starts today - Check the changelog section below</li>
+			<li>01/06/2015 - Workflow4Metabolomics v2.0 starts today - Check the changelog section below</li>
+		</ul>
+	</div>-->
+		<!--<li>01/06/2015 - The W4M 2.0 release is presented in the June 2015 MetaboNews Spotlight <a href="http://www.metabonews.ca/Jun2015/MetaboNews_Jun2015.htm#spotlight" target="_blank">[link]</a></li>
+			<li>21/09/2015 - <a href="http://workflow4metabolomics.org/training/W4Mcourse2015" target="_blank">Ecole-chercheurs</a> : Traitement des données métabolomiques sur l'infrastructure online Workflow4Metabolomics (21-25 Sept. 2015) [in French] / Roscoff, France</li>
+			<li>19/12/2014 - W4M publication in Bioinformatics is now <a href="http://bioinformatics.oxfordjournals.org/content/early/2014/12/18/bioinformatics.btu813" target="_blank">available</a> - <strong>Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics</strong></li>-->
+
+	<div id="W4M">
+		<div id="accordion">
+			<!--<div class="collapseclose">-->
+			<div>
+				<h3>Changelog</h3>
+
+
+				<div id="changelog_accordion">
+						<h4>2.5.0 - 24/02/2016</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>BUGFIX - Preprocessing / xcms.* (2.0.5) CAMERA.* (2.1.3): <font color="red">better management of errors</font>. Datasets remained green although the process failed</li>
+										<li>UPDATE - Preprocessing / xcms.* (2.0.5) CAMERA.* (2.1.3): refactoring of internal management of inputs/outputs</li>
+										<li>UPDATE - Preprocessing / xcms.* (2.0.5) CAMERA.* (2.1.3): refactoring to feed the new summary tool</li>
+										<li>BUGFIX/IMPROVEMENT</font> - Preprocessing / xcms.xcmsSet (2.0.7): <font color="red">New checking steps around the imported data</font> in order to raise explicte error message before or after launch XCMS: checking of bad characters in the filenames, checking of the XML integrity and checking of duplicates which can appear in the sample names during the XCMS process because of bad characters</li>
+										<li>BUGFIX/IMPROVEMENT</font> - Preprocessing / xcms.xcmsSet (2.0.7): <font color="red">New step to check and delete bad characters in the XML</font>: accented characters in the storage path of the mass spectrometer</li>
+										<li>BUGFIX - Preprocessing / xcms.retcor (2.0.5): some pdf remained empty even when the process succeed</li>
+										<li>BUGFIX - Preprocessing / CAMERA.annotate (2.1.3): the conversion into minutes of the retention time was applied to the diffreport outputs (several conditions)</li>
+										<li>IMPROVEMENT - Preprocessing / CAMERA.annotate (2.1.3): when there are several conditions, the tool will generate individual datasets (tsv, pdf) instead of a zip file. The usual png (eic, boxplot) will from now be integrated in two pdf.</li>
+										<li>BUGFIX - 18/01/16 - Preprocessing / xcms.xcmsSet: Some zip files were tag as "corrupt" by R. We have changed the extraction mode to deal with thoses cases.</li>
+										<li><font color="red">NEW</font> - Preprocessing / xcms.summary (1.0.0): Create a summary of XCMS and CAMERA analysis</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<h4>2.4.3 - 10/02/2016</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>All workflows</h5>
+									<ul>
+										<li>UPDATE - 10/02/16 - Statistical Analysis / Multivariate (2.3.0) NEW FEATURES: Predictions now available (see the 'Samples to be tested' argument) OPLS(-DA): Predictive and Orthogonal VIP are now computed. Multiclass PLS-DA implemented. MINOR MODIFICATIONS Changes in color palette: black/grey colors for diagnostics and other colors for scores</li>
+										<li>BUGFIX - 10/02/16 - Normalisation / Batch_correction (2.0.2): all_loess_sample:  minor bug correction in the figure display (previously stopping in the case of missing 'pool' observations).</li>
+									</ul>
+								</li>
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>BUGFIX - 18/01/16 - Preprocessing / xcms.xcmsSet: Some zip files were tag as "corrupt" by R. We have changed the extraction mode to deal with thoses cases.</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<h4>2.4.0 - 04/12/2015</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>NEW - Statitical Analysis / Biosigner: Molecular signature discovery from omics data</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<h4>2.3.5 - 30/10/2015</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>NEW - 30/10/15 - Annotation / LC/MS matching: Matching of mz/rt values onto local reference compound database.</li>
+										<li>BUGFIX - 15/10/15 - Preprocessing / CAMERA.annotate: There was a bug with the CAMERA.annotate (generating a bad dataMatrix (intensities which don't match with the metabolites))</li>
+										<li>BUGFIX - 09/10/15 - Preprocessing / xcms.xcmsSet: Some users reported a bug in xcms.xcmsSet. The preprocessing stops itself and doesn't import the whole dataset contained in the zip file without warning. But meanwhile, please check your samplemetadata dataset and the number of rows. Sorry about that!</li>
+										<li>UPDATE - 30/09/15 - Statistical Analysis / Univariate (2.1.1) Internal handling of 'NA' p-values (e.g. when intensities are identical in all samples)</li>
+										<li>UPDATE - 30/09/15 - Statistical Analysis / Multivariate (2.2.4) Correction in the Galaxy wrapper (in the previous version, the number of predictive components was sometimes set to the maximum by mistake). The regression coefficients are now provided as a new column of the variableMetadata output</li>
+										<li>UPDATE - 22/09/15 - Statistical Analysis / Multivariate (2.2.3) The default number of permutations is set to 10 (instead of 100) as a compromise to enable both a quick computation and a first hint at model significance</li>
+									</ul>
+								</ul>
+						</div>
+						<h4>2.2.1 - 18/09/2015</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>NMR</h5>
+									<ul>
+										<li>NEW - Annotation / NMR_Annotation: Annotation of complex mixture NMR spectra and metabolite proportion estimation</li>
+									</ul>
+								</li>
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>UPDATE - Statistical Analysis / Multivariate (2.2.2): A default of 100 permutations has been set in order to check for overfitting; in addition,'permutation', 'overview', and 'outlier' plots are now displayed by default. Classification is currently implemented for two-class responses only. dataMatrix is not modified by the tool, so it does not appear as an output files.Double cross-validation (advanced computational parameters): 'odd' now refers to train (instead to test) indices  </li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<h4>2.1.0 - 02/06/2015</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>General</h5>
+									<ul>
+										<li>NEW - The W4M workflows will now take as input a zip file to ease the transfer and to improve dataset exchange between tools and users. (See How_to_upload). The previous "Library directory name" is still available but we invite user to switch on the new zip system as soon as possible.</li>
+										<li>UPDATE - Implementation of a new upload system to use FTP Galaxy features. It will allow to avoid some boring FTP and Library manipulations and to really use Galaxy dataset manager. (Data must be wrapped in a zip file) (See Tutorial -> Upload datasets)</li>
+									</ul>
+								</li>
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>NEW - Format Conversion / msconvert_multiple_raw: no longer in beta but there are still some troubles with the Bruker format</li>
+										<li>UPDATE - Preprocessing / xcms.*: new datatype/dataset formats (rdata.xcms.raw, rdata.xcms.group, rdata.xcms.retcor ...) will facilitate the sequence of tools and so avoid incompatibility errors.</li>
+										<li>UPDATE - Preprocessing / CAMERA.*: new datatype/dataset formats (rdata.camera.positive, rdata.camera.negative, rdata.camera.quick ...) will facilitate the sequence of tools and so avoid incompatibility errors.</li>
+										<li>UPDATE - Preprocessing / xcms.* CAMERA.*: parameter labels have changed to facilitate their reading.</li>
+										<li>UPDATE - Preprocessing / CAMERA.annotate: merged with annotateDiffreport. Some parameters are dedicated to experiences with several conditions</li>
+									</ul>
+								</li>
+							</ul>			
+						</div>
+						<h4>2.0.0 - 01/06/2015</h4>
+						<div>
+							<ul class="changelog">
+								<li><h5>LC-MS</h5>
+									<ul>
+										<li>UPDATE - Normalisation / Batch correction: signal drift correction based on sample trend (instead of QCs)</li>
+										<li>NEW - Normalisation / Transformation: logarithm transformation of intensities</li>
+										<li>NEW - Quality control / Check Format: checking formats of the dataMatrix, sampleMetadata and variableMetadata</li>
+										<li>NEW - Quality control / Quality Metrics: provides quality metrics and visualization of the dataMatrix</li>
+										<li>NEW - Annotation / ProbMetab: automatic probabilistic annotation</li>
+										<li>NEW - Annotation / match_mass: search by masses on local bank</li>
+
+									</ul>
+								</li>
+								<li><h5>GC-MS</h5>
+									<ul>
+										<li>NEW - Preprocessing / metaMS.runGC: GC-MS data preprocessing using metaMS package</li>
+										<li>NEW - Annotation / Golm: to query Golm Metabolome</li>
+									</ul>
+								</li>
+								<li><h5>NMR</h5>
+									<ul>
+										<li>NEW - Preprocessing / NMR_Bucketing: functionalities include bucketing and integration</li>
+										<li>NEW - Normalisation / NMR_Normalization: several normalization methods (Total intensity, quantitative variable and Probabilistic Quotient Normalization).</li>
+									</ul>
+								</li>
+							</ul>			
+						</div>
+				</div>
+			</div>
+			<div class="collapseclose">
+				<h3>Tutorials</h3>
+				<div  id="tutorial_accordion">
+					
+					<h4>Prepare your data</h4>
+					<div>
+						<ul>
+							<li><h5>Data format</h5>
+								<ul>
+									The xcms package reads full-scan LC/MS data from AIA/ANDI format NetCDF, mzXML, and mzData files. All data to be analyzed by xcms must first be converted to one of those file formats. Software packages for many instruments are be able to export to NetCDF. For information about how to export to NetCDF, please consult the documentation that came with your instrument's software. The online help of most packages frequently use the terms \CDF" or \AIA" when referring to NetCDF format.  In addition to NetCDF, mzXML exporters for a number of instruments are also available <a href="http://sashimi.sourceforge.net/software_glossolalia.html" target="_blank">http://sashimi.sourceforge.net/software_glossolalia.html</a><br/>
+									<i>source: <a href="http://bioconductor.org/packages/release/bioc/vignettes/xcms/inst/doc/xcmsPreprocess.pdf" target="_blank">http://bioconductor.org/packages/release/bioc/vignettes/xcms/inst/doc/xcmsPreprocess.pdf</a></i>
+								</ul>
+							</li>
+							<li><h5>Data organization</h5>
+								<ul>
+									Your data must be segregated per condition in different folder<br/>
+									<i>Example:</i>
+									<ul>
+										<li>sacuri/
+											<ul>
+												<li>bio/
+													<ul>
+														<li>HU_neg_017.mzXML</li>
+														<li>HU_neg_028.mzXML</li>
+														<li>HU_neg_034.mzXML</li>
+													</ul>
+												</li>
+												<li>blank/
+													<ul>
+														<li>Blanc04.mzXML</li>
+														<li>Blanc06.mzXML</li>
+														<li>Blanc09.mzXML</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<b>Advise:</b> avoid special characters in your filenames and path.
+								</ul>
+							</li>
+							<li><h5>Zip your data</h5>
+								<ul>
+									In order to keep the directory structure intact, we chose the usual Zip format.<br/><br/>
+									Unfortunatly, the zip utility available by default with Microsoft Windows produces some corrupted file if the size of your data is more than 4Go.<br/>
+									So if you get this error message after the upload of your data <span style="background: #f9c7c5">zipfile.BadZipfile: zipfiles that span multiple disks are not supported</span><br/>
+									<b>Our advice</b> is to use the file archiver <a href="http://www.7-zip.org/" target="_blank">7zip</a>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+					<h4>Upload datasets</h4>
+					<div>
+						<ul>
+							<li><h5>Import datatsets &gt; 2 Go</h5>
+								<ul>
+									<a href="http://application.sb-roscoff.fr/download/w4m/howto/galaxy_upload_up_2Go.pdf" target="_blank">[pdf extract from the video]</a>
+									<video style="align:center;max-width:1280px;width:95%;" controls="controls" scale="tofit" >
+										  <source src="W4M/galaxy_upload_up_2Go.vlc.mp4" type="video/mp4" />
+										  <!--<source src="video.webm" type="video/webm" />
+										  <source src="video.ogv" type="video/ogg" />-->
+										  <a href="W4M/galaxy_upload_up_2Go.vlc.mp4" target="_blank">[video]</a>
+									</video>
+								</ul>
+							</li>
+							<li><h5>Import datatsets &lt; 2 Go</h5>
+								<ul>
+									<a href="http://application.sb-roscoff.fr/download/w4m/howto/galaxy_upload_less_2Go.pdf" target="_blank">[pdf extract from the video]</a><br/>
+									<video style="align:center;max-width:1280px;width:95%;" controls="controls" scale="tofit" >
+										  <source src="W4M/galaxy_upload_less_2Go.vlc.mp4" type="video/mp4" />
+										  <!--<source src="video.webm" type="video/webm" />
+										  <source src="video.ogv" type="video/ogg" />-->
+										  <a href="W4M/galaxy_upload_less_2Go.vlc.mp4" target="_blank">[video]</a>
+									</video>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				
+					<h4>Create workflows</h4>
+					<div><a href="http://web11.sb-roscoff.fr/download/w4m/howto/w4m_HowToBuildAndConfigureAWorkflow_v02.pdf" target="_blank">[pdf]</a></div>
+				
+					<h4>Share datasets</h4>
+					<div><a href="http://web11.sb-roscoff.fr/download/w4m/howto/w4m_HowToShareHistoriesAndWorkflows_v02.pdf" target="_blank">[pdf]</a></div>
+				
+					<h4>LC-MS GC-MS NMR</h4>
+					<div>See the Howto section of <a href="http://workflow4metabolomics.org/howto" target="_blank">http://workflow4metabolomics.org</a></div>
+					
+				</div>
+			</div>
+			<div class="collapseclose">
+				<h3>Past events</h3>
+			  	<div>
+				    	<ul>
+						<li>06/10/2014 - Summer school "Mass spectrometry and Metabolomics" (6-10 Oct. 2014) / Nice, France - <strong>a practical work on the Workflow4metabolomics Virtual Machine</strong></li>
+					    	<li>01/07/2014 - GCC2014 / Baltimore, USA - <strong>Poster: workflow4metabolomics.org, Galaxy and the metabolomics analysis Universe</strong> - <a href="140701_gcc2014-poster/GCC2014-workflow4metabo-1.02.pdf" target="_blank">pdf available</a></li>
+						<li>19/05/2014 - RFMF / Lyon, France - <strong>Workshop: Initiation au traitement et à l'Analyse des données métabolomiques</strong> - <a href="#" onclick="toogleDisplay('detail_rfmf_20140519');">Course materials available [EN]</a> 
+							<div id="detail_rfmf_20140519" style="display: none">
+								<hr />
+								<table width="600px">
+									<tr><th>Horaire</th><th>Title</th><th>Intervenants</th></tr>
+									<tr><td>10h05-10h10</td><td>Introduction / déroulement</td><td>F.Giacomoni</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_1_mth-ifb_rfmfWorkshop_Intro_atelier_rfmf.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>10h10-10h20</td><td>Infrastructure fédérative IFB-MTH</td><td>C.Caron</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_2_mth-ifb_rfmfWorkshop_ifb-mth-presentation-rfmf.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>10h20-11h00</td><td>Initiation à la plateforme web Galaxy</td><td>M.Monsoor, M.Landi, G.Le Corguillé</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_3_mth-ifb_rfmfWorkshop_initiation_galaxy_print.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>11h10-11h20</td><td>Présentation du workflow</td><td>F.Giacomoni, E.Thévenot</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_4_mth-ifb_rfmfWorkshop_workflow-presentation.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>11h20-11h40</td><td>TP 01 - preprocessing</td><td>S.Goulitquer, JF.Martin</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_5_mth-ifb_rfmfWorkshop_tp1-xcms.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>11h45-12h05</td><td>TP 02 - Analyses stats</td><td>M.Petera, E.Thévenot, M.Tremblay-Franco</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_6_mth-ifb_rfmfWorkshop_tp2-statistics.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>12h10-12h30</td><td>TP 03 - Annotation</td><td>F.Giacomoni, S.Goulitquer</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_7_mth-ifb_rfmfWorkshop_tp3_annotation.pdf" target="_blank">pdf</a></td></tr>
+									<tr><td>12h35-12h45</td><td>Perspectives</td><td>D.Jacob</td><td><a href="140519_mth-ifb_rfmfWorkshop_documents/140519_8_mth-ifb_rfmfWorkshop_perspectives.pdf" target="_blank">pdf</a></td></tr>
+								</table>
+								<hr />
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<div width="auto" align="center">
+			<img src="W4M/workflow_all_HD_color_2.0.png" style="max-width:1500px;width:95%;" /><br/>
+			<hr />
+			<img src="W4M/workflow_community_HD_2.0.png" style="max-width:1000px;width:95%;" />
+		</div>
+	</div>
+
+
+        <hr/>
+        <a target="_blank" class="reference" href="http://galaxyproject.org/">Galaxy</a> is an open, web-based platform for data intensive biomedical research.  The <a target="_blank" class="reference" href="http://wiki.galaxyproject.org/GalaxyTeam">Galaxy team</a> is a part of <a target="_blank" class="reference" href="http://www.bx.psu.edu">BX</a> at <a target="_blank" class="reference" href="http://www.psu.edu">Penn State</a>, and the <a target="_blank" class="reference" href="http://www.biology.emory.edu/">Biology</a> and <a target="_blank" class="reference" href="http://www.mathcs.emory.edu/">Mathematics and Computer Science</a> departments at <a target="_blank" class="reference" href="http://www.emory.edu/">Emory University</a>.  The <a target="_blank" class="reference" href="http://galaxyproject.org/">Galaxy Project</a> is supported in part by <a target="_blank" class="reference" href="http://www.genome.gov">NHGRI</a>, <a target="_blank" class="reference" href="http://www.nsf.gov">NSF</a>, <a target="_blank" class="reference" href="http://www.huck.psu.edu">The Huck Institutes of the Life Sciences</a>, <a target="_blank" class="reference" href="http://www.ics.psu.edu">The Institute for CyberScience at Penn State</a>, and <a target="_blank" class="reference" href="http://www.emory.edu/">Emory University</a>.</p>
+
+    </div>
+</body>
+</html>
+
+
+<script>
+    
+    // modif : lecorguille
+    // fonction toogle for diplay block <-> none
+    function toogleDisplay(id)
+    {	
+	if (document.getElementById(id).style.display == "block") {
+	    document.getElementById(id).style.display = "none";
+	}
+	else {
+	    document.getElementById(id).style.display = "block";
+	}
+    }
+    // fin modif : lecorguille
+    
+</script>
