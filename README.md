@@ -13,3 +13,6 @@ Galaxy
 Galaxy is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses. 
 
 Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
+
+
+![workflow](/images/workflow_all_HD_color_2.0.png)
