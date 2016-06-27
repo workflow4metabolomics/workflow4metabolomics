@@ -130,23 +130,25 @@ planemo lint mytool.xml
 ```
 
 It will output a list of checks as the following one:
-	Applying linter tests... CHECK
-	.. CHECK: 1 test(s) found.
-	Applying linter stdio... CHECK
-	.. INFO: No stdio definition found, tool will determine an error from stderr.
-	Applying linter output... CHECK
-	.. INFO: 2 outputs found.
-	Applying linter inputs... CHECK
-	.. INFO: Found 7 input parameters.
-	Applying linter help... CHECK
-	.. CHECK: Tool contains help section.
-	.. CHECK: Help contains valid reStructuredText.
-	Applying linter general... CHECK
-	.. CHECK: Tool defines a version [2.1.1].
-	.. CHECK: Tool defines a name [Univariate].
-	.. CHECK: Tool defines an id [Univariate].
-	Applying linter command... CHECK
-	.. INFO: Tool contains a command.
+```
+Applying linter tests... CHECK
+.. CHECK: 1 test(s) found.
+Applying linter stdio... CHECK
+.. INFO: No stdio definition found, tool will determine an error from stderr.
+Applying linter output... CHECK
+.. INFO: 2 outputs found.
+Applying linter inputs... CHECK
+.. INFO: Found 7 input parameters.
+Applying linter help... CHECK
+.. CHECK: Tool contains help section.
+.. CHECK: Help contains valid reStructuredText.
+Applying linter general... CHECK
+.. CHECK: Tool defines a version [2.1.1].
+.. CHECK: Tool defines a name [Univariate].
+.. CHECK: Tool defines an id [Univariate].
+Applying linter command... CHECK
+.. INFO: Tool contains a command.
+```
 
 #### Run the tests on your tool
 
