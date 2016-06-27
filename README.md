@@ -64,7 +64,7 @@ The sections of your tool XML file, must be in the specific order:
 
 ##### Requirements
 
-If your script `mytool-script` is written in R, and have the following R library dependencies: `batch`, `PMCMR`. You have to define the following lines inside your tool XML file:
+If your script `mytool-script` is written in R, and have the following R library dependencies: `batch`, `PMCMR`, you have to define the following lines inside your tool XML file:
 ```xml
 <requirements>
 	<requirement type="package" version="3.2.2">R</requirement>
@@ -72,7 +72,7 @@ If your script `mytool-script` is written in R, and have the following R library
 	<requirement type="package">r-pmcmr</requirement>
 </requirements>
 ```
-Requirements will be looked for inside the [bioconda](https://bioconda.github.io/index.html) GitHub repository install by conda inside a virtual environment. Thus you can check there if your particolar package is defined, or if the specific version your tool requests is provided.
+Requirements will be looked for inside the [bioconda](https://bioconda.github.io/index.html) GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided.
 In this example, the R language version 3.2.2 will be installed, as well as the batch and PMCMR R libraries (no version specified, but that could have been possible).
 
 ##### Command
