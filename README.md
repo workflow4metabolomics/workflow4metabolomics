@@ -44,11 +44,13 @@ We suppose you have a tool repository with the following files:
 
 #### Installing Planemo
 
-Under macOS, use Homebrew for installing Planemo:
 ```bash 
-brew tap galaxyproject/tap
-brew install planemo
+virtualenv ~/.planemo-venv
+. ~/.planemo-venv/bin/activate
+pip install planemo
 ```
+Before using Planemo on your terminal, you will need to activate your virtualenv environment
+`. ~/.planemo-venv/bin/activate`
 
 #### Writing correctly your tool XML file for Planemo
 
@@ -80,17 +82,11 @@ In this example, the R language version 3.2.2 will be installed, as well as the 
 
 ##### Command
 
-You must not use anymore the attribute `interpreter` inside the command tag. This means that your tool program must be executable directly:
 ```xml
 <command><![CDATA[
-	$__tool_directory__/mytool-script
+	Rscript $__tool_directory__/mytool-script
 	...
 ]]></command>
-```
-
-For script languages, you have to add a shebang line at the first line of the file. For instance for an R script:
-```r
-#!/usr/bin/env Rscript
 ```
 
 ##### Tests
@@ -112,6 +108,8 @@ The `param` tags describe the inputs.
 </tests>
 ```
 The input and output files must be placed in a folder named `test-data` in the same location as your tool XML file.
+
+More documentation here: https://wiki.galaxyproject.org/Admin/Tools/WritingTests
 
 ##### Help
 
