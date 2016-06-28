@@ -35,6 +35,9 @@ As a reference, see the [Tool XML file syntax](https://wiki.galaxyproject.org/Ad
 
 ### Using Planemo to validate a tool
 
+[Planemo](https://github.com/galaxyproject/planemo) is part of the Galaxy project, and is made for easing the development and testing of Galaxy tools. A [documentation](http://planemo.readthedocs.org/en/latest/index.html) is available, so we will give here only the basic knowledge.
+A [French course (slides)](http://www.france-bioinformatique.fr/sites/default/files/gd2015-planemo-1.0_0.pdf) given at the Galaxy Day (Nov. 11 2015) is also available.
+ 
 We suppose you have a tool repository with the following files:
 	mytool.xml
 	mytool-script
@@ -112,7 +115,7 @@ The input and output files must be placed in a folder named `test-data` in the s
 
 ##### Help
 
-**TODO**
+An help section is required.
 
 ##### Citations
 
