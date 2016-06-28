@@ -217,3 +217,29 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 ```
 
 ### Using Travis to automate testing
+
+[Travis CI](https://travis-ci.org) is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the "Sign with GitHub" button on the [Travis CI](https://travis-ci.org) home page. Then you just have to connect the organization account to your Travis account.
+Follow the instructions on the [Getting started](https://docs.travis-ci.com/user/getting-started/) page.
+
+Roughly, the steps are the following ones:
+
+ 1. Go to your profile page (click on your name at the top right).
+ 2. Make sure Workflow4Metabolomics is listed in the Organizations listing inside the left column.
+ 3. Click on `Sync account` button (at the top right), and wait.
+ 4. Enable the project you want. This will allow Travis CI to track for changes in branches and run the build.
+ 5. Define a file `.travis.yml` at the root of your project repository. This file will tell Travis CI how to build/test your project.
+ 6. Push the changes in your project repository to GitHub, Travis CI will automatically be triggered and start running the instructions contained inside the file `.travis.yml`.
+
+A minimal `.travis.yml` that makes use of Planemo and Ant can be:
+```yaml
+before_install:
+ - sudo apt-get install -y python-virtualenv
+ - sudo apt-get install -y ant
+ - virtualenv planemo-venv
+ - . planemo-venv/bin/activate
+ - pip install planemo
+ - planemo conda_init
+
+script:
+ - ant test
+```
