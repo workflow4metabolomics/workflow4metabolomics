@@ -172,4 +172,48 @@ planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.
 
 #### Using Ant to run Planemo
 
+Here is a `build.xml` file you can use as a base for running Planemo from Ant:
+```xml
+<project name="mytool" default="all">
+
+	<property name="tool.xml" value="mytool.xml"/>
+
+	<!--~~~
+	~ ALL ~
+	~~~~~-->
+
+	<target name="all"/>
+
+	<!--~~~~
+	~ TEST ~
+	~~~~~-->
+
+	<target name="test" depends="planemo.lint,planemo.test"/>
+
+	<!-- PLANEMO LINT -->
+	<target name="planemo.lint">
+		<exec executable="planemo" failonerror="true">
+			<arg value="lint"/>
+			<arg value="${tool.xml}"/>
+		</exec>
+	</target>
+
+	<!-- PLANEMO TEST -->
+	<target name="planemo.test">
+		<exec executable="planemo" failonerror="true">
+			<arg value="conda_install"/>
+			<arg value="${tool.xml}"/>
+		</exec>
+		<exec executable="planemo" failonerror="true">
+			<arg value="test"/>
+			<arg value="--galaxy_branch"/>
+			<arg value="release_16.01"/>
+			<arg value="--conda_dependency_resolution"/>
+			<arg value="${tool.xml}"/>
+		</exec>
+	</target>
+
+</project>
+```
+
 ### Using Travis to automate testing
