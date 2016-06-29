@@ -170,6 +170,57 @@ Run your tests:
 planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
 
+#### Developing a new recipe for bioconda
+
+The tests may fail if the requirements cannot be found in conda or bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.
+
+To develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes), or fork [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) and send a pull-request.
+
+Follow the instructions in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes).
+
+##### Installing conda
+
+For testing your recipe, you will need conda.
+
+Installing miniconda on macOS:
+```bash
+brew cask install miniconda
+```
+The installation is done in `~/miniconda2` and `~/miniconda3`. The binaries are installed inside `~/miniconda2/bin` and `~/miniconda3/bin`. The version 3 is preferred for bioconda.
+
+Then install `conda-build`:
+```bash
+~/miniconda3/bin/conda install conda-build
+```
+
+To later update your conda installation:
+```bash
+conda update conda
+conda update conda-build
+```
+
+##### Write your recipe
+
+To write your recipe, follow the instructions in [Guidelines for bioconda recipes](https://github.com/bioconda/bioconda-recipes/blob/master/GUIDELINES.md). You will find instructions for each development language. For instance for writing a recipe for a R CRAN package, use the skeleton generator:
+```bash
+cd recipes
+~/miniconda3/bin/conda skeleton cran mypkg
+```
+
+##### Build your recipe
+
+To build your recipe, run:
+```bash
+~/miniconda3/bin/conda build recipes/myrecipe
+```
+If it is a R package add the option `--channel r`, and if it depends on other bioconda recipes add `--channel bioconda`.
+
+See also [Conda build recipes](http://conda.pydata.org/docs/building/recipe.html).
+
+##### Publish
+
+Now you just have to send a pull-request and wait, Travis CI will run the tests, and merge your recipe automatically into the master branch in case of success.
+
 #### Using Ant to run Planemo
 
 Here is a `build.xml` file you can use as a base for running Planemo from Ant:
