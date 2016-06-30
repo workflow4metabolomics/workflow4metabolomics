@@ -172,7 +172,7 @@ planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.
 
 #### Developing a new recipe for bioconda
 
-The tests may fail if the requirements cannot be found in conda or bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.
+The tests may fail if the requirements cannot be found neither in conda nor in bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.
 
 To develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes), or fork [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) and send a pull-request.
 
