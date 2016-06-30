@@ -32,6 +32,7 @@ Writing a tool
 #### Writing the tool XML file
 
 As a reference, see the [Tool XML file syntax](https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax) from the Galaxy project wiki.
+The [Galaxy Intergalactic Utilities Commission Standards and Best Practices](https://galaxy-iuc-standards.readthedocs.io/en/latest/) are also worth reading.
 
 ### Using Planemo to validate a tool
 
