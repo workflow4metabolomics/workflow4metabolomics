@@ -40,18 +40,33 @@ The [Galaxy Intergalactic Utilities Commission Standards and Best Practices](htt
 A [French course (slides)](http://www.france-bioinformatique.fr/sites/default/files/gd2015-planemo-1.0_0.pdf) given at the Galaxy Day (Nov. 11 2015) is also available.
  
 We suppose you have a tool repository with the following files:
-	mytool.xml
-	mytool-script
+```
+mytool.xml
+mytool-script
+```
 
 #### Installing Planemo
+
+##### macOS
+
+Under macOS, use Homebrew for installing Planemo:
+```bash
+brew tap galaxyproject/tap
+brew install planemo
+```
+
+##### In a virtual environment
 
 ```bash 
 virtualenv ~/.planemo-venv
 . ~/.planemo-venv/bin/activate
 pip install planemo
 ```
-Before using Planemo on your terminal, you will need to activate your virtualenv environment
-`. ~/.planemo-venv/bin/activate`
+
+Before using Planemo on your terminal, you will need to activate your virtualenv environment:
+```bash
+. ~/.planemo-venv/bin/activate
+```
 
 #### Writing correctly your tool XML file for Planemo
 
@@ -83,12 +98,16 @@ In this example, the R language version 3.2.2 will be installed, as well as the 
 
 ##### Command
 
+You must not use anymore the attribute `interpreter` inside the command tag. The command content will be launched inside a bash session. The programs called must be present inside the `PATH`, so it must be a standard program (unless you find a way to put your tool program inside the PATH, but we do not recommand that).
+
+Here is an example with a script in R:
 ```xml
 <command><![CDATA[
 	Rscript $__tool_directory__/mytool-script
 	...
 ]]></command>
 ```
+Note the use of the `$__tool_directory__` variable. This is because, according to our experience, `planemo test` may fail to find your script if the whole is not specified.
 
 ##### Tests
 
