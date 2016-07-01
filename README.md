@@ -175,17 +175,19 @@ Applying linter command... CHECK
 
 If not already done, initialize conda:
 ```bash
-planemo conda_init
+planemo conda_init --conda_prefix conda.local
 ```
+With the `--conda_prefix` option, we specify the use of a local directory for conda installation. This avoids to mix with other tool testing, as it is the case when using a single global conda installation folder.
+This local conda folder will thus be reserved for the tested tool.
 
 Install your tool requirements:
 ```bash
-planemo conda_install mytool.xml
+planemo conda_install --conda_prefix conda.local mytool.xml
 ```
 
 Run your tests:
 ```bash
-planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
+planemo test --conda_prefix conda.local --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
 
 #### Developing a new recipe for bioconda
@@ -246,6 +248,7 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 <project name="mytool" default="all">
 
 	<property name="tool.xml" value="mytool.xml"/>
+	<property name="conda.dir" value="conda.local"/>
 
 	<!--~~~
 	~ ALL ~
@@ -259,7 +262,10 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 
 	<target name="test" depends="planemo.lint,planemo.test"/>
 
-	<!-- PLANEMO LINT -->
+	<!--~~~~~~~~~~~~
+	~ PLANEMO LINT ~
+	~~~~~~~~~~~~~-->
+
 	<target name="planemo.lint">
 		<exec executable="planemo" failonerror="true">
 			<arg value="lint"/>
@@ -267,19 +273,53 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 		</exec>
 	</target>
 
-	<!-- PLANEMO TEST -->
-	<target name="planemo.test">
-		<exec executable="planemo" failonerror="true">
-			<arg value="conda_install"/>
-			<arg value="${tool.xml}"/>
-		</exec>
+	<!--~~~~~~~~~~~~
+	~ PLANEMO TEST ~
+	~~~~~~~~~~~~~-->
+
+	<target name="planemo.test" depends="planemo.conda.install">
 		<exec executable="planemo" failonerror="true">
 			<arg value="test"/>
+			<arg value="--conda_prefix"/>
+			<arg value="${conda.dir}"/>
 			<arg value="--galaxy_branch"/>
 			<arg value="release_16.01"/>
 			<arg value="--conda_dependency_resolution"/>
 			<arg value="${tool.xml}"/>
 		</exec>
+	</target>
+
+	<!--~~~~~~~~~~~~~~~~~~~~~
+	~ PLANEMO CONDA INSTALL ~
+	~~~~~~~~~~~~~~~~~~~~~~-->
+
+	<target name="planemo.conda.install" depends="planemo.conda.init">
+		<exec executable="planemo" failonerror="true">
+			<arg value="conda_install"/>
+			<arg value="--conda_prefix"/>
+			<arg value="${conda.dir}"/>
+			<arg value="${tool.xml}"/>
+		</exec>
+	</target>
+
+	<!--~~~~~~~~~~~~~~~~~~
+	~ PLANEMO CONDA INIT ~
+	~~~~~~~~~~~~~~~~~~~-->
+
+	<target name="planemo.conda.init">
+		<exec executable="planemo" failonerror="true">
+			<arg value="conda_init"/>
+			<arg value="--conda_prefix"/>
+			<arg value="${conda.dir}"/>
+		</exec>
+	</target>
+
+	<!--~~~~~
+	~ CLEAN ~
+	~~~~~~-->
+
+	<target name="clean">
+		<delete dir="${conda.dir}"/>
 	</target>
 
 </project>
