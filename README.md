@@ -45,6 +45,11 @@ mytool.xml
 mytool-script
 ```
 
+Planemo uses a directory for storing data. Default is `~/.planemo`, but it can be changed through the `--directory` option:
+```bash
+planemo --directory /my/planemo/folder/path ...
+```
+
 #### Installing Planemo
 
 ##### macOS
@@ -175,20 +180,34 @@ Applying linter command... CHECK
 
 If not already done, initialize conda:
 ```bash
-planemo conda_init --conda_prefix conda.local
+planemo conda_init
 ```
-With the `--conda_prefix` option, we specify the use of a local directory for conda installation. This avoids to mix with other tool testing, as it is the case when using a single global conda installation folder.
-This local conda folder will thus be reserved for the tested tool.
 
 Install your tool requirements:
 ```bash
-planemo conda_install --conda_prefix conda.local mytool.xml
+planemo conda_install mytool.xml
 ```
 
 Run your tests:
 ```bash
+planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
+```
+
+##### Conda directory
+
+Conda installs all its files inside `~/miniconda2` by default.
+When testing the requirements, it may be that you forget to specify some requirements for your tool, but that your test pass anyway. This is because the requirements were already installed inside `~/miniconda2`, possibly while testing another tool.
+
+A first solution to avoid this is to erase the `~/miniconda2` before running `planemo conda_install .`.
+
+A second solution is to choose a custom folder for conda for your tool through the `--conda_prefix` option:
+```bash
+planemo conda_init --conda_prefix conda.local
+planemo conda_install --conda_prefix conda.local mytool.xml
 planemo test --conda_prefix conda.local --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
+
+Attention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error `Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1`. This issue will be solved in Conda-Build 2.0.0.
 
 #### Developing a new recipe for bioconda
 
@@ -248,7 +267,7 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 <project name="mytool" default="all">
 
 	<property name="tool.xml" value="mytool.xml"/>
-	<property name="conda.dir" value="conda.local"/>
+	<property name="conda.dir" value="${user.home}/w4m-conda"/>
 
 	<!--~~~
 	~ ALL ~
