@@ -225,7 +225,7 @@ Installing miniconda on macOS:
 ```bash
 brew cask install miniconda
 ```
-The installation is done in `~/miniconda2` and `~/miniconda3`. The binaries are installed inside `~/miniconda2/bin` and `~/miniconda3/bin`. The version 3 is preferred for bioconda.
+The installation is done in `~/miniconda3`. The binaries are installed inside `~/miniconda3/bin`.
 
 Then install `conda-build`:
 ```bash
