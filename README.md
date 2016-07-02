@@ -240,10 +240,27 @@ conda update conda-build
 
 ##### Write your recipe
 
-To write your recipe, follow the instructions in [Guidelines for bioconda recipes](https://github.com/bioconda/bioconda-recipes/blob/master/GUIDELINES.md). You will find instructions for each development language. For instance for writing a recipe for a R CRAN package, use the skeleton generator:
+To write your recipe, follow the instructions in [Guidelines for bioconda recipes](https://github.com/bioconda/bioconda-recipes/blob/master/GUIDELINES.md). You will find instructions for each development language.
+
+###### R CRAN package
+
+For writing a recipe for a R CRAN package, use the skeleton generator:
 ```bash
 cd recipes
 ~/miniconda3/bin/conda skeleton cran mypkg
+```
+
+###### Bioconductor package
+
+For writing a recipe for a Bioconductor package, use the specific generator:
+```bash
+python3 scripts/bioconductor/bioconductor_skeleton.py mypkg
+```
+
+Python3 is required, but is not explicitly called by this script, so you need to specify it unless it is the default on your system.
+Make sure that you have installed the necessary packages for this script:
+```bash
+pip3 install pyaml bs4 requests
 ```
 
 ##### Build your recipe
