@@ -1,18 +1,130 @@
 Workflow4Metabolomics Guidelines
 ================================
 
+Outlines
+--------
+
+- Tool dependencies using Conda
+- Writing a tool
+- Testing tools using Planemo
+- Using Ant to run Planemo
+- Automate testing within GitHub using Travis
+
+
+### Tool dependencies using Conda
+
+A tool may require to operate some external softwares (call dependencies) like binaries, python or R packages/libraries.
+[Conda](http://conda.pydata.org/) is package manager that among many other things can be used to manage Python packages. It became since july 2016, the default package manager within Galaxy.
+In Galaxy, [Conda](http://conda.pydata.org/) will search by default in 3 channels: defaults, [r](https://anaconda.org/r) and [bioconda](https://bioconda.github.io/)
+
+#### Installing Conda
+
+Galaxy currently will use miniconda2 (Python 2.7), so prefer is then miniconda3.
+
+##### Where?
+
+Because there are some issue when the installed packages path is tool long. It's recommended to install Conda close to /
+
+##### Using a classic bash script
+
+Follow this link [http://conda.pydata.org/miniconda.html](http://conda.pydata.org/miniconda.html)
+
+##### Using Planemo
+
+1. See Installing Planemo
+2. `planemo conda_init --conda_prefix "/usr/conda/"`
+
+##### Using a Package manager
+
+For testing your recipe, you will need conda.
+
+Installing miniconda on macOS:
+```bash
+brew cask install miniconda
+```
+The installation is done in `~/miniconda3`. The binaries are installed inside `~/miniconda3/bin`.
+
+##### Installing conda-build
+
+Then install `conda-build`:
+```bash
+~/miniconda3/bin/conda install conda-build
+```
+
+
+#### Developing a new recipe for bioconda
+
+The tests may fail if the requirements cannot be found neither in conda nor in bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.
+
+To develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes), or fork [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) and send a pull-request.
+
+Follow the instructions in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes).
+
+
+
+##### Write your recipe
+
+To write your recipe, follow the instructions in [Guidelines for bioconda recipes](https://github.com/bioconda/bioconda-recipes/blob/master/GUIDELINES.md). You will find instructions for each development language.
+
+###### R CRAN package
+
+For writing a recipe for a R CRAN package, use the skeleton generator:
+```bash
+cd recipes
+~/miniconda3/bin/conda skeleton cran mypkg
+```
+
+###### Bioconductor package
+
+For writing a recipe for a Bioconductor package, use the specific generator:
+```bash
+python3 scripts/bioconductor/bioconductor_skeleton.py mypkg
+```
+
+Python3 is required, but is not explicitly called by this script, so you need to specify it unless it is the default on your system.
+Make sure that you have installed the necessary packages for this script:
+```bash
+pip3 install pyaml bs4 requests
+```
+
+##### Build your recipe to test your package
+
+To build your recipe, run:
+```bash
+~/miniconda3/bin/conda build recipes/myrecipe
+```
+If it is a R package add the option `--channel r`, and if it depends on other bioconda recipes add `--channel bioconda`.
+
+See also [Conda build recipes](http://conda.pydata.org/docs/building/recipe.html).
+
+##### Publish
+
+Now you just have to send a pull-request and wait, Travis CI will run the tests, and merge your recipe automatically into the master branch in case of success.
+
+
+
+
+
+
+
+
+
+
 
 Writing a tool
 --------------
 
 ### Creating a tool repository
 
-
-
 #### Writing the tool XML file
 
 As a reference, see the [Tool XML file syntax](https://wiki.galaxyproject.org/Admin/Tools/ToolConfigSyntax) from the Galaxy project wiki.
 The [Galaxy Intergalactic Utilities Commission Standards and Best Practices](https://galaxy-iuc-standards.readthedocs.io/en/latest/) are also worth reading.
+
+
+
+Testing tools using Planemo
+---------------------------
 
 ### Using Planemo to validate a tool
 
@@ -189,75 +301,10 @@ planemo test --conda_prefix conda.local --galaxy_branch release_16.01 --conda_de
 
 Attention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error `Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1`. This issue will be solved in Conda-Build 2.0.0.
 
-#### Developing a new recipe for bioconda
 
-The tests may fail if the requirements cannot be found neither in conda nor in bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.
 
-To develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes), or fork [bioconda-recipes](https://github.com/bioconda/bioconda-recipes) and send a pull-request.
-
-Follow the instructions in [Bioconda recipes README](https://github.com/bioconda/bioconda-recipes).
-
-##### Installing conda
-
-For testing your recipe, you will need conda.
-
-Installing miniconda on macOS:
-```bash
-brew cask install miniconda
-```
-The installation is done in `~/miniconda3`. The binaries are installed inside `~/miniconda3/bin`.
-
-Then install `conda-build`:
-```bash
-~/miniconda3/bin/conda install conda-build
-```
-
-To later update your conda installation:
-```bash
-conda update conda
-conda update conda-build
-```
-
-##### Write your recipe
-
-To write your recipe, follow the instructions in [Guidelines for bioconda recipes](https://github.com/bioconda/bioconda-recipes/blob/master/GUIDELINES.md). You will find instructions for each development language.
-
-###### R CRAN package
-
-For writing a recipe for a R CRAN package, use the skeleton generator:
-```bash
-cd recipes
-~/miniconda3/bin/conda skeleton cran mypkg
-```
-
-###### Bioconductor package
-
-For writing a recipe for a Bioconductor package, use the specific generator:
-```bash
-python3 scripts/bioconductor/bioconductor_skeleton.py mypkg
-```
-
-Python3 is required, but is not explicitly called by this script, so you need to specify it unless it is the default on your system.
-Make sure that you have installed the necessary packages for this script:
-```bash
-pip3 install pyaml bs4 requests
-```
-
-##### Build your recipe
-
-To build your recipe, run:
-```bash
-~/miniconda3/bin/conda build recipes/myrecipe
-```
-If it is a R package add the option `--channel r`, and if it depends on other bioconda recipes add `--channel bioconda`.
-
-See also [Conda build recipes](http://conda.pydata.org/docs/building/recipe.html).
-
-##### Publish
-
-Now you just have to send a pull-request and wait, Travis CI will run the tests, and merge your recipe automatically into the master branch in case of success.
-
-#### Using Ant to run Planemo
+Using Ant to run Planemo
+------------------------
 
 Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 ```xml
@@ -341,7 +388,8 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 </project>
 ```
 
-### Using Travis to automate testing
+Automate testing within GitHub using Travis
+-------------------------------------------
 
 [Travis CI](https://travis-ci.org) is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the "Sign with GitHub" button on the [Travis CI](https://travis-ci.org) home page. Then you just have to connect the organization account to your Travis account.
 Follow the instructions on the [Getting started](https://docs.travis-ci.com/user/getting-started/) page.
