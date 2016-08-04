@@ -129,17 +129,7 @@ The [Galaxy Intergalactic Utilities Commission Standards and Best Practices](htt
 
 [Planemo](https://github.com/galaxyproject/planemo) is part of the Galaxy project, and is made for easing the development and testing of Galaxy tools. A [documentation](http://planemo.readthedocs.org/en/latest/index.html) is available, so we will give here only the basic knowledge.
 A [French course (slides)](http://www.france-bioinformatique.fr/sites/default/files/gd2015-planemo-1.0_0.pdf) given at the Galaxy Day (Nov. 11 2015) is also available.
- 
-We suppose you have a tool repository with the following files:
-```
-mytool.xml
-mytool-script
-```
 
-Planemo uses a directory for storing data. Default is `~/.planemo`, but it can be changed through the `--directory` option:
-```bash
-planemo --directory /my/planemo/folder/path ...
-```
 
 #### Installing Planemo
 
@@ -165,6 +155,10 @@ brew tap galaxyproject/tap
 brew install planemo
 ```
 
+##### Init Planemo
+
+`planemo init` will create a file in the home directory called `.planemo.yml` where you will be able to set your ToolShed credentials
+
 #### Init a tool
 
 Planemo propose to create the tool skeloton 
@@ -178,16 +172,16 @@ planemo tool_init
 
 The sections of your tool XML file, must be in the specific order:
 
- 1. description.
- 2. requirements.
- 3. command.
- 4. inputs.
- 5. outputs.
- 6. tests.
- 7. help.
- 8. citations.
+ 1. `<description>`
+ 2. `<requirements>`
+ 3. `<command>`
+ 4. `<inputs>`
+ 5. `<outputs>`
+ 6. `<tests>`
+ 7. `<help>`
+ 8. `<citations>`
 
-##### Requirements
+##### `<requirements>`
 
 If your script `mytool-script` is written in R, and have the following R library dependencies: `batch`, `PMCMR`, you have to define the following lines inside your tool XML file:
 ```xml
@@ -200,7 +194,7 @@ If your script `mytool-script` is written in R, and have the following R library
 Requirements will be looked for inside 3 channels: default, [r](https://anaconda.org/r), and [bioconda](https://bioconda.github.io/index.html) GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided.
 In this example, the R language version 3.2.2 will be installed, as well as the batch and PMCMR R libraries (no version specified, but that could have been possible).
 
-##### Command
+##### `<command>`
 
 You must not use anymore the attribute `interpreter` inside the command tag. The command content will be launched inside a bash session. The programs called must be present inside the `PATH`, so it must be a standard program (unless you find a way to put your tool program inside the PATH, but we do not recommand that).
 
@@ -213,7 +207,7 @@ Here is an example with a script in R:
 ```
 Note the use of the `$__tool_directory__` variable. This is because, according to our experience, `planemo test` may fail to find your script if the whole is not specified.
 
-##### Tests
+##### `<tests>`
 
 At least one test is required.
 
@@ -235,11 +229,11 @@ The input and output files must be placed in a folder named `test-data` in the s
 
 More documentation here: https://wiki.galaxyproject.org/Admin/Tools/WritingTests
 
-##### Help
+##### `<help>`
 
 An help section is required.
 
-##### Citations
+##### `<citations>`
 
 This sections is required, as a good practice.
 In the case you have nothing to put inside this section, and in order to make the `planemo lint` pass, just write an empty section:
