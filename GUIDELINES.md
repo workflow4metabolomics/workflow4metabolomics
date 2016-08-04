@@ -265,8 +265,13 @@ Applying linter command... CHECK
 .. INFO: Tool contains a command.
 ```
 
+#### Visualizing the tool in a Galaxy instance
 
+```bash
+planemo serve --install_galaxy 
+```
 
+If you want to launch your tool in this Galaxy instance, you can follow instruction in the [Run the tests on your tool section](run-the-tests-on-your-tool) to install Conda dependencies and use `planemo serve` with `--conda_dependency_resolution` 
 
 
 
@@ -286,7 +291,7 @@ planemo conda_install mytool.xml
 
 - Run your tests:
 ```bash
-planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
+planemo test --install_galaxy --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
 
 ##### Conda directory
@@ -300,7 +305,7 @@ A second solution is to choose a custom folder for conda for your tool through t
 ```bash
 planemo conda_init --conda_prefix /tmp/conda
 planemo conda_install --conda_prefix /tmp/conda mytool.xml
-planemo test --conda_prefix /tmp/conda --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
+planemo test --install_galaxy --galaxy_branch release_16.01 --conda_prefix /tmp/conda --conda_dependency_resolution mytool.xml
 ```
 
 Attention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error `Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1`. This issue will be solved in Conda-Build 2.0.0.
