@@ -10,6 +10,7 @@ Outlines
 - [Testing a tool using Planemo](#testing-a-tool-using-planemo)
 - [Using Ant to run Planemo](#using-ant-to-run-planemo)
 - [Automate testing within GitHub using Travis](#automate-testing-within-github-using-travis)
+- [Publish a tool in the ToolShed using Planemo](#publish-a-tool-in-the-toolShed-using-planemo)
 
 
 ### Tool dependencies using Conda
@@ -454,3 +455,25 @@ before_install:
 script:
  - ant test
 ```
+
+
+### Publish a tool in the ToolShed using Planemo
+
+#### Init a tool publishing
+
+```bash
+planemo shed_init --help
+```
+
+#### Create a repository and upload files
+
+```bash
+planemo shed_create --help
+```
+
+#### Updating an existing tool
+
+```bash
+planemo shed_update --help
+```
+
