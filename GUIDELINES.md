@@ -22,10 +22,6 @@ In Galaxy, [Conda](http://conda.pydata.org/) will search by default in 3 channel
 
 Galaxy currently will use miniconda2 (Python 2.7), so prefer is then miniconda3.
 
-##### Where?
-
-Because there are some issue when the installed packages path is tool long. It's recommended to install Conda close to /
-
 ##### Using a classic bash script
 
 Follow this link [http://conda.pydata.org/miniconda.html](http://conda.pydata.org/miniconda.html)
@@ -135,14 +131,14 @@ A [French course (slides)](http://www.france-bioinformatique.fr/sites/default/fi
 
 ##### Using Python pip in a virtual environment
 
-1. Installing Planemo
+- Installing Planemo
 ```bash 
 virtualenv ~/.planemo-venv
 . ~/.planemo-venv/bin/activate
 pip install planemo
 ```
 
-2. Before using Planemo on your terminal, you will need to activate your virtualenv environment:
+- Before using Planemo on your terminal, you will need to activate your virtualenv environment:
 ```bash
 . ~/.planemo-venv/bin/activate
 ```
@@ -269,21 +265,26 @@ Applying linter command... CHECK
 .. INFO: Tool contains a command.
 ```
 
+
+
+
+
+
 ### Testing a tool using Planemo
 
 #### Run the tests on your tool
 
-If not already done, initialize conda:
+- If not already done, initialize conda:
 ```bash
 planemo conda_init
 ```
 
-Install your tool requirements:
+- Install your tool requirements:
 ```bash
 planemo conda_install mytool.xml
 ```
 
-Run your tests:
+- Run your tests:
 ```bash
 planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
@@ -291,18 +292,21 @@ planemo test --galaxy_branch release_16.01 --conda_dependency_resolution mytool.
 ##### Conda directory
 
 Conda installs all its files inside `~/miniconda2` by default.
-When testing the requirements, it may be that you forget to specify some requirements for your tool, but that your test pass anyway. This is because the requirements were already installed inside `~/miniconda2`, possibly while testing another tool.
+WARNING: When testing the requirements, it may be that you forget to specify some requirements for your tool, but that your test pass anyway. This is because the requirements were already installed inside `~/miniconda2`, possibly while testing another tool.
 
 A first solution to avoid this is to erase the `~/miniconda2` before running `planemo conda_install .`.
 
 A second solution is to choose a custom folder for conda for your tool through the `--conda_prefix` option:
 ```bash
-planemo conda_init --conda_prefix conda.local
-planemo conda_install --conda_prefix conda.local mytool.xml
-planemo test --conda_prefix conda.local --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
+planemo conda_init --conda_prefix /tmp/conda
+planemo conda_install --conda_prefix /tmp/conda mytool.xml
+planemo test --conda_prefix /tmp/conda --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml
 ```
 
 Attention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error `Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1`. This issue will be solved in Conda-Build 2.0.0.
+
+
+
 
 
 
@@ -390,6 +394,11 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 </project>
 ```
 
+
+
+
+
+
 ### Automate testing within GitHub using Travis
 
 [Travis CI](https://travis-ci.org) is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the "Sign with GitHub" button on the [Travis CI](https://travis-ci.org) home page. Then you just have to connect the organization account to your Travis account.
@@ -404,6 +413,28 @@ Roughly, the steps are the following ones:
  5. Define a file `.travis.yml` at the root of your project repository. This file will tell Travis CI how to build/test your project.
  6. Push the changes in your project repository to GitHub, Travis CI will automatically be triggered and start running the instructions contained inside the file `.travis.yml`.
 
+
+#### Without Ant
+
+A minimal `.travis.yml` that makes use of Planemo can be:
+```yaml
+before_install:
+ - sudo apt-get install -y python-virtualenv
+ - virtualenv planemo-venv
+ - . planemo-venv/bin/activate
+ - pip install --upgrade pip setuptools
+ - pip install planemo
+ - planemo conda_init
+
+install:
+ - planemo conda_install ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory
+
+script:
+- planemo test --install_galaxy --no_cache_galaxy --conda_dependency_resolution ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory
+```
+
+#### Using Ant
+
 A minimal `.travis.yml` that makes use of Planemo and Ant can be:
 ```yaml
 before_install:
@@ -411,6 +442,7 @@ before_install:
  - sudo apt-get install -y ant
  - virtualenv planemo-venv
  - . planemo-venv/bin/activate
+ - pip install --upgrade pip setuptools
  - pip install planemo
  - planemo conda_init
 
