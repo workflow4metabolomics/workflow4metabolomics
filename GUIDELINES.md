@@ -4,11 +4,11 @@ Workflow4Metabolomics Guidelines
 Outlines
 --------
 
-- Tool dependencies using Conda
-- Writing a tool
-- Testing tools using Planemo
-- Using Ant to run Planemo
-- Automate testing within GitHub using Travis
+- [Tool dependencies using Conda](#tool-dependencies-using-conda)
+- [Writing a tool](#writing-a-tool)
+- [Testing tools using Planemo](#testing-tools-using-planemo)
+- [Using Ant to run Planemo](#using-ant-to-run-planemo)
+- [Automate testing within GitHub using Travis](#automate-testing-within-github-using-travis)
 
 
 ### Tool dependencies using Conda
