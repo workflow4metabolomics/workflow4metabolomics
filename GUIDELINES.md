@@ -15,7 +15,7 @@ Outlines
 ### Tool dependencies using Conda
 
 A tool may require to operate some external softwares (call dependencies) like binaries, python or R packages/libraries.
-[Conda](http://conda.pydata.org/) is package manager that among many other things can be used to manage Python packages. It became since july 2016, the default package manager within Galaxy.
+[Conda](http://conda.pydata.org/) is a package manager that among many other things can be used to manage Python packages. It became since july 2016, the default package manager within Galaxy.
 In Galaxy, [Conda](http://conda.pydata.org/) will search by default in 3 channels: defaults, [r](https://anaconda.org/r) and [bioconda](https://bioconda.github.io/)
 
 #### Installing Conda
