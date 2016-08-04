@@ -10,7 +10,7 @@ Outlines
 - [Testing a tool using Planemo](#testing-a-tool-using-planemo)
 - [Using Ant to run Planemo](#using-ant-to-run-planemo)
 - [Automate testing within GitHub using Travis](#automate-testing-within-github-using-travis)
-- [Publish a tool in the ToolShed using Planemo](#publish-a-tool-in-the-toolShed-using-planemo)
+- [Publish a tool in the ToolShed using Planemo](#publish-a-tool-in-the-toolshed-using-planemo)
 
 
 ### Tool dependencies using Conda
