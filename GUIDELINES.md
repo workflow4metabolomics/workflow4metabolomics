@@ -271,7 +271,7 @@ Applying linter command... CHECK
 planemo serve --install_galaxy 
 ```
 
-If you want to launch your tool in this Galaxy instance, you can follow instruction in the [Run the tests on your tool section](run-the-tests-on-your-tool) to install Conda dependencies and use `planemo serve` with `--conda_dependency_resolution` 
+If you want to launch your tool in this Galaxy instance, you can follow instruction in the [Run the tests on your tool section](#run-the-tests-on-your-tool) to install Conda dependencies and use `planemo serve` with `--conda_dependency_resolution` 
 
 
 
