@@ -6,7 +6,8 @@ Outlines
 
 - [Tool dependencies using Conda](#tool-dependencies-using-conda)
 - [Writing a tool](#writing-a-tool)
-- [Testing tools using Planemo](#testing-tools-using-planemo)
+- [Writing a tool using Planemo](#writing-a-tool-using-planemo)
+- [Testing a tool using Planemo](#testing-a-tool-using-planemo)
 - [Using Ant to run Planemo](#using-ant-to-run-planemo)
 - [Automate testing within GitHub using Travis](#automate-testing-within-github-using-travis)
 
@@ -31,7 +32,7 @@ Follow this link [http://conda.pydata.org/miniconda.html](http://conda.pydata.or
 
 ##### Using Planemo
 
-1. See Installing Planemo
+1. See [Installing Planemo](#installing-planemo)
 2. `planemo conda_init --conda_prefix "/usr/conda/"`
 
 ##### Using a Package manager
@@ -111,10 +112,9 @@ Now you just have to send a pull-request and wait, Travis CI will run the tests,
 
 
 
-Writing a tool
---------------
+### Writing a tool
 
-### Creating a tool repository
+#### Creating a tool repository
 
 #### Writing the tool XML file
 
@@ -123,10 +123,9 @@ The [Galaxy Intergalactic Utilities Commission Standards and Best Practices](htt
 
 
 
-Testing tools using Planemo
----------------------------
+### Writing a tool using Planemo
 
-### Using Planemo to validate a tool
+#### Planemo
 
 [Planemo](https://github.com/galaxyproject/planemo) is part of the Galaxy project, and is made for easing the development and testing of Galaxy tools. A [documentation](http://planemo.readthedocs.org/en/latest/index.html) is available, so we will give here only the basic knowledge.
 A [French course (slides)](http://www.france-bioinformatique.fr/sites/default/files/gd2015-planemo-1.0_0.pdf) given at the Galaxy Day (Nov. 11 2015) is also available.
@@ -144,25 +143,33 @@ planemo --directory /my/planemo/folder/path ...
 
 #### Installing Planemo
 
-##### macOS
+##### Using Python pip in a virtual environment
 
-Under macOS, use Homebrew for installing Planemo:
-```bash
-brew tap galaxyproject/tap
-brew install planemo
-```
-
-##### In a virtual environment
-
+1. Installing Planemo
 ```bash 
 virtualenv ~/.planemo-venv
 . ~/.planemo-venv/bin/activate
 pip install planemo
 ```
 
-Before using Planemo on your terminal, you will need to activate your virtualenv environment:
+2. Before using Planemo on your terminal, you will need to activate your virtualenv environment:
 ```bash
 . ~/.planemo-venv/bin/activate
+```
+
+##### Using Brew for MacOS
+
+Under macOS, you can also use Homebrew for installing Planemo:
+```bash
+brew tap galaxyproject/tap
+brew install planemo
+```
+
+#### Init a tool
+
+Planemo propose to create the tool skeloton 
+```bash
+planemo tool_init
 ```
 
 #### Writing correctly your tool XML file for Planemo
@@ -190,7 +197,7 @@ If your script `mytool-script` is written in R, and have the following R library
 	<requirement type="package">r-pmcmr</requirement>
 </requirements>
 ```
-Requirements will be looked for inside the [bioconda](https://bioconda.github.io/index.html) GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided.
+Requirements will be looked for inside 3 channels: default, [r](https://anaconda.org/r), and [bioconda](https://bioconda.github.io/index.html) GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided.
 In this example, the R language version 3.2.2 will be installed, as well as the batch and PMCMR R libraries (no version specified, but that could have been possible).
 
 ##### Command
@@ -268,6 +275,8 @@ Applying linter command... CHECK
 .. INFO: Tool contains a command.
 ```
 
+### Testing a tool using Planemo
+
 #### Run the tests on your tool
 
 If not already done, initialize conda:
@@ -303,8 +312,7 @@ Attention to not choose a too much long prefix, otherwise it could give issue wi
 
 
 
-Using Ant to run Planemo
-------------------------
+### Using Ant to run Planemo
 
 Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 ```xml
@@ -388,8 +396,7 @@ Here is a `build.xml` file you can use as a base for running Planemo from Ant:
 </project>
 ```
 
-Automate testing within GitHub using Travis
--------------------------------------------
+### Automate testing within GitHub using Travis
 
 [Travis CI](https://travis-ci.org) is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the "Sign with GitHub" button on the [Travis CI](https://travis-ci.org) home page. Then you just have to connect the organization account to your Travis account.
 Follow the instructions on the [Getting started](https://docs.travis-ci.com/user/getting-started/) page.
