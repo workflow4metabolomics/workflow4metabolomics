@@ -436,7 +436,7 @@ install:
  - planemo conda_install ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory
 
 script:
-- planemo test --install_galaxy --no_cache_galaxy --conda_dependency_resolution ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory
+ - planemo test --install_galaxy --no_cache_galaxy --conda_dependency_resolution ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory
 ```
 
 #### Using Ant
