@@ -224,7 +224,30 @@ The `param` tags describe the inputs.
 ```
 The input and output files must be placed in a folder named `test-data` in the same location as your tool XML file.
 
-More documentation here: https://wiki.galaxyproject.org/Admin/Tools/WritingTests
+More documentation here: <https://wiki.galaxyproject.org/Admin/Tools/WritingTests>.
+
+Be careful, when referencing parameters that are included in a `conditional` section. You must not use the name of the `conditional` section as a prefix.
+For instance, if you have the following `conditional` section:
+```xml
+<conditional name="db">
+
+	<param name="dbtype" label="Database" type="select">
+		<option value="inhouse">In-house</option>
+		<option value="peakforest">Peakforest</option>
+	</param>
+
+	<!-- .... -->
+</conditional>
+```
+You will use the parameter name `dbtype` as is, without prefix: 
+```xml
+<tests>
+	<test>
+		<param name="dbfile" value="filedb.tsv"/>
+	<!-- .... -->
+	</test>
+</tests>
+```
 
 ##### `<help>`
 
