@@ -37,7 +37,7 @@ Usage
 
 ### Adapt the Big Picture to your tool
 #### Crop
-A crop can be directly be done using the png of one of the Big Pictures using Gimp for example.
+You can directly make a crop using the png of one of the Big Pictures using Gimp for example.
 
 #### Remove and Move elements within the Big Pictures
 To focus on a specific tool, some elements of the Big Picture can be removed or moved.
