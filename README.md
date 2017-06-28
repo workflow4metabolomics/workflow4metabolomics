@@ -28,8 +28,8 @@ Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
 How to contribute
 -----------------
 
-## Get your tools
-All your tools are publicly available in [GitHub](https://github.com/workflow4metabolomics) and freely installable through the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/groups#/175812cd7caaf439)
+### Get our tools
+All our tools are publicly available in [GitHub](https://github.com/workflow4metabolomics) and freely installable through the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/groups#/175812cd7caaf439)
 
 However, we will be glad to have [good] feedbacks on their usage in order to motivate us (and our funders).
 
@@ -39,7 +39,7 @@ It will also be great if you can cite our papers:
 
 [doi:10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
 
-## Show case mode
+### Show case mode
 Your tools can be installed, integrated and hosted within the [main W4M instance Tools](https://galaxy.workflow4metabolomics.org/).
 However, the tools must stick to the IUC standards in order to be easily integrated:
 - [ ] Available in a GitHub repository
@@ -50,12 +50,12 @@ However, the tools must stick to the IUC standards in order to be easily integra
 
 In the first place, your tools will be displayed in the `Contribution` section of the tool panel. And eventually, it should be promoted among the other tools.
 
-## Advanced mode
+### Advanced mode
 In order to fully integrate your tools in our reference workflows, obviously they must respect the same standards showed above in the [Show case mode](#show-case-mode) but also follow your exchange format between tools (for more information, contact us).
 
 A collaboration should be established if help is needed!
 
-## Support / HelpDesk
+### Support / HelpDesk
 In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn't done.
 
 Guidelines
