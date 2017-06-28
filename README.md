@@ -28,8 +28,36 @@ Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
 How to contribute
 -----------------
 
-**To be defined.**
+### Get our tools
+All our tools are publicly available in [GitHub](https://github.com/workflow4metabolomics) and freely installable through the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/groups#/175812cd7caaf439)
 
+However, we will be glad to have [good] feedbacks on their usage in order to motivate us (and our funders).
+
+It will also be great if you can cite our papers:
+
+> Franck Giacomoni, Gildas Le Corguillé, Misharl Monsoor, Marion Landi, Pierre Pericard, Mélanie Pétéra, Christophe Duperier, Marie Tremblay-Franco, Jean-François Martin, Daniel Jacob, Sophie Goulitquer, Etienne A. Thévenot and Christophe Caron (2014). **Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics**. Bioinformatics 
+
+[doi:10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
+
+### Push your tools / W4M as a Showcase
+Your tools can be installed, integrated and hosted within the [main W4M instance Tools](https://galaxy.workflow4metabolomics.org/).
+
+#### Quality standards
+However, the tools must stick to the IUC standards in order to be easily integrated:
+- [ ] Available in a GitHub repository
+- [ ] [Conda](https://docs.galaxyproject.org/en/master/admin/conda_faq.html) dependencies
+- [ ] Functional tests using [Planemo](https://planemo.readthedocs.io/en/latest/#)
+- [ ] Available in the [Main ToolShed](https://toolshed.g2.bx.psu.edu/)
+
+In the first place, your tools will be displayed in the `Contribution` section of the tool panel. And eventually, it should be promoted among the other tools.
+
+#### Advanced mode
+In order to be fully integrated in our reference workflows, your tools must follow your exchange formats between tools (for more information, contact us).
+
+A collaboration should be established if help is needed!
+
+#### Support / HelpDesk
+In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn't done.
 
 Guidelines
 ----------
