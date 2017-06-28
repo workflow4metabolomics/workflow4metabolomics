@@ -28,8 +28,35 @@ Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
 How to contribute
 -----------------
 
-**To be defined.**
+## Get your tools
+All your tools are publicly available in [GitHub](https://github.com/workflow4metabolomics) and freely installable through the [Galaxy ToolShed](https://toolshed.g2.bx.psu.edu/groups#/175812cd7caaf439)
 
+However, we will be glad to have [good] feedbacks on their usage in order to motivate us (and our funders).
+
+It will also be great if you can cite our papers:
+
+> Franck Giacomoni, Gildas Le Corguillé, Misharl Monsoor, Marion Landi, Pierre Pericard, Mélanie Pétéra, Christophe Duperier, Marie Tremblay-Franco, Jean-François Martin, Daniel Jacob, Sophie Goulitquer, Etienne A. Thévenot and Christophe Caron (2014). **Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics**. Bioinformatics 
+
+[doi:10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
+
+## Show case mode
+Your tools can be installed, integrated and hosted within the [main W4M instance Tools](https://galaxy.workflow4metabolomics.org/).
+However, the tools must stick to the IUC standards in order to be easily integrated:
+- [ ] Available in a GitHub repository
+- [ ] [`planemo lint`](http://planemo.readthedocs.io/en/latest/commands/lint.html)
+- [ ] [Conda dependencies](https://docs.galaxyproject.org/en/master/admin/conda_faq.html)
+- [ ] Functional tests [`planemo test`](http://planemo.readthedocs.io/en/latest/commands/test.html)
+- [ ] Available in the [Main ToolShed](https://toolshed.g2.bx.psu.edu/)
+
+In the first place, your tools will be displayed in the `Contribution` section of the tool panel. And eventually, it should be promoted among the other tools.
+
+## Advanced mode
+In order to fully integrate your tools in our reference workflows, obviously they must respect the same standards showed above in the [Show case mode](#show-case-mode) but also follow your exchange format between tools (for more information, contact us).
+
+A collaboration should be established if help is needed!
+
+## Support / HelpDesk
+In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn't done.
 
 Guidelines
 ----------
