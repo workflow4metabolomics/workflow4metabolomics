@@ -39,23 +39,22 @@ It will also be great if you can cite our papers:
 
 [doi:10.1093/bioinformatics/btu813](https://doi.org/10.1093/bioinformatics/btu813)
 
-### Show case mode
+### Push your tools / W4M as a Show case mode
 Your tools can be installed, integrated and hosted within the [main W4M instance Tools](https://galaxy.workflow4metabolomics.org/).
 However, the tools must stick to the IUC standards in order to be easily integrated:
 - [ ] Available in a GitHub repository
-- [ ] [`planemo lint`](http://planemo.readthedocs.io/en/latest/commands/lint.html)
-- [ ] [Conda dependencies](https://docs.galaxyproject.org/en/master/admin/conda_faq.html)
-- [ ] Functional tests [`planemo test`](http://planemo.readthedocs.io/en/latest/commands/test.html)
+- [ ] [Conda](https://docs.galaxyproject.org/en/master/admin/conda_faq.html) dependencies
+- [ ] Functional tests using [Planemo](https://planemo.readthedocs.io/en/latest/#)
 - [ ] Available in the [Main ToolShed](https://toolshed.g2.bx.psu.edu/)
 
 In the first place, your tools will be displayed in the `Contribution` section of the tool panel. And eventually, it should be promoted among the other tools.
 
-### Advanced mode
+#### Advanced mode
 In order to fully integrate your tools in our reference workflows, obviously they must respect the same standards showed above in the [Show case mode](#show-case-mode) but also follow your exchange format between tools (for more information, contact us).
 
 A collaboration should be established if help is needed!
 
-### Support / HelpDesk
+#### Support / HelpDesk
 In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn't done.
 
 Guidelines
