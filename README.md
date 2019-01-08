@@ -23,7 +23,7 @@ Galaxy is an open, web-based platform for data intensive biomedical research. Wh
 Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
 
 
-![workflow](/images/workflow_all_HD_color_2.0.png)
+![workflow](/images/workflow/bigpicture.png)
 
 How to contribute
 -----------------
