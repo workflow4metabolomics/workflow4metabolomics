@@ -48,8 +48,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-764.4588740320382" y="801.9282670454543"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -69,8 +69,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="95.0" x="-306.8662107339934" y="682.0768821022726"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.12890625" x="1.935546875" y="4.0">fillChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.12890625" x="1.935546875" y="4.0">fillChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -90,8 +90,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-427.8662107339934" y="587.0768821022726"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.31640625" x="3.341796875" y="4.0">adjustRtime</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.31640625" x="3.341796875" y="4.0">adjustRtime</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -111,8 +111,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="114.0" x="-442.8662107339934" y="683.0768821022726"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.07421875" x="1.462890625" y="4.0">groupChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="111.07421875" x="1.462890625" y="4.0">groupChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -132,8 +132,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="114.0" x="-185.8662107339934" y="682.6905184659089"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.267578125" x="2.8662109375" y="4.0">CAMERA.annotate</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="108.267578125" x="2.8662109375" y="4.0">CAMERA.annotate</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -153,8 +153,8 @@
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="95.0" x="-246.3662107339934" y="587.0768821022726"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.97265625" x="0.013671875" y="4.0">process_history</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="94.97265625" x="0.013671875" y="4.0">process_history</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -333,8 +333,8 @@ report<y:LabelModel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-1013.6811684098001" y="487.82688210227275"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -354,8 +354,8 @@ report<y:LabelModel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-1004.347835076467" y="528.0768821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -375,8 +375,8 @@ report<y:LabelModel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-993.8831688832848" y="568.3268821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -396,8 +396,8 @@ report<y:LabelModel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-983.9593180963421" y="607.3268821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -476,8 +476,8 @@ The mapping between the sample names and their conditions is done with a tabular
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-550.5262789264149" y="587.0768821022726"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks
 Merger</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="44.265625">
                 <y:LabelModel>
@@ -785,8 +785,8 @@ Merger</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-802.2636409747829" y="487.82688210227275"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -806,8 +806,8 @@ Merger</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-792.9303076414499" y="528.0768821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -827,8 +827,8 @@ Merger</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-782.4656414482677" y="568.3268821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -848,8 +848,8 @@ Merger</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="-772.541790661325" y="607.3268821022727"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.19140625" x="2.404296875" y="4.0">findChromPeaks</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -998,8 +998,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="-935.4760293695623" y="801.9282670454543"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.3046875" x="3.34765625" y="4.0">readMSData</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1019,8 +1019,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="123.0152976885463" x="-777.7074647045607" y="334.4233571689358"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.66796875" x="2.173664469273149" y="4.0">plot_chromatogram</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="118.66796875" x="2.173664469273149" y="4.0">plot_chromatogram</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1246,8 +1246,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="788.854540395393" y="804.7385819620539"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.248046875" x="8.8759765625" y="4.0">Univariate</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="62.248046875" x="8.8759765625" y="4.0">Univariate</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1267,8 +1267,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="678.854540395393" y="847.2385819620539"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="72.2265625" x="3.88671875" y="4.0">Multivariate</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="72.2265625" x="3.88671875" y="4.0">Multivariate</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1288,8 +1288,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="882.1574919444275" y="847.2385819620539"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="57.853515625" x="11.0732421875" y="4.0">Biosigner</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="57.853515625" x="11.0732421875" y="4.0">Biosigner</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1307,10 +1307,10 @@ collection</y:NodeLabel>
         <node id="n1::n3">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
-              <y:Geometry height="55.0" width="80.0" x="992.1574919444275" y="847.2385819620539"/>
+              <y:Geometry height="55.0" width="80.0" x="992.1574919444274" y="847.2385819620539"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1330,8 +1330,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="678.854540395393" y="762.2385819620539"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.935546875" x="20.0322265625" y="4.0">Anova</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="39.935546875" x="20.0322265625" y="4.0">Anova</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1351,8 +1351,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="907.4736711633795" y="749.5725663370537"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.001953125" x="11.9990234375" y="4.0">Heatmap</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="56.001953125" x="11.9990234375" y="4.0">Heatmap</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1403,8 +1403,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="278.1693892045455" y="829.1136363636363"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1424,8 +1424,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="95.0" x="380.6693892045455" y="829.1136363636363"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.041015625" x="1.9794921875" y="4.0">Quality Metrics</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="91.041015625" x="1.9794921875" y="4.0">Quality Metrics</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1445,8 +1445,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="80.0" x="498.1693892045455" y="829.1136363636363"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="81.267578125" x="-0.6337890625" y="4.0">Generic Filter</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1497,8 +1497,8 @@ collection</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="69.3246259729334" width="104.0" x="-7.415627851535874" y="767.4476207386363"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="dashed" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.00390625" x="2.498046875" y="4.0">Determine
+              <y:BorderStyle color="#25537A" type="dashed" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="32.265625" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.00390625" x="2.498046875" y="4.0">Determine
 batch correction</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="44.265625">
                 <y:LabelModel>
@@ -1519,8 +1519,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="104.0" x="96.58437214846413" y="852.6856793518689"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.353515625" x="2.8232421875" y="4.0">Batch correction</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="98.353515625" x="2.8232421875" y="4.0">Batch correction</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1571,8 +1571,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1294.5665964223192" y="678.9082818910309"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.37109375" x="5.814453125" y="4.0">HMDB MS search</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="101.37109375" x="5.814453125" y="4.0">HMDB MS search</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1592,8 +1592,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1151.5665964223192" y="891.4273248597812"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.646484375" x="2.6767578125" y="4.0">Kegg Compounds</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="107.646484375" x="2.6767578125" y="4.0">Kegg Compounds</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1613,8 +1613,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1294.5665964223192" y="890.3749455984174"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.92578125" x="19.537109375" y="4.0">Chemspider</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="73.92578125" x="19.537109375" y="4.0">Chemspider</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1634,8 +1634,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1151.5665964223192" y="678.9082818910309"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.625" x="14.1875" y="4.0">bank_inhouse</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="84.625" x="14.1875" y="4.0">bank_inhouse</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1655,8 +1655,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1151.5665964223192" y="820.2368507830765"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.94140625" x="24.529296875" y="4.0">Lipidmaps</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="63.94140625" x="24.529296875" y="4.0">Lipidmaps</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1676,8 +1676,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1151.5665964223192" y="749.5725663370537"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.900390625" x="6.5498046875" y="4.0">LC/MS matching</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="99.900390625" x="6.5498046875" y="4.0">LC/MS matching</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1697,8 +1697,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1294.5665964223192" y="749.0463767063718"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.1875" x="25.90625" y="4.0">MassBank</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="61.1875" x="25.90625" y="4.0">MassBank</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1718,8 +1718,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1294.5665964223192" y="819.7106611523946"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.998046875" x="13.0009765625" y="4.0">Find a mol file</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="86.998046875" x="13.0009765625" y="4.0">Find a mol file</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1770,8 +1770,8 @@ batch correction</y:NodeLabel>
             <y:GenericNode configuration="com.yworks.entityRelationship.big_entity">
               <y:Geometry height="55.0" width="113.0" x="1222.7047140136378" y="511.7031944807401"/>
               <y:Fill color="#FFFFFF" transparent="false"/>
-              <y:BorderStyle color="#D6B161" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#EBD9B2" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.15625" x="23.421875" y="4.0">ProbMetab</y:NodeLabel>
+              <y:BorderStyle color="#25537A" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" backgroundColor="#A8AFC6" configuration="com.yworks.entityRelationship.label.name" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="internal" modelPosition="t" textColor="#000000" verticalTextPosition="bottom" visible="true" width="66.15625" x="23.421875" y="4.0">ProbMetab</y:NodeLabel>
               <y:NodeLabel alignment="left" autoSizePolicy="content" configuration="com.yworks.entityRelationship.label.attributes" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" textColor="#000000" verticalTextPosition="top" visible="true" width="4.0" x="2.0" y="30.1328125">
                 <y:LabelModel>
                   <y:ErdAttributesNodeLabelModel/>
@@ -1792,7 +1792,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="78.96063021732908" y="20.61713214569238">
             <y:LabelModel>
@@ -1813,7 +1813,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.367198065108312" y="31.29171096169034">
             <y:LabelModel>
@@ -1834,7 +1834,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="27.589570301334334" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="20.719948185404178" y="31.29171759526423">
             <y:LabelModel>
@@ -1855,7 +1855,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="229.92920367433567" sy="34.97337453278456" tx="-143.06903912223652" ty="47.10963331648543"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="30.41629304196499" y="28.80020104974801">
             <y:LabelModel>
@@ -1897,7 +1897,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="1.1368683772161603E-12" sy="3.410605131648481E-13" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="182.31632018895817" y="43.10564828104816">
             <y:LabelModel>
@@ -1922,7 +1922,7 @@ batch correction</y:NodeLabel>
             <y:Point x="324.0" y="951.0"/>
             <y:Point x="569.7272727272727" y="921.0"/>
           </y:Path>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="646.4590246532592" y="44.09829304209961">
             <y:LabelModel>
@@ -1946,7 +1946,7 @@ batch correction</y:NodeLabel>
             <y:Point x="-5.0" y="980.75"/>
             <y:Point x="757.75" y="980.75"/>
           </y:Path>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="922.4970483650928" y="13.489734410284541">
             <y:LabelModel>
@@ -1967,7 +1967,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.347666815108312" y="31.29171096169034">
             <y:LabelModel>
@@ -1988,7 +1988,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="-229.9428168547504" ty="41.626460910635096"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="48.231307879067344" y="32.94994177215551">
             <y:LabelModel>
@@ -2009,7 +2009,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="39.71009571809543" y="18.203534904439266">
             <y:LabelModel>
@@ -2030,7 +2030,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="15.290797905064096" y="40.999344625363506">
             <y:LabelModel>
@@ -2051,7 +2051,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-3.0161452233834325" y="34.83325475481797">
             <y:LabelModel>
@@ -2072,7 +2072,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="50.28288802831037" y="11.125227811430136">
             <y:LabelModel>
@@ -2093,7 +2093,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="41.58552912610821" y="-35.722361809540075">
             <y:LabelModel>
@@ -2114,7 +2114,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="1.1368683772161603E-12" sy="3.410605131648481E-13" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="93.52764391495882" y="13.024584994976976">
             <y:LabelModel>
@@ -2137,7 +2137,7 @@ batch correction</y:NodeLabel>
           <y:Path sx="-1.8189894035458565E-12" sy="3.410605131648481E-13" tx="0.0" ty="0.0">
             <y:Point x="256.738516320475" y="539.2031944807401"/>
           </y:Path>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="38.318359375" x="780.6992381528962" y="-179.88989312017122">RData<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
@@ -2157,7 +2157,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:StyleProperties>
             <y:Property class="java.awt.Color" name="FramedEdgePainter.fillColor" value="#ffffff"/>
@@ -2169,7 +2169,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="16.79151706685633" y="31.389855944829606">
             <y:LabelModel>
@@ -2190,7 +2190,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="51.989504565551954" y="-23.38272194960564">
             <y:LabelModel>
@@ -2211,7 +2211,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-26.975302239436246" y="39.31687546887247">
             <y:LabelModel>
@@ -2234,14 +2234,14 @@ batch correction</y:NodeLabel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="-495.6412557076719" y="485.84073618148017"/>
           </y:Path>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-233.01362242117636" y="-225.64292514613044">
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-235.92479868862347" y="-226.0615764157132">
             <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="32.352685450674805" distanceToCenter="false" position="right" ratio="0.9657918397524001" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="31.291722058991624" distanceToCenter="false" position="right" ratio="0.9829417535864351" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -2255,7 +2255,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="12.882943411885549" y="31.190836129648346">
             <y:LabelModel>
@@ -2276,7 +2276,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="delta" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="30.641766381884167" y="-35.523824541436056">
             <y:LabelModel>
@@ -2297,7 +2297,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="0.9795848544450791" y="46.80307653180034">
             <y:LabelModel>
@@ -2318,7 +2318,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="10.906384556201402" y="-42.07478048042128">
             <y:LabelModel>
@@ -2339,7 +2339,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-61.96687572458697" y="27.207103791507393">
             <y:LabelModel>
@@ -2360,7 +2360,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="60.83878027318234" y="-13.863852128101371">
             <y:LabelModel>
@@ -2381,7 +2381,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="29.917351432676526" y="31.29169308270525">
             <y:LabelModel>
@@ -2402,7 +2402,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="26.85849569308982" y="50.43272399800571">
             <y:LabelModel>
@@ -2423,7 +2423,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="25.882365695011117" y="37.43676247572989">
             <y:LabelModel>
@@ -2444,7 +2444,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="28.671396065409795" y="26.551307914904555">
             <y:LabelModel>
@@ -2465,7 +2465,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="30.9964090673476" y="17.58312396054896">
             <y:LabelModel>
@@ -2486,7 +2486,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="25.757097036421897" y="79.51500266644541">
             <y:LabelModel>
@@ -2507,7 +2507,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="13.739878979972218" y="56.22803650146284">
             <y:LabelModel>
@@ -2528,7 +2528,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="66.02265139071278" y="31.291705413039608">
             <y:LabelModel>
@@ -2549,7 +2549,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="18.969483226845" y="45.330272332242544">
             <y:LabelModel>
@@ -2570,7 +2570,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="17.165602223017117" y="35.21792478998805">
             <y:LabelModel>
@@ -2591,7 +2591,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="20.17998801529427" y="27.987734198828093">
             <y:LabelModel>
@@ -2612,7 +2612,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="28.623045209541715" y="19.191397778820715">
             <y:LabelModel>
@@ -2633,7 +2633,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="32.82851294684906" y="16.578883578202294">
             <y:LabelModel>
@@ -2654,7 +2654,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="23.597123155569875" y="27.29517371791303">
             <y:LabelModel>
@@ -2675,7 +2675,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="20.545698812550768" y="35.54673582905025">
             <y:LabelModel>
@@ -2696,7 +2696,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="23.428406779052466" y="46.46735335790595">
             <y:LabelModel>
@@ -2719,14 +2719,14 @@ batch correction</y:NodeLabel>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
             <y:Point x="-835.4483014726741" y="491.6001776351243"/>
           </y:Path>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="122.62539384687261" y="-132.9999695575126">
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="125.45534683988035" y="-135.26345981620602">
             <y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="0.0" distance="30.74077195822727" distanceToCenter="false" position="right" ratio="0.957139200546465" segment="-1"/>
+              <y:SmartEdgeLabelModelParameter angle="0.0" distance="31.291722058991624" distanceToCenter="false" position="right" ratio="0.9829417535864351" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -2740,7 +2740,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="80.71306612757996" y="31.291705413039494">
             <y:LabelModel>
@@ -2761,7 +2761,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="82.56775818697236" y="31.291708866599322">
             <y:LabelModel>
@@ -2782,7 +2782,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="93.44722451709606" y="45.116773660418914">
             <y:LabelModel>
@@ -2803,7 +2803,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="-29.437343997008497" y="-149.06012203829346">
             <y:LabelModel>
@@ -2824,7 +2824,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="19.772150336310233" y="40.383065781599385">
             <y:LabelModel>
@@ -2845,7 +2845,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="54.43720271796906" y="38.557053525038896">
             <y:LabelModel>
@@ -2866,7 +2866,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="54.09781362371848" y="38.53655150902489">
             <y:LabelModel>
@@ -2887,7 +2887,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="55.22752383258171" y="38.6029560898744">
             <y:LabelModel>
@@ -2908,7 +2908,7 @@ batch correction</y:NodeLabel>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.edge.framed">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#DFC895" type="line" width="3.0"/>
+          <y:LineStyle color="#5F809D" type="line" width="3.0"/>
           <y:Arrows source="none" target="none"/>
           <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" horizontalTextPosition="center" iconTextGap="4" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" verticalTextPosition="bottom" visible="true" width="4.0" x="54.65334379132514" y="38.56726767326791">
             <y:LabelModel>
