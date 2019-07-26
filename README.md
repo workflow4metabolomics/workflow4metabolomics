@@ -1,6 +1,6 @@
-[![Docker Automated buil](https://img.shields.io/docker/automated/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://hub.docker.com/r/bgruening/galaxy-training-exome-seq/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://hub.docker.com/r/bgruening/galaxy-training-exome-seq/)
-[![Docker Stars](https://img.shields.io/docker/stars/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://hub.docker.com/r/bgruening/galaxy-training-exome-seq/)
+[![Docker Automated buil](https://img.shields.io/docker/automated/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://cloud.docker.com/u/workflow4metabolomics/repository/docker/workflow4metabolomics/galaxy-workflow4metabolomics)
+[![Docker Pulls](https://img.shields.io/docker/pulls/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://cloud.docker.com/u/workflow4metabolomics/repository/docker/workflow4metabolomics/galaxy-workflow4metabolomics)
+[![Docker Stars](https://img.shields.io/docker/stars/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://cloud.docker.com/u/workflow4metabolomics/repository/docker/workflow4metabolomics/galaxy-workflow4metabolomics)
 [![bioconda-badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io)
 [![Build Status](https://travis-ci.org/workflow4metabolomics/xcms.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/xcms)
 
