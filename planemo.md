@@ -23,7 +23,7 @@ TODO image
 @TODO: keyboard ...
 
 
-## git clone tools_metabolomics
+## git - init your working repository
 Open a Terminal
 
 ### Adding a new SSH key to your GitHub account
@@ -188,3 +188,138 @@ $ git push origin nmr_bucketing2
 ```
 
 Now all is synchronize, you can work!
+
+## Planemo
+### `planemo lint`
+
+`planemo lint` checks for common errors and best practices. It will check different criterias to know if the xml wrapper is in good shape.
+
+Let's take an existing tool: "normalization"
+
+```bash
+$ cd ~/tools-metabolomicstools/normalization/
+$ planemo lint .
+Linting tool /private/tmp/tools-metabolomics/tools/normalization/NmrNormalization_xml.xml
+Applying linter tests... CHECK
+.. CHECK: 1 test(s) found.
+Applying linter output... CHECK
+.. INFO: 3 outputs found.
+Applying linter inputs... CHECK
+.. INFO: Found 8 input parameters.
+Applying linter help... CHECK
+.. CHECK: Tool contains help section.
+.. CHECK: Help contains valid reStructuredText.
+Applying linter general... CHECK
+.. CHECK: Tool defines a version [1.0.7].
+.. CHECK: Tool defines a name [Normalization].
+.. CHECK: Tool defines an id [normalization].
+.. CHECK: Tool targets 16.01 Galaxy profile.
+Applying linter command... CHECK
+.. INFO: Tool contains a command.
+Applying linter citations... CHECK
+.. CHECK: Found 1 likely valid citations.
+Applying linter tool_xsd... CHECK
+.. INFO: File validates against XML schema.
+```
+
+All seems good! Otherwise, you may to inverse some tags or complete others.
+
+To complete this checking, you can have a look at the [IUC Best Practices](https://galaxy-iuc-standards.readthedocs.io/en/latest/best_practices/tool_xml.html)
+
+### `planemo serve`
+`planemo serve` launches Galaxy instance with specified tools.
+
+#### Import your test data in the history
+
+
+### `planemo test`
+
+
+## git - push your changes
+At some point and regularly, you will have to push your commits to the remote only server.
+
+The number of commit is important and not.
+
+It's a balance:
+- Too many commits is not really useful because it's not informative
+- Too few commits is not a good idea if you want to remote a commit for example.
+The good balance is in the middle, you should have at least one commit per features or relevant modifications.
+
+1. Be sure to not be on the master branch
+2. Sync with the remote branch
+3. Sync your local branch with the remote master
+4. Commit and Push
+
+```bash
+$ # Check the current branch
+$ git branch
+  master
+* normalization_update
+
+$ # Check what have changed since the last commit
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   NmrNormalization_xml.xml
+
+no changes added to commit (use "git add" and/or "git commit -a")
+$ # Here the NmrNormalization_xml.xml have been modified
+
+$ # You can visualize the diff
+$ git diff
+diff --git a/tools/normalization/NmrNormalization_xml.xml b/tools/normalization/NmrNormalization_xml.xml
+index 45cb84d..9e40ff7 100644
+--- a/tools/normalization/NmrNormalization_xml.xml
++++ b/tools/normalization/NmrNormalization_xml.xml
+@@ -1,9 +1,9 @@
+-<tool id="normalization" name="Normalization" version="1.0.7">
++<tool id="normalization" name="Normalization" version="1.0.8">
+
+     <description> Normalization of (preprocessed) spectra </description>
+
+     <requirements>
+-          <requirement type="package" version="1.1_4">r-batch</requirement>
++          <requirement type="package" version="1.1_5">r-batch</requirement>
+     </requirements>
+
+       <stdio>
+$ git commit -m "normalization - update r-batch"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   NmrNormalization_xml.xml
+
+no changes added to commit
+
+
+$ # You add the change to the future commit
+$ git add NmrNormalization_xml.xml
+
+$ # Note that you can add other changes
+
+$ # Wrap a commit and fill an explicit message
+$ git commit -m "normalization - update r-batch"
+[master 51ed5fe] normalization - update r-batch
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+$ # With status, you can check that there isn't any changes left
+$ # And that you have commit to push to the remote repository
+$ git status
+ On branch master
+ Your branch is ahead of 'origin/master' by 1 commit.
+   (use "git push" to publish your local commits)
+
+ nothing to commit, working tree clean
+
+$ # Note that you can stack many commit before pushing them
+
+$ # git push will push your local commit to the remote branch
+$ git push origin normalization_update
+```
+
+Congrats!
