@@ -1,4 +1,5 @@
 # Planemo Virtual Machine
+
 ## Prerequisite
 - [VirtualBox](https://www.virtualbox.org/)
 - Planemo OVA image: https://images.galaxyproject.org/planemo/latest.ova
@@ -12,10 +13,19 @@
     - Processor|Processeur
       - Fix the number to 2 (or 1) depending of your hardware
 
-TODO image
+![](../images/docs_developers/virtualbox/configuration.png)
 
 ## 2- Launch the VM
 
 
 ## 3- Configure after the launch
-@TODO: keyboard ...
+1. Click right on the US flag
+2. Click on `Keyboard settings`
+3. Click on the `Layout` tab
+4. + Add
+5. Find `French(alternative)``
+6. Remove the English one
+7. Test the keyboard using the `Terminal Emulator`
+
+
+![](../images/docs_developers/virtualbox/keyboard.png)
