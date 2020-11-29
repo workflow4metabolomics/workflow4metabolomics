@@ -12,22 +12,25 @@ $ ssh-keygen -t ed25519 -C "your_email@example.com"
 [Return]
 [Return]
 [Return]
-[Return]
 ```
 
 #### 2. Adding it to GitHub
 ```bash
-$ pbcopy < ~/.ssh/id_ed25519.pub
-$ # Copies the contents of the id_ed25519.pub file to your clipboard
+$ cat ~/.ssh/id_ed25519.pub
+ssh-ed25519 AAAAC3NzaC1lZAAIMC3HzobwbYkEO0xvwx0E6sLp3RiKs13fDI1NTE5AAjBOLb5MDSsE your_email@example.com
 $
 ```
 
 Follow the steps of this page: [adding-a-new-ssh-key-to-your-github-account](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 
-### 3. Configure your email on git
-@TODO
+#### 3. Configure your email on git
+You need to configure your user name and email to commit in git.
+
+**/!\** Use the email address that the one of your GitHub account.
+
 ```bash
-$ git config
+$ git config --global user.name "Chuck Norris"
+$ git config --global user.email "your_email@example.com"
 ```
 
 ### git clone
@@ -36,7 +39,7 @@ We will pull a local copy of the [tools-metabolomics GitHub repository](https://
 ```bash
 $ cd ~
 $ git clone git@github.com:workflow4metabolomics/tools-metabolomics.git
-$ cd ~/tools-metabolomics
+$ cd tools-metabolomics
 ```
 
 ### Branches
