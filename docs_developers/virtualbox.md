@@ -7,6 +7,9 @@
 ## 1- Configure the VM before launch
 1. Right click on the image name
 2. Configuration...
+  - Général
+    - Avancée
+      - Presse papier partagé: Bidirectionel
   - System|Système:
     - Carte mère|Mother board:
       - Fix the Memory with the slider to at least 4000Mo if you can. Otherwise, 2000Mo will be ok.
@@ -27,5 +30,7 @@
 6. Remove the English one
 7. Test the keyboard using the `Terminal Emulator`
 
-
 ![](../images/docs_developers/virtualbox/keyboard.png)
+
+## [optional] Mount the host directory within the VM
+Mouhai!
