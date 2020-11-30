@@ -40,7 +40,7 @@ To complete this checking, you can have a look at the [IUC Best Practices](https
 `planemo serve` launches Galaxy instance with specified tools.
 
 ### 1. Launch planemo server within the tool directory
-```
+```bash
 $ cd tools-metabolomics/tools/normalization/
 $ planemo serve
 Starting Galaxy with
@@ -210,3 +210,30 @@ $ ls working
 - `ls working/` the job outputs are push in this directory. You can add extra logs or flags in your script to investigate in.
 
 Good luck!
+
+## [optional] `planemo conda_env`
+It can be practical to enable your tool Conda environment for debuging purpose.
+
+```bash
+$ cd tools-metabolomics/tools/normalization/
+
+$ # here we can check that R isn't available in your $PATH
+$ R --version
+The program 'R' is currently not installed. You can install it by typing:
+sudo apt install r-base-core
+
+$ # planemo will generate a bash script which we source immediately using the .
+$ . <(planemo conda_env NmrNormalization_xml.xml)
+Deactivate environment with conda_env_deactivate
+$ which R
+/home/ubuntu/miniconda3/envs/jobdepsnq689ye7325fdd48bc9d36b864284fa0ff5f09769060a0bf098ef4ab24c33996193d03/bin/R
+$ R --version
+R version 3.5.1 (2018-07-02) -- "Feather Spray"
+
+$ # we destroy this temporary conda environment
+$ conda_env_deactivate
+[...]
+$ R --version
+The program 'R' is currently not installed. You can install it by typing:
+sudo apt install r-base-core
+```
