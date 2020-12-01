@@ -1,5 +1,16 @@
 # Guide for Planemo
 
+![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png)
+Please complete this tutorial with the [GTN ones](https://training.galaxyproject.org/training-material/topics/dev/):
+ - [Slides](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-integration/slides.html)
+ - [Planemo tutorial](https://planemo.readthedocs.io/en/latest/writing_standalone.html)
+
+___
+
+![](../images/docs_developers/planemo/big_picture.png)
+*Planemo big picture ([source](https://training.galaxyproject.org/training-material/topics/dev/tutorials/tool-integration/slides.html#1))*
+
+
 ## `planemo lint`
 
 `planemo lint` checks for common errors and best practices. It will check different criterias to know if the xml wrapper is in good shape.

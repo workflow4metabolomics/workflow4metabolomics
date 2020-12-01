@@ -43,6 +43,10 @@ $ cd tools-metabolomics
 ```
 
 ### Branches
+
+![](../images/docs_developers/git/git-branches-merge.png)
+*Schema of a git repository with 2 feature branches ([source](https://www.nobledesktop.com/learn/git/git-branches))*
+
 #### List the available branches
 To list all the branch already available on the remote repo and now in local
 ```bash
