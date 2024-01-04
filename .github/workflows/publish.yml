@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload quarto render output directory
-          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/_site'
+          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
 
       - name: Deploy to GitHub Pages
         id: deployment
