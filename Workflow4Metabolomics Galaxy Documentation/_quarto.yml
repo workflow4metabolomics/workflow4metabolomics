@@ -1,19 +1,44 @@
 project:
   type: website
   output-dir: docs
-
-website:
+execute:
+  freeze: auto
+website: 
+  #margin-header: images/logo-ifb-mono-metabohub_2.1_SD_150px.png
   title: "W4M Galaxy Documentation"
+  #site-url: https://workflow4metabolomics.github.io/
+  favicon: images/w4m.png
+  
+  page-footer: 
+    right: "This page is built with ❤️"
+    left: "&copy; Julien Saint-Vanne"
+  
+  
   # theme:
   #   light: flatly
   #   dark: darkly
   navbar:
+    logo: images/w4m.png 
+    href: https://workflow4metabolomics.org/
     left:
-      - href: index.qmd
-        text: Home
+      - text: "Home"
+        href: index.qmd
         icon: "house"
-      - about.qmd
-    logo: "w4m.png"
+      - text: "Galaxy W4M"
+        href: galaxyW4M.qmd
+      - text: "Contribute"
+        href: contribute.qmd
+      - text: "Tools"
+        menu: 
+          - text: "Tool 1"
+            href: tool1.qmd
+          - text: "Tool 2"
+            href: tool2.qmd
+      - text: "Events"
+        href: events.qmd
+      - text: "About"
+        href: about.qmd
+    
     #background: success
     #foreground: danger
     tools:
@@ -38,6 +63,7 @@ website:
       #   contents:
       #     - about.qmd
       #     - tool1.qmd
+
 format:
   html:
     theme: cosmo 

@@ -1,8 +1,22 @@
 [
   {
+    "objectID": "tool2.html",
+    "href": "tool2.html",
+    "title": "Description of tool 2",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Workflow4Metabolomics Galaxy Documentation",
+    "section": "",
+    "text": "Proposition de squelette W4M :\n\npremière page : de présentation de ce qu’est w4m, qu’on fait un Galaxy, qu’on peut y contribuer, qu’on fait des events…\nseconde page : on présente ce qu’est Galaxy et comment on a construit Galaxy w4m\ntroisième page : on présente comment contribuer aux outils de w4m\nquatrième page : une liste des outils et leur explication (ou on fait un lien vers un autre quarto pour ça ?)\ncinquième page : les events de w4m"
+  },
+  {
+    "objectID": "events.html",
+    "href": "events.html",
+    "title": "Events",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   },
@@ -12,5 +26,26 @@
     "title": "About",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "How to contribute for W4M ?",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "galaxyW4M.html",
+    "href": "galaxyW4M.html",
+    "title": "What is Galaxy W4M ?",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "tool1.html",
+    "href": "tool1.html",
+    "title": "Description of tool 1",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
   }
 ]
