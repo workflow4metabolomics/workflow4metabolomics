@@ -29,25 +29,25 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Install R
+        uses: actions/setup-r@v4
+        with:
+          
+        
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
         with:
           path: 'Workflow4Metabolomics\ Galaxy\ Documentation'
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
         with:
-          # Upload quarto render output directory
-          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        path: 'Worklow4Metabolomics\ Galaxy\ Documentation/docs'
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
