@@ -37,7 +37,7 @@ jobs:
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          path: 'Workflow4Metabolomics Galaxy Documentation'
+          path: 'Workflow4Metabolomics\ Galaxy\ Documentation'
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -46,7 +46,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload quarto render output directory
-          path: 'Workflow4Metabolomics Galaxy Documentation/_site'
+          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/_site'
 
       - name: Deploy to GitHub Pages
         id: deployment
