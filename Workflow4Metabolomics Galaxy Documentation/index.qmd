@@ -2,10 +2,10 @@
 title: "Workflow4Metabolomics Galaxy Documentation"
 ---
 
-Proposition de squelette W4M : 
+Proposition de squelette W4M :
 
-  - première page : de présentation de ce qu'est w4m, qu'on fait un Galaxy, qu'on peut y contribuer, qu'on fait des events...
-  - seconde page : on présente ce qu'est Galaxy et comment on a construit Galaxy w4m
-  - troisième page : on présente comment contribuer aux outils de w4m
-  - quatrième page : une liste des outils et leur explication (ou on fait un lien vers un autre quarto pour ça ?)
-  - cinquième page : les events de w4m
+-   première page : de présentation de ce qu'est w4m, qu'on fait un Galaxy, qu'on peut y contribuer, qu'on fait des events...
+-   seconde page : on présente ce qu'est Galaxy et comment on a construit Galaxy w4m
+-   troisième page : on présente comment contribuer aux outils de w4m
+-   quatrième page : une liste des outils et leur explication (ou on fait un lien vers un autre quarto pour ça ?)
+-   cinquième page : les events de w4m
