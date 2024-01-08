@@ -1,31 +1,50 @@
 # Workflow for rendering and deploying quarto site to GitHub Pages
 # Based on the GitHub example static content deploy action
-name: Deploy Quarto site to Pages
+name: 🚀 Deploy Quarto site to Pages
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["doc-ju"]
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 jobs:
   # Single deploy job since we're just deploying
-  build-deploy:
+  quarto:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Check out repository
+      - name: 📂 Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
+      - name: 🚚 Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
+        
+      - name: Render Website
+        run: quarto render
+        
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: 'docs'
+          
+      - name: 🎉 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@main
         with:
           path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
