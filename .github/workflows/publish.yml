@@ -37,11 +37,13 @@ jobs:
         
       - name: Render Website
         run: quarto render
+        with:
+          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
-          path: 'docs'
+          path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
           
       - name: 🎉 Deploy to GitHub Pages
         id: deployment
