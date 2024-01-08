@@ -33,4 +33,5 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           path: 'Workflow4Metabolomics\ Galaxy\ Documentation/docs'
+          target: doc-ju
           
