@@ -3,6 +3,7 @@
 [![Docker Stars](https://img.shields.io/docker/stars/workflow4metabolomics/galaxy-workflow4metabolomics.svg?maxAge=2592000)](https://cloud.docker.com/u/workflow4metabolomics/repository/docker/workflow4metabolomics/galaxy-workflow4metabolomics)
 [![bioconda-badge](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat)](http://bioconda.github.io)
 [![Build Status](https://travis-ci.org/workflow4metabolomics/xcms.svg?branch=master)](https://travis-ci.org/workflow4metabolomics/xcms)
+[![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 ![workflow](/images/logo/logo-ifb-mono-metabohub_2.1_SD_150px.png)
 
