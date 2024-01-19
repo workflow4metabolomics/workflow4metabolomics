@@ -1,5 +1,5 @@
 ---
-  title: "Events"
+  title: "Workflow4Experimenters 2023"
 ---
 
 This is a Quarto website.

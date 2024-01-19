@@ -1,0 +1,12 @@
+---
+title: "Yann Guitton"
+image: "../images/yann_guitton.png"
+about:
+  template: trestles
+  links: 
+    - icon: twitter
+      text: Twitter
+      href: "https://twitter.com/workflow4metabo"
+---
+  
+  About this site

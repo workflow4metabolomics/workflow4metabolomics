@@ -26,18 +26,29 @@ website:
         icon: "house"
       - text: "Galaxy W4M"
         href: galaxyW4M.qmd
+        icon: "boxes"
       - text: "Contribute"
         href: contribute.qmd
+        icon: "pencil-square"
       - text: "Tools"
+        icon: "tools"
         menu: 
           - text: "Tool 1"
             href: tool1.qmd
           - text: "Tool 2"
             href: tool2.qmd
       - text: "Events"
-        href: events.qmd
+        icon: "calendar-week"
+        menu:
+          - text: ""
+          - href: w4e2024.qmd
+          - text: ""
+          - href: w4e2023.qmd
       - text: "About"
         href: about.qmd
+      - text: "W4M Team"
+        href: listing_team.qmd
+        
     
     #background: success
     #foreground: danger
