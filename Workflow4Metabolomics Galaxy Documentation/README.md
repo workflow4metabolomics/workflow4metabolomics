@@ -8,9 +8,9 @@
 
 If you want to contribute to this documentation on Worflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to follow some rules :
 
-- Start to fork the repository with !(../images/fork_picture.png)[/images/fork_picture.png]
+- Start to fork the repository with ![fork this thing](../images/fork_picture.png)
 - Then you can work directly on github or also clone your repository (link clone)
-- When you save your changes (with a commit) there should be an orange band like this one to ask you for a pull request !(/images/pull_request_picture.png)[../images/pull_request_picture.png]
+- When you save your changes (with a commit) there should be an orange band like this one to ask you for a pull request ![This is my PR](../images/pull_request_picture.png)
 - You just have to open this pull request and we will accept this if we consider that these changes are good for us
 
 
