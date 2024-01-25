@@ -44,10 +44,11 @@ website:
           - href: w4e2024.qmd
           - text: ""
           - href: w4e2023.qmd
+      - text: "W4M Team"
+        icon: "people"
+        href: listing_team.qmd
       - text: "About"
         href: about.qmd
-      - text: "W4M Team"
-        href: listing_team.qmd
         
     
     #background: success

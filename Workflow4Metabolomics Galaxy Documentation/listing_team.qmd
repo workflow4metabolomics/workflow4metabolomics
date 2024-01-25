@@ -5,4 +5,4 @@ listing:
   type: grid
 ---
 
-About this site
+Here are all the participants for the development of a beautiful and usefull W4M Galaxy.

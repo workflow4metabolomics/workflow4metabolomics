@@ -2,6 +2,25 @@
   title: "How to contribute for W4M ?"
 ---
 
-This is a Quarto website.
+Push your tools / W4M as a Showcase
+Your tools can be installed, integrated and hosted within the main W4M instance Tools.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Quality standards
+However, the tools must stick to the IUC standards in order to be easily integrated:
+
+ Available in a GitHub repository
+ Conda dependencies
+ Functional tests using Planemo
+ Available in the Main ToolShed
+In the first place, your tools will be displayed in the Contribution section of the tool panel. And eventually, it should be promoted among the other tools.
+
+Advanced mode
+In order to be fully integrated in our reference workflows, your tools must follow your exchange formats between tools (for more information, contact us).
+
+A collaboration should be established if help is needed!
+
+Support / HelpDesk
+In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn't done.
+
+Guidelines
+[Writing a tool](https://github.com/jsaintvanne/workflow4metabolomics/blob/doc-ju/GUIDELINES.md#writing-a-tool)

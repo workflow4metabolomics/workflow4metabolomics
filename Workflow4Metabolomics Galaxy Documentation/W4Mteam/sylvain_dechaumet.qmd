@@ -1,0 +1,21 @@
+---
+title: "Sylvain Dechaumet"
+image: "../images/sylvain_dechaumet.png"
+about:
+  template: trestles
+links: 
+  - icon: twitter
+text: Twitter
+href: "https://twitter.com/workflow4metabo"
+---
+  
+He looks angry but he is very cool !
+
+## Education
+
+
+
+## Experience
+
+
+
