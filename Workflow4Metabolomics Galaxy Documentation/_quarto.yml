@@ -32,6 +32,9 @@ website:
           - text: "Encore autre chose"
             href: galaxyW4M.qmd
           - text: "Tool development"
+            href: tooldev.qmd
+            icon: "pencil-square"
+          - text: "I want to contribute"
             href: contribute.qmd
             icon: "pencil-square"
       - text: "Tools"

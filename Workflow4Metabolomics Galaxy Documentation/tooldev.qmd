@@ -1,0 +1,48 @@
+---
+  title: "Tool development"
+---
+
+## Developing Galaxy tools in general
+
+In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.
+
+**TODO** A voir : 
+- [rediriger ici](https://github.com/jsaintvanne/workflow4metabolomics/blob/doc-ju/GUIDELINES.md#writing-a-tool) et compléter (mention des GTN)
+- OU
+- délocaliser le contenu ici et compléter (toujours mention des GTN)
+
+Please note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. 
+[More information available in the Readme](https://github.com/workflow4metabolomics/tools-metabolomics)
+
+## Developing tools compatible with W4M input/output datasets
+
+Due to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.
+
+### About the W4M 3-tables format
+
+**TODO** topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?
+
+
+## Developing tools in a W4M-approuved format
+
+**TODO** blabla intro
+
+### The tool being wrapped
+
+**TODO** topo sur le user experience
+
+**TODO** Ajout de la ref à [W4MRUtils](https://cran.r-project.org/web/packages/W4MRUtils/index.html) dans le cas de codes en R.
+
+
+### The Galaxy XML wrapper
+
+Among the possible variations for functional XML wrappers, W4M is willing to garantee [...]
+
+**TODO** les reco W4M du XML
+
+### Documenting the Galaxy tool
+
+**TODO** Topo sur l'importance de la doc
+
+**TODO** Lien vers le template-type
+
