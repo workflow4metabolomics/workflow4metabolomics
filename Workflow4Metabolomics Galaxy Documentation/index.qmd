@@ -1,14 +1,40 @@
 ---
-title: "Workflow4Metabolomics Galaxy Documentation"
+title: "Workflow4Metabolomics"
 ---
 
-Proposition de squelette W4M :
+:::{.callout-important}
+Workflow4experimenters (W4E) course 2024  : [Pre-Registrations Opened - Until 31 Jan](https://workflow4metabolomics.org/W4E2024)
+:::
 
+:::{.callout-note}
+Note à supprimer
+Proposition de squelette W4M :
 -   première page : de présentation de ce qu'est w4m, qu'on fait un Galaxy, qu'on peut y contribuer, qu'on fait des events...
 -   seconde page : on présente ce qu'est Galaxy et comment on a construit Galaxy w4m
 -   troisième page : on présente comment contribuer aux outils de w4m
 -   quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)
 -   cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)
 -   sixième page : toutes les personnes de W4M avec une espèce de carte d'identité
+:::
 
-J'ai tout cassé !
+Welcome to the **collaborative portal of W4M** dedicated to metabolomics data processing,
+analysis and annotation for the **Metabolomics community**. On this website you will find information on our **main 
+missions** as well as **users** and **developpers guides** to use or contribute with us:  
+  - Teaching schools ([Workflow 4 Experimenters](w4e2024.qmd))  
+  - Galaxy instance for metabolomics ([Workflow 4 Metabolomics](galaxyW4M.qmd))  
+  - Team members [here](listing_team.qmd)  
+
+W4M is supported by:  
+  - The National Infrastructure of Metabolomics and Fluxomics: [MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]](https://www.metabohub.fr/)  
+  - The French Institute of Bioinformatics: [IFB [ANR-11-INBS-0013236]](https://www.france-bioinformatique.fr/)  
+  - The French Network of Metabolomic and Fluxomic: [RFMF](https://www.rfmf.fr/)  
+
+::: {layout-ncol=3}
+
+[![](https://www.metabohub.fr/media/752){height=50}](https://www.metabohub.fr/)
+
+[![](https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg){height=50}](https://www.france-bioinformatique.fr/)
+
+[![](https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png){height=50}](https://www.rfmf.fr/)
+
+:::
