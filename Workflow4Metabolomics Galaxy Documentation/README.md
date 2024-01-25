@@ -6,3 +6,18 @@
 
 # How to contribute to the documentation ?
 
+If you want to contribute to this documentation on Worflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to follow some rules :
+
+- Start to fork the repository with !(/images/fork_picture.png)[/images/fork_picture.png]
+- Then you can work directly on github or also clone your repository (link clone)
+- When you save your changes (with a commit) there should be an orange band like this one to ask you for a pull request !(/images/pull_request_picture.png)[/images/pull_request_picture.png]
+
+
+
+
+
+## Add informations on a page
+
+If you just want to add some informations on a page or complete different informations it is quite easy to do. 
+First, you have to login into your account. 
+Then you can directly go on the page you want to add some changes and click on the pen to be able to modify something.
