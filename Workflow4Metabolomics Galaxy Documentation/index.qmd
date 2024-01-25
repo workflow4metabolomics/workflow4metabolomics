@@ -10,3 +10,5 @@ Proposition de squelette W4M :
 -   quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)
 -   cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)
 -   sixième page : toutes les personnes de W4M avec une espèce de carte d'identité
+
+J'ai tout cassé !
