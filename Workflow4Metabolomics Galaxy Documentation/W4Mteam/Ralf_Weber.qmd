@@ -1,0 +1,14 @@
+---
+title: "Ralf Weber"
+image: "https://www.birmingham.ac.uk/Images/College-LES-only/biosciences/phenome-centre/team-photos/Ralf-Weber-2.png"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://uk.linkedin.com/in/ralf-weber-83740121"
+---
+
+## Education
+
+## Experience

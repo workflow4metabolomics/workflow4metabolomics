@@ -1,0 +1,17 @@
+---
+title: "Nils Paulhe"
+image: "https://peakforest.org/sites/default/files/inline-images/paulhe_nils_300%2A452.png"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/nils-paulhe-06713059"
+    - icon: github
+      text: Github
+      href: "https://github.com/npaulhe"
+---
+
+## Education
+
+## Experience

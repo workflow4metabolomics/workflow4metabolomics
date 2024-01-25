@@ -1,0 +1,14 @@
+---
+title: "Sylvain Chéreau"
+image: "https://media.licdn.com/dms/image/C5603AQGFRRfn3v1PiA/profile-displayphoto-shrink_200_200/0/1618990111037?e=2147483647&v=beta&t=LBgWpLziVzgqwDy4EhmpD-69uK9xKuH37_sXP1GsajI"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/sylvain-ch%C3%A9reau-530aab5a"
+---
+
+## Education
+
+## Experience

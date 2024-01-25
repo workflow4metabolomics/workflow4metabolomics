@@ -1,19 +1,18 @@
 ---
 title: "Mélanie Pétéra"
-image: "../images/melanie_petera.png"
+image: "https://avatars.githubusercontent.com/u/20553061?v=4"
 about:
   template: trestles
-links: 
-  - icon: twitter
-text: Twitter
-href: "https://twitter.com/workflow4metabo"
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/m%C3%A9lanie-p%C3%A9t%C3%A9ra-72383041"
+    - icon: github
+      text: Github
+      href: "https://github.com/melpetera"
 ---
-  
-She looks angry but she is very cool !
-  
-## Education
-  
-  
+
+## Education  
   
 ## Experience
 
