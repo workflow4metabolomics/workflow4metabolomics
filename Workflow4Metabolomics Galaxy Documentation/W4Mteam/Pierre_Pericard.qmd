@@ -1,0 +1,14 @@
+---
+title: "Pierre Péricard"
+image: "https://media.licdn.com/dms/image/C4D03AQF2e0_pYtAcEw/profile-displayphoto-shrink_200_200/0/1611322384863?e=2147483647&v=beta&t=xRdMDUvKXnCZJoqC9ZvFZUlkJMrjHrYbv6Kzz1C0Y4Q"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/pierrepericard"
+---
+
+## Education
+
+## Experience
