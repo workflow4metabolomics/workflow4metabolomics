@@ -66,6 +66,8 @@ website:
           url: https://github.com/workflow4metabolomics/workflow4metabolomics
         - text: Report a Bug
           url: https://github.com/workflow4metabolomics/workflow4metabolomics/issues
+        - text: Contribute
+          url: https://github.com/workflow4metabolomics/workflow4metabolomics//Workflow4Metabolomics%20Galaxy%20Documentation#readme
     pinned: true
     sidebar:
       style: "docked"
