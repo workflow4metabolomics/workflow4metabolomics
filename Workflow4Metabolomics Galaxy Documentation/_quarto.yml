@@ -25,11 +25,15 @@ website:
         href: index.qmd
         icon: "house"
       - text: "Galaxy W4M"
-        href: galaxyW4M.qmd
         icon: "boxes"
-      - text: "Contribute"
-        href: contribute.qmd
-        icon: "pencil-square"
+        menu: 
+          - text: "Autre chose"
+            href: galaxyW4M.qmd
+          - text: "Encore autre chose"
+            href: galaxyW4M.qmd
+          - text: "Tool development"
+            href: contribute.qmd
+            icon: "pencil-square"
       - text: "Tools"
         icon: "tools"
         menu: 
