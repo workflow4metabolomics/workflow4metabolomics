@@ -1,0 +1,14 @@
+---
+title: "Sophie Goulitquer"
+image: "https://static.licdn.com/aero-v1/sc/h/9c8pery4andzj6ohjkjp54ma2"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/sophie-goulitquer-894714a0"
+---
+
+## Education
+
+## Experience
