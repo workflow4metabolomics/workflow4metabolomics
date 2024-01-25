@@ -1,12 +1,15 @@
 ---
 title: "Yann Guitton"
-image: "../images/yann_guitton.png"
+image: "https://avatars.githubusercontent.com/u/5373737?v=4"
 about:
   template: trestles
   links: 
-    - icon: twitter
-      text: Twitter
-      href: "https://twitter.com/workflow4metabo"
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/yann-guitton-3b085273"
+    - icon: github
+      text: Github
+      href: "https://github.com/yguitton"
 ---
   
 ## Education
