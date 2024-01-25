@@ -2,13 +2,13 @@
 title: "W4M team"
 listing:
   - id: current
-    contents: W4Mteam
+    contents: "people/W4Mteam/"
     type: grid
     image-height: 200px
     grid-columns: 4
     grid-item-align: left
   - id: previous_collab
-    contents: old_w4m
+    contents: "people/old_w4m/"
     type: grid
     image-height: 150px
     grid-columns: 6
