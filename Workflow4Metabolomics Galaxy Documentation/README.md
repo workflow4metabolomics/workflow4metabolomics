@@ -9,6 +9,7 @@
 If you want to contribute to this documentation on Workflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to set some steps to follow:
 
 1. Start by forking the repository: 
+
 ![fork this thing](../images/fork_picture.png)
 
 2. Then you can work directly on github or clone the repository to your local environment (link clone)
