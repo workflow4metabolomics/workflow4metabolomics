@@ -1,6 +1,7 @@
 ---
   title: "Julien Saint-Vanne"
   image: "../images/julien_saint-vanne.png"
+  description: Bioinformatic Engineer
   about:
     template: trestles
     links: 
@@ -11,7 +12,7 @@
       text: Github
       href: "https://github.com/jsaintvanne"
 ---
-  
+
 Young bioinformatician (yet) working on development of Shiny applications as principal activity. I love the development part of a tool because it is always a new challenge to share with diferent biologist and send them the tool that they need.
 
 I also play a lot of volley-ball and snow volley-ball during my free time ! I'm also the happy father of a little boy since 3 months and don't sleep a lot since but I'm full of love.
@@ -31,5 +32,3 @@ I also play a lot of volley-ball and snow volley-ball during my free time ! I'm 
 **EFS - UMR1236** in Rennes as a reasearch engineer to develop application to analyze multiparametric data in cytometry
 
 **ONIRIS - LABERCA** in Nantes as a research engineer to develop Shiny application, add a visualisation part in Galaxy and make some geek things in my lab.
-
-

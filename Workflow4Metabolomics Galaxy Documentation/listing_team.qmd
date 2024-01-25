@@ -5,6 +5,7 @@ listing:
     contents: "people/W4Mteam/"
     type: grid
     image-height: 200px
+    fields: [title, description, image]
     grid-columns: 4
     grid-item-align: left
   - id: previous_collab
