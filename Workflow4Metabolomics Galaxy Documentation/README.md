@@ -9,10 +9,12 @@
 If you want to contribute to this documentation on Workflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to set some steps to follow:
 
 1. Start by forking the repository: 
-
 ![fork this thing](../images/fork_picture.png)
+
 2. Then you can work directly on github or clone the repository to your local environment (link clone)
+
 3. Once you have saved your changes (with commits pushed on your forked repository) there should be an orange band like the following to ask for a pull request ![This is my PR](../images/pull_request_picture.png)
+
 4. You just have to open this pull request and we will review it in order to validate it. Please think about explaining your changes in your newly opened pull request for us to know what is is all about. Once the pull request is aprouved, changes will appear on the website.
 
 
