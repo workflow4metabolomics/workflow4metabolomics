@@ -32,6 +32,13 @@ This integration has facilitated the creation of an extensible Virtual Research 
 
 [![](https://galaxyproject.org/images/galaxy-logos/galaxy_logo_25percent.png){height=1em}](https://galaxyproject.org/) is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
 
+The main features of this platform are:
+
+* A real benefit to users with results traceability and storage
+* The ability to share results between users/labs/platforms
+* The possibility to use a complete analysis workflow managing environment
+* Interactive step-by-step tutorials called [![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em} Galaxy training](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+
 
 ## Citation
 
