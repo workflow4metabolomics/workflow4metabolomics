@@ -1,8 +1,13 @@
 ---
   title: "User guide"
+  listing: 
+    - id: list_W4M_datasets
+      contents: "W4M_datasets/*.qmd"
+      type: table
+      sort: "date"
+      max-items: 100
+      fields: [galaxyref, link, title, author, history, doi]
 ---
-
-## User Guide
 
 The most effective way to master the use of our tools is by enrolling in our comprehensive training school ![](/images/W4E_icon.svg){height=1em}. Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly.
 
@@ -23,3 +28,14 @@ Access complete and interactive step-by-step guides by visiting the [![](https:/
 ## Galaxy ![](/images/W4M_icon.svg){height=1em} Instance
 
 Explore our [![](https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png){height=2em} Galaxy instance](https://workflow4metabolomics.usegalaxy.fr/) were each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need.
+
+## Workflows examples
+
+
+
+## Datasets examples
+
+
+:::{#list_W4M_datasets}
+
+:::
