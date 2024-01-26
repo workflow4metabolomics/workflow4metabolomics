@@ -6,7 +6,7 @@
       type: table
       sort: "date"
       max-items: 100
-      fields: [galaxyref, link, title, author, history, doi]
+      fields: [galaxyref, link, title, author, W4M, doi]
 ---
 
 The most effective way to master the use of our tools is by enrolling in our comprehensive training school ![](/images/W4E_icon.svg){height=1em}. Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly.
