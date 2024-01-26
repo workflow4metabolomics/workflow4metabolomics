@@ -44,5 +44,8 @@ Among the possible variations for functional XML wrappers, W4M is willing to gar
 
 **TODO** Topo sur l'importance de la doc
 
-**TODO** Lien vers le template-type
+**TODO** Presenter les section mandatory et facultative
+
+About the format, you can find [here](ressources/Help_template.txt)
+a template of Help tag to help you initiating your writing with the recommanded sections and formats.
 
