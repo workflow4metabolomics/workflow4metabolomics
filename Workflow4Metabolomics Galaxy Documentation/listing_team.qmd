@@ -5,15 +5,21 @@ listing:
     contents: "people/W4Mteam/"
     type: grid
     image-height: 200px
-    fields: [title, description, image]
+    fields: [title, description, image, categories]
     grid-columns: 4
     grid-item-align: left
+    grid-item-border: true
+    page-size: 50
+    categories: true
   - id: previous_collab
     contents: "people/old_w4m/"
     type: grid
     image-height: 150px
     grid-columns: 6
     grid-item-align: left
+    page-size: 50
+    categories: true
+page-layout: full
 ---
 
 

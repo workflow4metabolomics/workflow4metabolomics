@@ -8,7 +8,7 @@ website:
   title: "W4M Galaxy Documentation"
   #site-url: https://workflow4metabolomics.github.io/
   favicon: images/w4m.png
-  
+  twitter-card: true
   page-footer: 
     right: "This page is built with ❤️"
     left: "&copy; Julien Saint-Vanne"

@@ -1,7 +1,10 @@
 ---
   title: "Julien Saint-Vanne"
-  image: "../images/julien_saint-vanne.png"
+  image: "https://avatars.githubusercontent.com/u/35449860?v=4"
   description: Bioinformatic Engineer
+  categories: 
+    - Informatic
+    - R
   about:
     template: trestles
     links: 
