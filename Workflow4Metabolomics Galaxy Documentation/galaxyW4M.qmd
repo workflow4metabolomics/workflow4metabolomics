@@ -19,4 +19,6 @@ workflow
 
 ## Citation
 
-Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, [http://dx.doi.org/10.1093/bioinformatics/btu813](http://dx.doi.org/10.1093/bioinformatics/btu813)
+Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813
+
+Guitton Y., Tremblay-Franco M., Le Corguillé G., Martin J.F., Pétéra M., Roger-Mele P., Delabrière A., Goulitquer S., Monsoor M., Duperier C., Canlet C., Servien R., Tardivel P., Caron C., Giacomoni F., Thévenot E.A., Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics, The International Journal of Biochemistry & Cell Biology, 2017, ISSN 1357-2725, http://dx.doi.org/10.1016/j.biocel.2017.07.002. This paper is also available on the open archive HAL.

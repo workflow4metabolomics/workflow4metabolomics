@@ -1,14 +1,70 @@
 ---
-title: "Workflow4Metabolomics Galaxy Documentation"
+title: "Workflow4Metabolomics"
 ---
 
-Proposition de squelette W4M :
+:::{.callout-important}
+Workflow4experimenters (![](/images/W4E_icon.svg){height=1em}) course 2024  : [Pre-Registrations Opened - Until 31 Jan](https://workflow4metabolomics.org/W4E2024)
+:::
 
--   première page : de présentation de ce qu'est w4m, qu'on fait un Galaxy, qu'on peut y contribuer, qu'on fait des events...
--   seconde page : on présente ce qu'est Galaxy et comment on a construit Galaxy w4m
--   troisième page : on présente comment contribuer aux outils de w4m
--   quatrième page : une liste des outils et leur explication, un menu déroulant avec chaque outil peut être ? (ou on fait un lien vers un autre quarto pour ça ?)
--   cinquième page : les events de w4m (menu déroulant pourrait être pas mal peut être)
--   sixième page : toutes les personnes de W4M avec une espèce de carte d'identité
+Welcome to the **collaborative portal of** ![](/images/W4M_icon.svg){height=1em} dedicated to metabolomics data processing,
+analysis and annotation for the **Metabolomics community**. On this website you will find information on our **main 
+missions** as well as **users** and **developpers guides**.
 
-J'ai tout cassé !
+
+
+### Keep in touch
+
+You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/sympa/subscribe/workflow4metabolomics-newsletter?previous_action=info) to get updated on new events !
+
+
+### Fast access
+
+::: {layout="[ -10, 20, -5, 20, -10]"}
+
+[![](https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png){height=2em} Galaxy instance](https://workflow4metabolomics.usegalaxy.fr/)
+
+[![](/images/W4E_icon.svg){height=2em} Teaching School](https://workflow4metabolomics.org/W4E2024)
+
+:::
+
+### Resources
+
+**I'm a newcomer** and I want to know more about ![](/images/W4M_icon.svg){height=1em}, visit our [about us](about.qmd) section
+
+**I want to learn** how to **process metabolomics data**, you can either:
+
+* Go to our teaching school event [![](/images/W4E_icon.svg){height=1em} section](TODO)
+* Consult our official [Galaxy training guides ![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em}](https://training.galaxyproject.org/training-material/topics/metabolomics/)
+
+**I want to contribute as:**
+
+* **A tutor** to help people understand how to process metabolomics data: [contact here](TODO)  
+*  **A developper** to propose or add new tools to the community:
+    + Check our guides and how-to [here](TODO)  
+    +  I need help [contact here](TODO)  
+* **I don't know** but I want to help: [contact here](TODO)  
+
+**I want to report a problem on:**
+
+* the galaxy instance, post an issue on the [IFB Communit Support](https://community.france-bioinformatique.fr/c/workflow4metabolomics/10)
+* on this website, post an issue on [lien repo](TODO)
+
+
+**I want to know who** is behind all of these, to our [team member section](listing_team.qmd)
+
+
+### Our sponsors
+
+* The National Infrastructure of Metabolomics and Fluxomics: [MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]](https://www.metabohub.fr/)
+* The French Institute of Bioinformatics: [IFB [ANR-11-INBS-0013236]](https://www.france-bioinformatique.fr/)
+* The French Network of Metabolomic and Fluxomic: [RFMF](https://www.rfmf.fr/)
+
+::: {layout-ncol=3 layout-valign="center"}
+
+[![](https://www.metabohub.fr/media/752){height=50}](https://www.metabohub.fr/)
+
+[![](https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg){height=50}](https://www.france-bioinformatique.fr/)
+
+[![](https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png){height=50}](https://www.rfmf.fr/)
+
+:::

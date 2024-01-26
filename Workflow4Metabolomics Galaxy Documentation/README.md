@@ -4,29 +4,31 @@
 ![workflow](/images/logo/logo-ifb-mono-metabohub_2.1_SD_150px.png)
 
 
-# How to contribute to the documentation ?
+# How to contribute to the documentation?
 
-If you want to contribute to this documentation on Worflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to follow some rules :
+If you want to contribute to this documentation on Workflow4Metabolomics, you will need to have a Github account first. Indeed, every files of this documentation are pushed in github and will stay there. To be able to accept new things from different people, we need to set some steps to follow:
 
-- Start to fork the repository with 
+1. Start by forking the repository: 
 
 ![fork this thing](../images/fork_picture.png)
-- Then you can work directly on github or also clone your repository (link clone)
-- When you save your changes (with a commit) there should be an orange band like this one to ask you for a pull request ![This is my PR](../images/pull_request_picture.png)
-- You just have to open this pull request and we will accept this if we consider that these changes are good for us
+
+2. Then you can work directly on github or clone the repository to your local environment (link clone)
+
+3. Once you have saved your changes (with commits pushed on your forked repository) there should be an orange band like the following to ask for a pull request ![This is my PR](../images/pull_request_picture.png)
+
+4. You just have to open this pull request and we will review it in order to validate it. Please think about explaining your changes in your newly opened pull request for us to know what is is all about. Once the pull request is aprouved, changes will appear on the website.
 
 
-### Add informations on a page
+### Tip: Adding information on a page
 
-If you just want to add some informations on a page or complete different informations it is quite easy to do. 
-After following the previous steps, you just have to go in the file you want to change (on Github or on your local computer if cloned), make your changes and then save it in a new commit.
-When your commit is saved with changes, the orange band will appear, propose to you to make a pull request to workflow4metabolomics repository. Click on this thing, explain your cahnges in your newly open pull request and save it.
+If you just want to add some information on an existing page or update some deprecated information, it is quite easy to do. 
+During the previous step n°2, you just have to open the file you want to change (on Github or on your local computer if cloned), make your changes and then save it in a new commit.
+When your commit is saved with changes, the orange band will appear and you can proceed with the previous step n°3 (or continue by updating further content). 
 
-When we will approve it, your cahnges will appear on the website.
+### Tip: Creating a new page
 
-### Create a new page
-
-It is also possible to add a new page on the website. This is different with the previous point because you will need to change the `_quarto.yml` file also. To be able to do this, start to think about *where my new page can be?*. Then in the file named `_quarto.yml` find the good part and add it with these informations : 
+It is also possible to add a new page on the website. This is different from the previous point because you will need to change the `_quarto.yml` file also. To be able to do this, start with thinking about *Where can my new page be on the website? A new item in the menu? A new tab in an existing one?*. 
+Then in the file named `_quarto.yml` find the good part and add it with these information: 
 ```{R}
  - text: "Tools"
         icon: "tools"
@@ -37,5 +39,5 @@ It is also possible to add a new page on the website. This is different with the
             href: mynewtool.qmd
 ```
 
-As you can see, you now need to create your new `mynewtool.qmd` file. In this file you can write all you want (according where it will be in the website of course!).
-After all this completed, as in the previous point, just save and open the pull request explaining what you want to add to explain us why we should accept these changes.
+As you can see, you now need to create your new `mynewtool.qmd` file. In this file you can write all you want (in accordance with where it will be in the website of course!).
+After all this is completed, as in the previous tip, just save and open the pull request explaining what you want to add for us to be able to evaluate its accordance to the website.
