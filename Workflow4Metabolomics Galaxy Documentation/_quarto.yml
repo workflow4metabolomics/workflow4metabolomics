@@ -30,6 +30,9 @@ website:
           - text: "Introduction"
             href: galaxyW4M.qmd
             icon: "info-circle"
+          - text: "Guides for Users"
+            href: tooluser.qmd
+            icon: "code"
           - text: "Guides for Developpers"
             href: tooldev.qmd
             icon: "code"
