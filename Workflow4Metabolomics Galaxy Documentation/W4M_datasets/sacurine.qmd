@@ -1,11 +1,11 @@
 ---
 title: "Sacurine"
 doi: "[publication](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354)"
-# history: "[W4M00001_Sacurine-statistics](https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5)"
-uthor: "Thevenot et al."
+author: "Thevenot et al."
 description: "Analysis of the human adult urinary metabolome"
 bibliography: "../references.bib"
 galaxyref: "W4M00001"
+W4M: "[history](https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5)"
 link: "[MTBLS404](https://www.ebi.ac.uk/metabolights/editor/MTBLS404/descriptors)"
 ---
 
