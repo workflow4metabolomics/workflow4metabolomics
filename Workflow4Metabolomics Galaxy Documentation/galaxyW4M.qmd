@@ -1,24 +1,49 @@
 ---
   title: "What is Galaxy W4M ?"
+  bibliography: references.bib
 ---
 
 ## Our project 
 
-The Workflow4Metabolomics, W4M in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.
+The
+![](/images/Workflow4Metabolomic_icon.svg){height=1em}, ![](/images/W4M_icon.svg){height=1em} in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.
 
-In the context of collaboration between metabolomics (MetaboHUB French infrastructure) and bioinformatics platforms (IFB: Institut Français de Bioinformatique), we have developed full LC/MS, GC/MS and NMR pipelines using Galaxy framework for data analysis including preprocessing, normalization, quality control, statistical analysis and annotation steps. Those modular and extensible workflows are composed with existing components (XCMS and CAMERA packages, etc.) but also a whole suite of complementary homemade tools. This implementation is accessible through a web interface, which guarantees the parameters completeness. The advanced features of Galaxy have made possible the integration of components from different sources and of different types. Thus, an extensible Virtual Research Environment (VRE) is offered to metabolomics communities (platforms, end users, etc.), and enables preconfigured workflows sharing for new users, but also experts in the field.
+In a collaborative efforts between metabolomics (
+[![](https://www.metabohub.fr/media/752){height=1.5em}](https://www.metabohub.fr/) French infrastructure
+) and bioinformatics platforms (
+[![](https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg){height=1.5em}](https://www.france-bioinformatique.fr/) Institut Français de Bioinformatique
+), we've crafted comprehensive LC/MS, GC/MS, and NMR pipelines using the robust
+[![](https://galaxyproject.org/images/galaxy-logos/galaxy_logo_25percent.png){height=1em}](https://galaxyproject.org/)
+framework.
+Our **pipelines** cover the entire spectrum of data analysis, encompassing **preprocessing**, **normalization**, **quality control**, **statistical analysis**, and **annotation** steps.
+
+These modular and adaptable workflows are carefully assembled with a combination of established components (such as
+[XCMS](https://github.com/sneumann/xcms)
+and
+[CAMERA](https://github.com/sneumann/CAMERA)
+packages) and a suite of tools developed by the ![](/images/W4M_icon.svg){height=1em} team members. Our implementation, accessible through a user-friendly web interface, ensures the completeness of parameter settings and reproducibility. Leveraging the advanced capabilities of 
+[![](https://galaxyproject.org/images/galaxy-logos/galaxy_logo_25percent.png){height=1em}](https://galaxyproject.org/)
+, we seamlessly integrate components from diverse sources and types.
+
+This integration has facilitated the creation of an extensible Virtual Research Environment (VRE) tailored for metabolomics communities, including platforms and end-users. Our VRE offers preconfigured workflows for newcomers while catering to experts in the field. This collaborative approach not only ensures accessibility but also encourages knowledge-sharing and enhances the overall research experience.
+
 
 ## Galaxy
 
-Galaxy is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
+[![](https://galaxyproject.org/images/galaxy-logos/galaxy_logo_25percent.png){height=1em}](https://galaxyproject.org/) is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.
 
-Homepage: [https://galaxyproject.org/](https://galaxyproject.org/)
+The main features of this platform are:
 
-workflow
+* A real benefit to users with results traceability and storage
+* The ability to share results between users/labs/platforms
+* The possibility to use a complete analysis workflow managing environment
+* Interactive step-by-step tutorials called [![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em} Galaxy training](https://training.galaxyproject.org/training-material/topics/metabolomics/)
 
 
 ## Citation
 
-Giacomoni F., Le Corguillé G., Monsoor M., Landi M., Pericard P., Pétéra M., Duperier C., Tremblay-Franco M., Martin J.-F., Jacob D., Goulitquer S., Thévenot E.A. and Caron C. (2014). Workflow4Metabolomics: A collaborative research infrastructure for computational metabolomics. Bioinformatics, http://dx.doi.org/10.1093/bioinformatics/btu813
+@GUITTON201789
 
-Guitton Y., Tremblay-Franco M., Le Corguillé G., Martin J.F., Pétéra M., Roger-Mele P., Delabrière A., Goulitquer S., Monsoor M., Duperier C., Canlet C., Servien R., Tardivel P., Caron C., Giacomoni F., Thévenot E.A., Create, run, share, publish, and reference your LC–MS, FIA–MS, GC–MS, and NMR data analysis workflows with the Workflow4Metabolomics 3.0 Galaxy online infrastructure for metabolomics, The International Journal of Biochemistry & Cell Biology, 2017, ISSN 1357-2725, http://dx.doi.org/10.1016/j.biocel.2017.07.002. This paper is also available on the open archive HAL.
+@GIACOMONI201412
+
+

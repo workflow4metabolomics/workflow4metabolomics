@@ -27,16 +27,18 @@ website:
       - text: "Galaxy W4M"
         icon: "boxes"
         menu: 
-          - text: "Autre chose"
+          - text: "Introduction"
             href: galaxyW4M.qmd
-          - text: "Encore autre chose"
-            href: galaxyW4M.qmd
-          - text: "Tool development"
+            icon: "info-circle"
+          - text: "Guides for Users"
+            href: tooluser.qmd
+            icon: "code"
+          - text: "Guides for Developpers"
             href: tooldev.qmd
-            icon: "pencil-square"
-          - text: "I want to contribute"
+            icon: "code"
+          - text: "How to contribute"
             href: contribute.qmd
-            icon: "pencil-square"
+            icon: "person-fill-up"
       - text: "Tools"
         icon: "tools"
         menu: 
