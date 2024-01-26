@@ -29,6 +29,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 ### Resources
 
+
 **I'm a newcomer** and I want to know more about ![](/images/W4M_icon.svg){height=1em}, visit our [about us](about.qmd) section
 
 **I want to learn** how to **process metabolomics data**, you can either:
