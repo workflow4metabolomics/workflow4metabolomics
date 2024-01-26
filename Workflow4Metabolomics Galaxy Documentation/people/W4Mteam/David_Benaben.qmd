@@ -1,6 +1,9 @@
 ---
 title: "David Benaben"
 image: "https://secure.gravatar.com/avatar/85815f7c184217f4c1dff325089daef4?s=800&d=identicon"
+description: ???
+categories: 
+    - Informatic
 about:
   template: trestles
   links: 

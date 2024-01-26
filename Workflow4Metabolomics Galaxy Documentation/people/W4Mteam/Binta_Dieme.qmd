@@ -1,6 +1,12 @@
 ---
 title: "Binta Diémé"
 image: "https://media.licdn.com/dms/image/C5603AQEHwsAAKwmoRw/profile-displayphoto-shrink_200_200/0/1574098911686?e=2147483647&v=beta&t=UmErCeOzQnfOAsp-05HJstNSZ5Vf4l9GtkTXH6wpFI4"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
 about:
   template: trestles
   links: 

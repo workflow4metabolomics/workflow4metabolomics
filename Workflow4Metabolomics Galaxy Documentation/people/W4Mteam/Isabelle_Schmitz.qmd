@@ -1,6 +1,10 @@
 ---
 title: "Isabelle Schmitz"
 image: "https://i1.rgstatic.net/ii/profile.image/11431281182238812-1692343501206_Q128/Isabelle-Schmitz.jpg"
+description: ???
+categories: 
+    - LCMS
+    - Statistics
 about:
   template: trestles
   links: 

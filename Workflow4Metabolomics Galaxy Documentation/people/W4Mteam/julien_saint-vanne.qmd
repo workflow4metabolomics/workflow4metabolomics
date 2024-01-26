@@ -5,6 +5,13 @@
   categories: 
     - Informatic
     - R
+    - LCMS
+    - GCMS
+    - MSMS
+    - Development
+    - Statistics
+    - NRM
+    - XML
   about:
     template: trestles
     links: 

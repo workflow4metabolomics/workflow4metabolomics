@@ -1,6 +1,12 @@
 ---
 title: "Cécile Canlet"
 image: "https://mth-metatoul.com/wp-content/uploads/2023/05/Cecile_CANLET.png"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
 about:
   template: trestles
   links: 
