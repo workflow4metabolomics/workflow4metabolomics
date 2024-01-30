@@ -1,0 +1,520 @@
+[
+  {
+    "objectID": "W4M_datasets/sacurine.html",
+    "href": "W4M_datasets/sacurine.html",
+    "title": "Sacurine",
+    "section": "",
+    "text": "Study: Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.\nDataset: In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.\nWorkflow: This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.\nComments: The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history."
+  },
+  {
+    "objectID": "W4M_datasets/sacurine.html#description",
+    "href": "W4M_datasets/sacurine.html#description",
+    "title": "Sacurine",
+    "section": "",
+    "text": "Study: Characterization of the physiological variations of the metabolome in biofluids is critical to understand human physiology and to avoid confounding effects in cohort studies aiming at biomarker discovery.\nDataset: In this study conducted by the MetaboHUB French Infrastructure for Metabolomics, urine samples from 184 volunteers were analyzed by reversed-phase (C18) ultrahigh performance liquid chromatography (UPLC) coupled to high-resolution mass spectrometry (LTQ-Orbitrap). A total of 258 metabolites were identified at confidence levels provided by the metabolomics standards initiative (MSI) levels 1 or 2.\nWorkflow: This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation &lt; 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues &gt; 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR &lt; 0.05), and OPLS(-DA) modeling of age, BMI and gender.\nComments: The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history."
+  },
+  {
+    "objectID": "w4e2023.html",
+    "href": "w4e2023.html",
+    "title": "Workflow4Experimenters 2023",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "tooldev.html",
+    "href": "tooldev.html",
+    "title": "Tool development",
+    "section": "",
+    "text": "In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.\nTODO A voir : - rediriger ici et compléter (mention des GTN) - OU - délocaliser le contenu ici et compléter (toujours mention des GTN)\nPlease note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. More information available in the Readme"
+  },
+  {
+    "objectID": "tooldev.html#developing-galaxy-tools-in-general",
+    "href": "tooldev.html#developing-galaxy-tools-in-general",
+    "title": "Tool development",
+    "section": "",
+    "text": "In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.\nTODO A voir : - rediriger ici et compléter (mention des GTN) - OU - délocaliser le contenu ici et compléter (toujours mention des GTN)\nPlease note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. More information available in the Readme"
+  },
+  {
+    "objectID": "tooldev.html#developing-tools-compatible-with-w4m-inputoutput-datasets",
+    "href": "tooldev.html#developing-tools-compatible-with-w4m-inputoutput-datasets",
+    "title": "Tool development",
+    "section": "Developing tools compatible with W4M input/output datasets",
+    "text": "Developing tools compatible with W4M input/output datasets\nDue to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.\n\nAbout the W4M 3-tables format\nTODO topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?"
+  },
+  {
+    "objectID": "tooldev.html#developing-tools-in-a-w4m-approuved-format",
+    "href": "tooldev.html#developing-tools-in-a-w4m-approuved-format",
+    "title": "Tool development",
+    "section": "Developing tools in a W4M-approuved format",
+    "text": "Developing tools in a W4M-approuved format\nTODO blabla intro\n\nThe tool being wrapped\nTODO topo sur le user experience\nTODO Ajout de la ref à W4MRUtils dans le cas de codes en R.\n\n\nThe Galaxy XML wrapper\nAmong the possible variations for functional XML wrappers, W4M is willing to garantee […]\nTODO les reco W4M du XML\n\n\nDocumenting the Galaxy tool\nTODO Topo sur l’importance de la doc\nTODO Presenter les section mandatory et facultative\nAbout the format, you can find here a template of Help tag to help you initiating your writing with the recommanded sections and formats."
+  },
+  {
+    "objectID": "tool1.html",
+    "href": "tool1.html",
+    "title": "Description of tool 1",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "people/W4Mteam/sylvain_dechaumet.html#experience",
+    "href": "people/W4Mteam/sylvain_dechaumet.html#experience",
+    "title": "Sylvain Dechaumet",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Ralf_Weber.html#experience",
+    "href": "people/W4Mteam/Ralf_Weber.html#experience",
+    "title": "Ralf Weber",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/melanie_petera.html#experience",
+    "href": "people/W4Mteam/melanie_petera.html#experience",
+    "title": "Mélanie Pétéra",
+    "section": "Experience",
+    "text": "Experience\nEngineer in statistics / MSc Contact infos\nmelanie.petera{at}inrae{dot}fr phone: +33(0)4 73 62 47 89 Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member.\nMissions\nData processing and statistical analysis of untargeted MS analyses Development and maintenance of in-house data processing workflows Training and guidance Main publications\nGiacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., … & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495. dx.doi.org/10.1093/bioinformatics/btu813 Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., … & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440. doi.org/10.1016/j.ebiom.2021.103440 Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., … & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903. dx.doi.org/10.3389/fphys.2018.01903"
+  },
+  {
+    "objectID": "people/W4Mteam/julien_saint-vanne.html",
+    "href": "people/W4Mteam/julien_saint-vanne.html",
+    "title": "Julien Saint-Vanne",
+    "section": "",
+    "text": "Young bioinformatician (yet) working on development of Shiny applications as principal activity. I love the development part of a tool because it is always a new challenge to share with diferent biologist and send them the tool that they need.\nI also play a lot of volley-ball and snow volley-ball during my free time ! I’m also the happy father of a little boy since 3 months and don’t sleep a lot since but I’m full of love."
+  },
+  {
+    "objectID": "people/W4Mteam/julien_saint-vanne.html#education",
+    "href": "people/W4Mteam/julien_saint-vanne.html#education",
+    "title": "Julien Saint-Vanne",
+    "section": "Education",
+    "text": "Education\nTechnical certificate in laboratory analysis in 2012\nMaster degree in BioInfomatic in 2017"
+  },
+  {
+    "objectID": "people/W4Mteam/julien_saint-vanne.html#experience",
+    "href": "people/W4Mteam/julien_saint-vanne.html#experience",
+    "title": "Julien Saint-Vanne",
+    "section": "Experience",
+    "text": "Experience\nCNRS in Roscoff as a developper of Galaxy W4M tools for MSMS analysis (from 2018 to 2019)\nONIRIS - LABERCA in Nantes as a reasearch engineer in development of Shiny application for specific compounds (2020)\nEFS - UMR1236 in Rennes as a reasearch engineer to develop application to analyze multiparametric data in cytometry\nONIRIS - LABERCA in Nantes as a research engineer to develop Shiny application, add a visualisation part in Galaxy and make some geek things in my lab."
+  },
+  {
+    "objectID": "people/W4Mteam/Gildas_LeCorguille.html#experience",
+    "href": "people/W4Mteam/Gildas_LeCorguille.html#experience",
+    "title": "Gildas Le Corguillé",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Florence_Souard.html#experience",
+    "href": "people/W4Mteam/Florence_Souard.html#experience",
+    "title": "Florence Souard",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Eric_Venot.html#experience",
+    "href": "people/W4Mteam/Eric_Venot.html#experience",
+    "title": "Eric Venot",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/christophe_duperier.html#experience",
+    "href": "people/W4Mteam/christophe_duperier.html#experience",
+    "title": "Christophe Duperier",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Celine_Dalle.html#experience",
+    "href": "people/W4Mteam/Celine_Dalle.html#experience",
+    "title": "Céline Dalle",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/cedric_delporte.html#experience",
+    "href": "people/W4Mteam/cedric_delporte.html#experience",
+    "title": "Cédric Deplorte",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Sophie_Goulitquer.html#experience",
+    "href": "people/old_w4m/Sophie_Goulitquer.html#experience",
+    "title": "Sophie Goulitquer",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Pierrick_Roge_Mele.html#experience",
+    "href": "people/old_w4m/Pierrick_Roge_Mele.html#experience",
+    "title": "Pierrick Roge-Mele",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Natacha_Lenuzza.html#experience",
+    "href": "people/old_w4m/Natacha_Lenuzza.html#experience",
+    "title": "Natacha Lenuzza",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Marion_Landi.html#experience",
+    "href": "people/old_w4m/Marion_Landi.html#experience",
+    "title": "Marion Landi",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/JeanFrançois_Martin.html#experience",
+    "href": "people/old_w4m/JeanFrançois_Martin.html#experience",
+    "title": "Jean-François Martin",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Workflow4Metabolomics",
+    "section": "",
+    "text": "Important\n\n\n\nWorkflow4experimenters () course 2024 : Pre-Registrations Opened - Until 31 Jan\n\n\nWelcome to the collaborative portal of  dedicated to metabolomics data processing, analysis and annotation for the Metabolomics community. On this website you will find information on our main missions as well as users and developpers guides.\n\nKeep in touch\nYou can subscribe to our newsletter to get updated on new events !\n\n\nFast access\n\n\n\n \n\n\n Galaxy instance\n\n\n \n\n\n Teaching School\n\n\n \n\n\n\n\n\nResources\nI’m a newcomer and I want to know more about , visit our about us section\nI want to learn how to process metabolomics data, you can either:\n\nGo to our teaching school event  section\nConsult our user page here\nOr directly go to our official Galaxy training guides \n\nI want to contribute as:\n\nA tutor to help people understand how to process metabolomics data: contact here\n\nA developper to propose or add new tools to the community:\n\nCheck our guides and how-to here\n\nI need help contact here\n\n\nI don’t know but I want to help: contact here\n\nI want to report a problem on:\n\nthe galaxy instance, post an issue on the IFB Communit Support\non this website, post an issue on lien repo\n\nI want to know who is behind all of these, to our team member section\n\n\nOur sponsors\n\nThe National Infrastructure of Metabolomics and Fluxomics: MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]\nThe French Institute of Bioinformatics: IFB [ANR-11-INBS-0013236]\nThe French Network of Metabolomic and Fluxomic: RFMF"
+  },
+  {
+    "objectID": "galaxyW4M.html",
+    "href": "galaxyW4M.html",
+    "title": "What is Galaxy W4M ?",
+    "section": "",
+    "text": "The ,  in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.\nIn a collaborative efforts between metabolomics (  French infrastructure ) and bioinformatics platforms (  Institut Français de Bioinformatique ), we’ve crafted comprehensive LC/MS, GC/MS, and NMR pipelines using the robust  framework. Our pipelines cover the entire spectrum of data analysis, encompassing preprocessing, normalization, quality control, statistical analysis, and annotation steps.\nThese modular and adaptable workflows are carefully assembled with a combination of established components (such as XCMS and CAMERA packages) and a suite of tools developed by the  team members. Our implementation, accessible through a user-friendly web interface, ensures the completeness of parameter settings and reproducibility. Leveraging the advanced capabilities of  , we seamlessly integrate components from diverse sources and types.\nThis integration has facilitated the creation of an extensible Virtual Research Environment (VRE) tailored for metabolomics communities, including platforms and end-users. Our VRE offers preconfigured workflows for newcomers while catering to experts in the field. This collaborative approach not only ensures accessibility but also encourages knowledge-sharing and enhances the overall research experience."
+  },
+  {
+    "objectID": "galaxyW4M.html#our-project",
+    "href": "galaxyW4M.html#our-project",
+    "title": "What is Galaxy W4M ?",
+    "section": "",
+    "text": "The ,  in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.\nIn a collaborative efforts between metabolomics (  French infrastructure ) and bioinformatics platforms (  Institut Français de Bioinformatique ), we’ve crafted comprehensive LC/MS, GC/MS, and NMR pipelines using the robust  framework. Our pipelines cover the entire spectrum of data analysis, encompassing preprocessing, normalization, quality control, statistical analysis, and annotation steps.\nThese modular and adaptable workflows are carefully assembled with a combination of established components (such as XCMS and CAMERA packages) and a suite of tools developed by the  team members. Our implementation, accessible through a user-friendly web interface, ensures the completeness of parameter settings and reproducibility. Leveraging the advanced capabilities of  , we seamlessly integrate components from diverse sources and types.\nThis integration has facilitated the creation of an extensible Virtual Research Environment (VRE) tailored for metabolomics communities, including platforms and end-users. Our VRE offers preconfigured workflows for newcomers while catering to experts in the field. This collaborative approach not only ensures accessibility but also encourages knowledge-sharing and enhances the overall research experience."
+  },
+  {
+    "objectID": "galaxyW4M.html#galaxy",
+    "href": "galaxyW4M.html#galaxy",
+    "title": "What is Galaxy W4M ?",
+    "section": "Galaxy",
+    "text": "Galaxy\n is an open, web-based platform for data intensive biomedical research. Whether on the free public server or your own instance, you can perform, reproduce, and share complete analyses.\nThe main features of this platform are:\n\nA real benefit to users with results traceability and storage\nThe ability to share results between users/labs/platforms\nThe possibility to use a complete analysis workflow managing environment\nInteractive step-by-step tutorials called  Galaxy training"
+  },
+  {
+    "objectID": "galaxyW4M.html#citation",
+    "href": "galaxyW4M.html#citation",
+    "title": "What is Galaxy W4M ?",
+    "section": "Citation",
+    "text": "Citation\nGuitton et al. (2017)\nGiacomoni et al. (2014)"
+  },
+  {
+    "objectID": "docs_developers/planemo.html",
+    "href": "docs_developers/planemo.html",
+    "title": "Guide for Planemo",
+    "section": "",
+    "text": "Please complete this tutorial with the GTN ones: - Slides - Planemo tutorial\n\n Planemo big picture (source)\n\n\nplanemo lint checks for common errors and best practices. It will check different criterias to know if the xml wrapper is in good shape.\nLet’s take an existing tool: “normalization”\n$ cd ~/tools-metabolomicstools/normalization/\n$ planemo lint .\nLinting tool /private/tmp/tools-metabolomics/tools/normalization/NmrNormalization_xml.xml\nApplying linter tests... CHECK\n.. CHECK: 1 test(s) found.\nApplying linter output... CHECK\n.. INFO: 3 outputs found.\nApplying linter inputs... CHECK\n.. INFO: Found 8 input parameters.\nApplying linter help... CHECK\n.. CHECK: Tool contains help section.\n.. CHECK: Help contains valid reStructuredText.\nApplying linter general... CHECK\n.. CHECK: Tool defines a version [1.0.7].\n.. CHECK: Tool defines a name [Normalization].\n.. CHECK: Tool defines an id [normalization].\n.. CHECK: Tool targets 16.01 Galaxy profile.\nApplying linter command... CHECK\n.. INFO: Tool contains a command.\nApplying linter citations... CHECK\n.. CHECK: Found 1 likely valid citations.\nApplying linter tool_xsd... CHECK\n.. INFO: File validates against XML schema.\nAll seems good! Otherwise, you may to inverse some tags or complete others.\nTo complete this checking, you can have a look at the IUC Best Practices\n\n\n\nplanemo serve launches Galaxy instance with specified tools.\n\n\n$ cd tools-metabolomics/tools/normalization/\n$ planemo serve\nStarting Galaxy with\n[...]\nStarting server in PID 7800.\nserving on http://127.0.0.1:9090\n\n\n\n\n\n\n\n\nUpload file from your computer\nChoose FTP file\nTick the necessary files\nStart\n\n\nNote: It can take ages! Because Galaxy need to install a dependency to upload files.\nYou can check that in an other terminal:\n$ ps -edf | grep miniconda\nubuntu    9121  7800 92 22:02 pts/8    00:03:45 /home/ubuntu/miniconda3/bin/python /home/ubuntu/miniconda3/bin/conda create -y --quiet --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults _bcftools@1.5 bcftools=1.5\n\n\n\n\nNote: It can take ages! Because Galaxy need to the tool dependencies.\nYou can check that in an other terminal:\n$ ps -edf | grep miniconda\nubuntu    9121  7800 92 22:02 pts/8    00:03:45 /home/ubuntu/miniconda3/bin/python /home/ubuntu/miniconda3/bin/conda create -y --quiet --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults --name __r-batch@1.1_4 r-batch=1.1_4\nYou can also check the log in the planemo serve terminal:\nPackage plan for installation in environment /home/ubuntu/miniconda3/envs/__r-batch@1.1_4:\n\nThe following NEW packages will be INSTALLED:\n\n    _libgcc_mutex:           0.1-conda_forge            conda-forge\n    _openmp_mutex:           4.5-1_gnu                  conda-forge\n    _r-mutex:                1.0.1-anacondar_1          conda-forge\n[...]\n    r-base:                  3.5.1-hc461eb7_1012        conda-forge\n    r-batch:                 1.1_4-r351_1001            conda-forge\n[...]\ngalaxy.jobs.command_factory INFO 2020-11-29 22:24:37,533 Built script [/tmp/tmp2QjWR8/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmp2QjWR8/files/000/dataset_1.dat  scalingMethod None  graphType None  logOut /tmp/tmp2QjWR8/files/000/dataset_4.dat dataMatrixOut /tmp/tmp2QjWR8/files/000/dataset_5.dat graphOut None]\n\n\n\n\n\n\n$ planemo test\n[...]\n2020-11-29 22:43:01,352 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:43:01,354 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:43:01,566 INFO  [galaxy.jobs.command_factory] Built script [/tmp/tmpOrVdoX/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmpOrVdoX/files/000/dataset_1.dat  scalingMethod Total  graphType Overlay  logOut /tmp/tmpOrVdoX/files/000/dataset_2.dat dataMatrixOut /tmp/tmpOrVdoX/files/000/dataset_3.dat graphOut /tmp/tmpOrVdoX/files/000/dataset_4.dat]\n2020-11-29 22:43:02,633 DEBUG [galaxy.tools.deps] Using dependency bcftools version 1.5 of type conda\n2020-11-29 22:43:02,634 DEBUG [galaxy.tools.deps] Using dependency bcftools version 1.5 of type conda\nok\n\n----------------------------------------------------------------------\nXML: /tmp/tmpOrVdoX/xunit.xml\n----------------------------------------------------------------------\nRan 1 test in 47.239s\n\nOK\n[...]\nTesting complete. HTML report is in \"/home/ubuntu/tools-metabolomics/tools/normalization/tool_test_output.html\".\nAll 1 test(s) executed passed.\nnormalization[0]: passed\n\n\n\n$ firefox tool_test_output.html\n\n\n\n\nPossibilities:\n\nOpen the html report (Cf above)\nTry to run the test as Galaxy\n\n$ planemo test --no_cleanup\n[...]\n2020-11-29 22:56:34,800 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:56:34,834 INFO  [galaxy.jobs.command_factory] Built script [/tmp/tmpmUFlJJ/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmpmUFlJJ/files/000/dataset_1.dat  scalingMethod Total  graphType Overlay  logOut /tmp/tmpmUFlJJ/files/000/dataset_2.dat dataMatrixOut /tmp/tmpmUFlJJ/files/000/dataset_3.dat graphOut /tmp/tmpmUFlJJ/files/000/dataset_4.dat]\nGet the working directory in the logs\n$ cd /tmp/tmpmUFlJJ/job_working_directory/000/2/\n$ ./galaxy_*.sh\n$ ls working\n\n\n\ncd /tmp/tmpmUFlJJ/job_working_directory/000/2/ lead you to the Galaxy working directory\n./galaxy_*.sh run the job as Galaxy did with the dependencies, the env variables …\nls working/ the job outputs are push in this directory. You can add extra logs or flags in your script to investigate in.\n\nGood luck!\n\n\n\n\n\nIt can be practical to enable your tool Conda environment for debuging purpose.\n$ cd tools-metabolomics/tools/normalization/\n\n$ # here we can check that R isn't available in your $PATH\n$ R --version\nThe program 'R' is currently not installed. You can install it by typing:\nsudo apt install r-base-core\n\n$ # planemo will generate a bash script which we source immediately using the .\n$ . &lt;(planemo conda_env NmrNormalization_xml.xml)\nDeactivate environment with conda_env_deactivate\n$ which R\n/home/ubuntu/miniconda3/envs/jobdepsnq689ye7325fdd48bc9d36b864284fa0ff5f09769060a0bf098ef4ab24c33996193d03/bin/R\n$ R --version\nR version 3.5.1 (2018-07-02) -- \"Feather Spray\"\n\n$ # we destroy this temporary conda environment\n$ conda_env_deactivate\n[...]\n$ R --version\nThe program 'R' is currently not installed. You can install it by typing:\nsudo apt install r-base-core"
+  },
+  {
+    "objectID": "docs_developers/planemo.html#planemo-lint",
+    "href": "docs_developers/planemo.html#planemo-lint",
+    "title": "Guide for Planemo",
+    "section": "",
+    "text": "planemo lint checks for common errors and best practices. It will check different criterias to know if the xml wrapper is in good shape.\nLet’s take an existing tool: “normalization”\n$ cd ~/tools-metabolomicstools/normalization/\n$ planemo lint .\nLinting tool /private/tmp/tools-metabolomics/tools/normalization/NmrNormalization_xml.xml\nApplying linter tests... CHECK\n.. CHECK: 1 test(s) found.\nApplying linter output... CHECK\n.. INFO: 3 outputs found.\nApplying linter inputs... CHECK\n.. INFO: Found 8 input parameters.\nApplying linter help... CHECK\n.. CHECK: Tool contains help section.\n.. CHECK: Help contains valid reStructuredText.\nApplying linter general... CHECK\n.. CHECK: Tool defines a version [1.0.7].\n.. CHECK: Tool defines a name [Normalization].\n.. CHECK: Tool defines an id [normalization].\n.. CHECK: Tool targets 16.01 Galaxy profile.\nApplying linter command... CHECK\n.. INFO: Tool contains a command.\nApplying linter citations... CHECK\n.. CHECK: Found 1 likely valid citations.\nApplying linter tool_xsd... CHECK\n.. INFO: File validates against XML schema.\nAll seems good! Otherwise, you may to inverse some tags or complete others.\nTo complete this checking, you can have a look at the IUC Best Practices"
+  },
+  {
+    "objectID": "docs_developers/planemo.html#planemo-serve",
+    "href": "docs_developers/planemo.html#planemo-serve",
+    "title": "Guide for Planemo",
+    "section": "",
+    "text": "planemo serve launches Galaxy instance with specified tools.\n\n\n$ cd tools-metabolomics/tools/normalization/\n$ planemo serve\nStarting Galaxy with\n[...]\nStarting server in PID 7800.\nserving on http://127.0.0.1:9090\n\n\n\n\n\n\n\n\nUpload file from your computer\nChoose FTP file\nTick the necessary files\nStart\n\n\nNote: It can take ages! Because Galaxy need to install a dependency to upload files.\nYou can check that in an other terminal:\n$ ps -edf | grep miniconda\nubuntu    9121  7800 92 22:02 pts/8    00:03:45 /home/ubuntu/miniconda3/bin/python /home/ubuntu/miniconda3/bin/conda create -y --quiet --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults _bcftools@1.5 bcftools=1.5\n\n\n\n\nNote: It can take ages! Because Galaxy need to the tool dependencies.\nYou can check that in an other terminal:\n$ ps -edf | grep miniconda\nubuntu    9121  7800 92 22:02 pts/8    00:03:45 /home/ubuntu/miniconda3/bin/python /home/ubuntu/miniconda3/bin/conda create -y --quiet --override-channels --channel iuc --channel conda-forge --channel bioconda --channel defaults --name __r-batch@1.1_4 r-batch=1.1_4\nYou can also check the log in the planemo serve terminal:\nPackage plan for installation in environment /home/ubuntu/miniconda3/envs/__r-batch@1.1_4:\n\nThe following NEW packages will be INSTALLED:\n\n    _libgcc_mutex:           0.1-conda_forge            conda-forge\n    _openmp_mutex:           4.5-1_gnu                  conda-forge\n    _r-mutex:                1.0.1-anacondar_1          conda-forge\n[...]\n    r-base:                  3.5.1-hc461eb7_1012        conda-forge\n    r-batch:                 1.1_4-r351_1001            conda-forge\n[...]\ngalaxy.jobs.command_factory INFO 2020-11-29 22:24:37,533 Built script [/tmp/tmp2QjWR8/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmp2QjWR8/files/000/dataset_1.dat  scalingMethod None  graphType None  logOut /tmp/tmp2QjWR8/files/000/dataset_4.dat dataMatrixOut /tmp/tmp2QjWR8/files/000/dataset_5.dat graphOut None]"
+  },
+  {
+    "objectID": "docs_developers/planemo.html#planemo-test",
+    "href": "docs_developers/planemo.html#planemo-test",
+    "title": "Guide for Planemo",
+    "section": "",
+    "text": "$ planemo test\n[...]\n2020-11-29 22:43:01,352 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:43:01,354 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:43:01,566 INFO  [galaxy.jobs.command_factory] Built script [/tmp/tmpOrVdoX/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmpOrVdoX/files/000/dataset_1.dat  scalingMethod Total  graphType Overlay  logOut /tmp/tmpOrVdoX/files/000/dataset_2.dat dataMatrixOut /tmp/tmpOrVdoX/files/000/dataset_3.dat graphOut /tmp/tmpOrVdoX/files/000/dataset_4.dat]\n2020-11-29 22:43:02,633 DEBUG [galaxy.tools.deps] Using dependency bcftools version 1.5 of type conda\n2020-11-29 22:43:02,634 DEBUG [galaxy.tools.deps] Using dependency bcftools version 1.5 of type conda\nok\n\n----------------------------------------------------------------------\nXML: /tmp/tmpOrVdoX/xunit.xml\n----------------------------------------------------------------------\nRan 1 test in 47.239s\n\nOK\n[...]\nTesting complete. HTML report is in \"/home/ubuntu/tools-metabolomics/tools/normalization/tool_test_output.html\".\nAll 1 test(s) executed passed.\nnormalization[0]: passed\n\n\n\n$ firefox tool_test_output.html\n\n\n\n\nPossibilities:\n\nOpen the html report (Cf above)\nTry to run the test as Galaxy\n\n$ planemo test --no_cleanup\n[...]\n2020-11-29 22:56:34,800 DEBUG [galaxy.tools.deps] Using dependency r-batch version 1.1_4 of type conda\n2020-11-29 22:56:34,834 INFO  [galaxy.jobs.command_factory] Built script [/tmp/tmpmUFlJJ/job_working_directory/000/2/tool_script.sh] for tool command [[ \"$(basename \"$CONDA_DEFAULT_ENV\")\" = \"$(basename '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4')\" ] ||\nMAX_TRIES=3\nCOUNT=0\nwhile [ $COUNT -lt $MAX_TRIES ]; do\n    . '/home/ubuntu/miniconda3/bin/activate' '/home/ubuntu/miniconda3/envs/__r-batch@1.1_4' &gt; conda_activate.log 2&gt;&1\n    if [ $? -eq 0 ];then\n        break\n    else\n        let COUNT=COUNT+1\n        if [ $COUNT -eq $MAX_TRIES ];then\n            echo \"Failed to activate conda environment! Error was:\"\n            cat conda_activate.log\n            exit 1\n        fi\n        sleep 10s\n    fi\ndone ; Rscript /home/ubuntu/tools-metabolomics/tools/normalization/NmrNormalization_wrapper.R  dataMatrix /tmp/tmpmUFlJJ/files/000/dataset_1.dat  scalingMethod Total  graphType Overlay  logOut /tmp/tmpmUFlJJ/files/000/dataset_2.dat dataMatrixOut /tmp/tmpmUFlJJ/files/000/dataset_3.dat graphOut /tmp/tmpmUFlJJ/files/000/dataset_4.dat]\nGet the working directory in the logs\n$ cd /tmp/tmpmUFlJJ/job_working_directory/000/2/\n$ ./galaxy_*.sh\n$ ls working\n\n\n\ncd /tmp/tmpmUFlJJ/job_working_directory/000/2/ lead you to the Galaxy working directory\n./galaxy_*.sh run the job as Galaxy did with the dependencies, the env variables …\nls working/ the job outputs are push in this directory. You can add extra logs or flags in your script to investigate in.\n\nGood luck!"
+  },
+  {
+    "objectID": "docs_developers/planemo.html#optional-planemo-conda_env",
+    "href": "docs_developers/planemo.html#optional-planemo-conda_env",
+    "title": "Guide for Planemo",
+    "section": "",
+    "text": "It can be practical to enable your tool Conda environment for debuging purpose.\n$ cd tools-metabolomics/tools/normalization/\n\n$ # here we can check that R isn't available in your $PATH\n$ R --version\nThe program 'R' is currently not installed. You can install it by typing:\nsudo apt install r-base-core\n\n$ # planemo will generate a bash script which we source immediately using the .\n$ . &lt;(planemo conda_env NmrNormalization_xml.xml)\nDeactivate environment with conda_env_deactivate\n$ which R\n/home/ubuntu/miniconda3/envs/jobdepsnq689ye7325fdd48bc9d36b864284fa0ff5f09769060a0bf098ef4ab24c33996193d03/bin/R\n$ R --version\nR version 3.5.1 (2018-07-02) -- \"Feather Spray\"\n\n$ # we destroy this temporary conda environment\n$ conda_env_deactivate\n[...]\n$ R --version\nThe program 'R' is currently not installed. You can install it by typing:\nsudo apt install r-base-core"
+  },
+  {
+    "objectID": "docs_developers/git.html",
+    "href": "docs_developers/git.html",
+    "title": "Guide for git",
+    "section": "",
+    "text": "Open a Terminal\n\n\nSource: GitHub documentation\n\n\n$ ssh-keygen -t ed25519 -C \"your_email@example.com\"\n[Return]\n[Return]\n[Return]\n\n\n\n$ cat ~/.ssh/id_ed25519.pub\nssh-ed25519 AAAAC3NzaC1lZAAIMC3HzobwbYkEO0xvwx0E6sLp3RiKs13fDI1NTE5AAjBOLb5MDSsE your_email@example.com\n$\nFollow the steps of this page: adding-a-new-ssh-key-to-your-github-account\n\n\n\nYou need to configure your user name and email to commit in git.\n**/!** Use the email address that the one of your GitHub account.\n$ git config --global user.name \"Chuck Norris\"\n$ git config --global user.email \"your_email@example.com\"\n\n\n\n\nWe will pull a local copy of the tools-metabolomics GitHub repository\n$ cd ~\n$ git clone git@github.com:workflow4metabolomics/tools-metabolomics.git\n$ cd tools-metabolomics\n\n\n\n Schema of a git repository with 2 feature branches (source)\n\n\nTo list all the branch already available on the remote repo and now in local\n$ git branch -a\n* master\n  remotes/origin/HEAD -&gt; origin/master\n  remotes/origin/biotool-edam\n  remotes/origin/master\n  remotes/origin/mixmodel4repeated_measures\n  remotes/origin/nmr_bucketing2\n\nThe * is showing your current branch, here the master\nThe remotes/origin/ are corresponding to branches that are online at tools-metabolomics/branches\n\n\n\n\nIf you want to work on an existing branch that is only\n$ git checkout -b nmr_bucketing2 origin/nmr_bucketing2\nBranch 'nmr_bucketing2' set up to track remote branch 'nmr_bucketing2' from 'origin'.\nSwitched to a new branch 'nmr_bucketing2'\n\n$ # It created a local branch from the remote one\n$ # and switch to it\n\n$ git branch\n  master\n* nmr_bucketing2\n\n\n\n$ git branch\n  master\n* nmr_bucketing2\n\n$ git checkout master\nSwitched to branch 'master'\nYour branch is up to date with 'origin/master'.\n$ git branch\n* master\n nmr_bucketing2\n\n$ git checkout nmr_bucketing2\nSwitched to branch 'nmr_bucketing2'\nYour branch is up to date with 'origin/nmr_bucketing2'.\n$ git branch\n master\n* nmr_bucketing2\nWe switched from nmr_bucketing2 to master to nmr_bucketing2 again\n\n\n\nAlways create a new branch from a synchronized master branch\n$ git checkout master # switch to your local master branch\n$ git pull origin master # Sync your local master from the remote one\n\n$ git checkout -b my_new_tool\n$ git branch\n master\n* my_new_tool\n\n\n\n\nIt’s important to keep your branch up-to-date\n\n\nIf a contributor add commit to a Pull Request (PR), you have to synchronize your local branch\n$ git branch\n master\n* nmr_bucketing2\n\n$ git pull origin nmr_bucketing2\nremote: Enumerating objects: 9, done.\nremote: Counting objects: 100% (9/9), done.\nremote: Compressing objects: 100% (5/5), done.\nremote: Total 10 (delta 4), reused 8 (delta 4), pack-reused 1\nUnpacking objects: 100% (10/10), done.\nFrom github.com:workflow4metabolomics/workflow4metabolomics\n * branch            master     -&gt; FETCH_HEAD\n   3109335..ce226c3  master     -&gt; origin/master\nUpdating 3109335..ce226c3\nFast-forward\n\n tools/nmr_bucketing/NmrBucketing_wrapper.R  |    6 +-\n tools/nmr_bucketing/NmrBucketing_xml.xml    | 2008 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n 2 files changed, 2011 insertions(+), 3 deletions(-)\n\n$ # Outch! It was time!\n\n$ git pull origin nmr_bucketing2\nFrom github.com:workflow4metabolomics/tools-metabolomics\n * branch            nmr_bucketing2 -&gt; FETCH_HEAD\nAlready up to date.\n\n$ # Nothing to fetch, you are up-to-date\nYou might have some conflicts. It occurs when 2 contributors work on the same file too closely in parallel. Try to avoid that, it’s annoying. If so, good luck but please refer to extra documentations.\n\n\n\nIf the master only is moving, you may want to integrate its new commits\n$ # First we will sync your local master\n$ git checkout master\n$ git pull origin master\n[...]\n\n$ # Then your local branch\n$ git pull origin nmr_bucketing2 # It's worth doing\n$ git checkout nmr_bucketing2\n$ git merge origin master\n[...]\n\n$ # Finally, we have to sync the remote version of your branch\n$ git push origin nmr_bucketing2\nNow all is synchronize, you can work!\n\n\n\n\n\nAt some point and regularly, you will have to push your commits to the remote only server.\nThe number of commit is important and not.\nIt’s a balance: - Too many commits is not really useful because it’s not informative - Too few commits is not a good idea if you want to remote a commit for example. The good balance is in the middle, you should have at least one commit per features or relevant modifications.\n\nBe sure to not be on the master branch\nSync with the remote branch\nSync your local branch with the remote master\nCommit and Push\n\n$ # Check the current branch\n$ git branch\n  master\n* normalization_update\n\n$ # Check what have changed since the last commit\n$ git status\nOn branch master\nYour branch is up to date with 'origin/master'.\n\nChanges not staged for commit:\n  (use \"git add &lt;file&gt;...\" to update what will be committed)\n  (use \"git restore &lt;file&gt;...\" to discard changes in working directory)\n    modified:   NmrNormalization_xml.xml\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n$ # Here the NmrNormalization_xml.xml have been modified\n\n$ # You can visualize the diff\n$ git diff\ndiff --git a/tools/normalization/NmrNormalization_xml.xml b/tools/normalization/NmrNormalization_xml.xml\nindex 45cb84d..9e40ff7 100644\n--- a/tools/normalization/NmrNormalization_xml.xml\n+++ b/tools/normalization/NmrNormalization_xml.xml\n@@ -1,9 +1,9 @@\n-&lt;tool id=\"normalization\" name=\"Normalization\" version=\"1.0.7\"&gt;\n+&lt;tool id=\"normalization\" name=\"Normalization\" version=\"1.0.8\"&gt;\n\n     &lt;description&gt; Normalization of (preprocessed) spectra &lt;/description&gt;\n\n     &lt;requirements&gt;\n-          &lt;requirement type=\"package\" version=\"1.1_4\"&gt;r-batch&lt;/requirement&gt;\n+          &lt;requirement type=\"package\" version=\"1.1_5\"&gt;r-batch&lt;/requirement&gt;\n     &lt;/requirements&gt;\n\n       &lt;stdio&gt;\n$ git commit -m \"normalization - update r-batch\"\nOn branch master\nYour branch is up to date with 'origin/master'.\n\nChanges not staged for commit:\n    modified:   NmrNormalization_xml.xml\n\nno changes added to commit\n\n\n$ # You add the change to the future commit\n$ git add NmrNormalization_xml.xml\n\n$ # Note that you can add other changes\n\n$ # Wrap a commit and fill an explicit message\n$ git commit -m \"normalization - update r-batch\"\n[master 51ed5fe] normalization - update r-batch\n 1 file changed, 2 insertions(+), 2 deletions(-)\n\n$ # With status, you can check that there isn't any changes left\n$ # And that you have commit to push to the remote repository\n$ git status\n On branch master\n Your branch is ahead of 'origin/master' by 1 commit.\n   (use \"git push\" to publish your local commits)\n\n nothing to commit, working tree clean\n\n$ # Note that you can stack many commit before pushing them\n\n$ # git push will push your local commit to the remote branch\n$ git push origin normalization_update\nCongrats!"
+  },
+  {
+    "objectID": "docs_developers/git.html#git---init-your-working-repository",
+    "href": "docs_developers/git.html#git---init-your-working-repository",
+    "title": "Guide for git",
+    "section": "",
+    "text": "Open a Terminal\n\n\nSource: GitHub documentation\n\n\n$ ssh-keygen -t ed25519 -C \"your_email@example.com\"\n[Return]\n[Return]\n[Return]\n\n\n\n$ cat ~/.ssh/id_ed25519.pub\nssh-ed25519 AAAAC3NzaC1lZAAIMC3HzobwbYkEO0xvwx0E6sLp3RiKs13fDI1NTE5AAjBOLb5MDSsE your_email@example.com\n$\nFollow the steps of this page: adding-a-new-ssh-key-to-your-github-account\n\n\n\nYou need to configure your user name and email to commit in git.\n**/!** Use the email address that the one of your GitHub account.\n$ git config --global user.name \"Chuck Norris\"\n$ git config --global user.email \"your_email@example.com\"\n\n\n\n\nWe will pull a local copy of the tools-metabolomics GitHub repository\n$ cd ~\n$ git clone git@github.com:workflow4metabolomics/tools-metabolomics.git\n$ cd tools-metabolomics\n\n\n\n Schema of a git repository with 2 feature branches (source)\n\n\nTo list all the branch already available on the remote repo and now in local\n$ git branch -a\n* master\n  remotes/origin/HEAD -&gt; origin/master\n  remotes/origin/biotool-edam\n  remotes/origin/master\n  remotes/origin/mixmodel4repeated_measures\n  remotes/origin/nmr_bucketing2\n\nThe * is showing your current branch, here the master\nThe remotes/origin/ are corresponding to branches that are online at tools-metabolomics/branches\n\n\n\n\nIf you want to work on an existing branch that is only\n$ git checkout -b nmr_bucketing2 origin/nmr_bucketing2\nBranch 'nmr_bucketing2' set up to track remote branch 'nmr_bucketing2' from 'origin'.\nSwitched to a new branch 'nmr_bucketing2'\n\n$ # It created a local branch from the remote one\n$ # and switch to it\n\n$ git branch\n  master\n* nmr_bucketing2\n\n\n\n$ git branch\n  master\n* nmr_bucketing2\n\n$ git checkout master\nSwitched to branch 'master'\nYour branch is up to date with 'origin/master'.\n$ git branch\n* master\n nmr_bucketing2\n\n$ git checkout nmr_bucketing2\nSwitched to branch 'nmr_bucketing2'\nYour branch is up to date with 'origin/nmr_bucketing2'.\n$ git branch\n master\n* nmr_bucketing2\nWe switched from nmr_bucketing2 to master to nmr_bucketing2 again\n\n\n\nAlways create a new branch from a synchronized master branch\n$ git checkout master # switch to your local master branch\n$ git pull origin master # Sync your local master from the remote one\n\n$ git checkout -b my_new_tool\n$ git branch\n master\n* my_new_tool\n\n\n\n\nIt’s important to keep your branch up-to-date\n\n\nIf a contributor add commit to a Pull Request (PR), you have to synchronize your local branch\n$ git branch\n master\n* nmr_bucketing2\n\n$ git pull origin nmr_bucketing2\nremote: Enumerating objects: 9, done.\nremote: Counting objects: 100% (9/9), done.\nremote: Compressing objects: 100% (5/5), done.\nremote: Total 10 (delta 4), reused 8 (delta 4), pack-reused 1\nUnpacking objects: 100% (10/10), done.\nFrom github.com:workflow4metabolomics/workflow4metabolomics\n * branch            master     -&gt; FETCH_HEAD\n   3109335..ce226c3  master     -&gt; origin/master\nUpdating 3109335..ce226c3\nFast-forward\n\n tools/nmr_bucketing/NmrBucketing_wrapper.R  |    6 +-\n tools/nmr_bucketing/NmrBucketing_xml.xml    | 2008 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n 2 files changed, 2011 insertions(+), 3 deletions(-)\n\n$ # Outch! It was time!\n\n$ git pull origin nmr_bucketing2\nFrom github.com:workflow4metabolomics/tools-metabolomics\n * branch            nmr_bucketing2 -&gt; FETCH_HEAD\nAlready up to date.\n\n$ # Nothing to fetch, you are up-to-date\nYou might have some conflicts. It occurs when 2 contributors work on the same file too closely in parallel. Try to avoid that, it’s annoying. If so, good luck but please refer to extra documentations.\n\n\n\nIf the master only is moving, you may want to integrate its new commits\n$ # First we will sync your local master\n$ git checkout master\n$ git pull origin master\n[...]\n\n$ # Then your local branch\n$ git pull origin nmr_bucketing2 # It's worth doing\n$ git checkout nmr_bucketing2\n$ git merge origin master\n[...]\n\n$ # Finally, we have to sync the remote version of your branch\n$ git push origin nmr_bucketing2\nNow all is synchronize, you can work!"
+  },
+  {
+    "objectID": "docs_developers/git.html#git---push-your-changes",
+    "href": "docs_developers/git.html#git---push-your-changes",
+    "title": "Guide for git",
+    "section": "",
+    "text": "At some point and regularly, you will have to push your commits to the remote only server.\nThe number of commit is important and not.\nIt’s a balance: - Too many commits is not really useful because it’s not informative - Too few commits is not a good idea if you want to remote a commit for example. The good balance is in the middle, you should have at least one commit per features or relevant modifications.\n\nBe sure to not be on the master branch\nSync with the remote branch\nSync your local branch with the remote master\nCommit and Push\n\n$ # Check the current branch\n$ git branch\n  master\n* normalization_update\n\n$ # Check what have changed since the last commit\n$ git status\nOn branch master\nYour branch is up to date with 'origin/master'.\n\nChanges not staged for commit:\n  (use \"git add &lt;file&gt;...\" to update what will be committed)\n  (use \"git restore &lt;file&gt;...\" to discard changes in working directory)\n    modified:   NmrNormalization_xml.xml\n\nno changes added to commit (use \"git add\" and/or \"git commit -a\")\n$ # Here the NmrNormalization_xml.xml have been modified\n\n$ # You can visualize the diff\n$ git diff\ndiff --git a/tools/normalization/NmrNormalization_xml.xml b/tools/normalization/NmrNormalization_xml.xml\nindex 45cb84d..9e40ff7 100644\n--- a/tools/normalization/NmrNormalization_xml.xml\n+++ b/tools/normalization/NmrNormalization_xml.xml\n@@ -1,9 +1,9 @@\n-&lt;tool id=\"normalization\" name=\"Normalization\" version=\"1.0.7\"&gt;\n+&lt;tool id=\"normalization\" name=\"Normalization\" version=\"1.0.8\"&gt;\n\n     &lt;description&gt; Normalization of (preprocessed) spectra &lt;/description&gt;\n\n     &lt;requirements&gt;\n-          &lt;requirement type=\"package\" version=\"1.1_4\"&gt;r-batch&lt;/requirement&gt;\n+          &lt;requirement type=\"package\" version=\"1.1_5\"&gt;r-batch&lt;/requirement&gt;\n     &lt;/requirements&gt;\n\n       &lt;stdio&gt;\n$ git commit -m \"normalization - update r-batch\"\nOn branch master\nYour branch is up to date with 'origin/master'.\n\nChanges not staged for commit:\n    modified:   NmrNormalization_xml.xml\n\nno changes added to commit\n\n\n$ # You add the change to the future commit\n$ git add NmrNormalization_xml.xml\n\n$ # Note that you can add other changes\n\n$ # Wrap a commit and fill an explicit message\n$ git commit -m \"normalization - update r-batch\"\n[master 51ed5fe] normalization - update r-batch\n 1 file changed, 2 insertions(+), 2 deletions(-)\n\n$ # With status, you can check that there isn't any changes left\n$ # And that you have commit to push to the remote repository\n$ git status\n On branch master\n Your branch is ahead of 'origin/master' by 1 commit.\n   (use \"git push\" to publish your local commits)\n\n nothing to commit, working tree clean\n\n$ # Note that you can stack many commit before pushing them\n\n$ # git push will push your local commit to the remote branch\n$ git push origin normalization_update\nCongrats!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "contribute.html",
+    "href": "contribute.html",
+    "title": "How to contribute for W4M ?",
+    "section": "",
+    "text": "Push your tools / W4M as a Showcase Your tools can be installed, integrated and hosted within the main W4M instance Tools.\nQuality standards However, the tools must stick to the IUC standards in order to be easily integrated:\nAvailable in a GitHub repository Conda dependencies Functional tests using Planemo Available in the Main ToolShed In the first place, your tools will be displayed in the Contribution section of the tool panel. And eventually, it should be promoted among the other tools.\nAdvanced mode In order to be fully integrated in our reference workflows, your tools must follow your exchange formats between tools (for more information, contact us).\nA collaboration should be established if help is needed!\nSupport / HelpDesk In all cases, the tools must be maintained by the developers themselves. A tool can be removed if this after sales service isn’t done.\nGuidelines Writing a tool"
+  },
+  {
+    "objectID": "docs_developers/lintr.html",
+    "href": "docs_developers/lintr.html",
+    "title": "Guide for lintr compliance",
+    "section": "",
+    "text": "Here one can find some examples of lintr warning messages, illustrated with examples to help enhancing one’s code to pass the checks.\nStructure: lintr message\ne.g.:\nexample that generate the error message\nlintr-compliant solution\nor\nlintr message\ncomment to help solve the issue\n\n\nAvoid 1:length(...) expressions, use seq_len.\ne.g.:\nthe following: my_object &lt;- 1:length(A)\nshould be: my_object &lt;- seq_len(length(A))\nAvoid 1:nrow(...) expressions, use seq_len.\ne.g.:\nthe following: my_object &lt;- 1:nrow(A)\nshould be: my_object &lt;- seq_len(nrow(A))\nCommas should always have a space after.\ne.g.:\nthe following: my_object &lt;- c(“toto”,“titi”)\nshould be: my_object &lt;- c(“toto”, “titi”)\nCommented code should be removed.\nif you really NEED it to appear for understanding purpose, comment it in a documented sentence\nDo not place spaces around code in parentheses or square brackets.\ne.g.:\nthe following: my_object &lt;- c( A[ 1, 2], B[ 3, 4 ] )\nshould be: my_object &lt;- c(A[1, 2], B[3, 4])\nOnly use double-quotes.\ne.g.:\nthe following: my_object &lt;- c(‘toto’, ‘titi’)\nshould be: my_object &lt;- c(“toto”, “titi”)\nPlace a space before left parenthesis, except in a function call.\ne.g.:\nthe following: if(toto) {titi}\nshould be: if (toto) {titi}\nPut spaces around all infix operators.\ne.g.: the following: list_arguments&lt;-parseCommandArgs(evaluate=FALSE)\nshould be: list_arguments &lt;- parseCommandArgs(evaluate = FALSE)\nRemove spaces before the left parenthesis in a function call.\ne.g.:\nthe following: my_fct &lt;- function (toto, titi) {…}\nshould be: my_fct &lt;- function(toto, titi) {…}\nThere should be a space between right parenthesis and an opening curly brace.\ne.g.:\nthe following: if (toto){titi}\nshould be: if (toto) {titi}\nTrailing whitespace is superfluous.\ni.e. no whitespaces at the end of lines\nUse &lt;-, not =, for assignment.\ne.g.:\nthe following: list_arguments = parseCommandArgs(evaluate = FALSE)\nshould be: list_arguments &lt;- parseCommandArgs(evaluate = FALSE)\nVariable and function name style should be snake_case.\ne.g.:\nthe following: myNewObject &lt;- “toto”\nshould be: my_new_object &lt;- “toto”"
+  },
+  {
+    "objectID": "docs_developers/lintr.html#list-of-examples",
+    "href": "docs_developers/lintr.html#list-of-examples",
+    "title": "Guide for lintr compliance",
+    "section": "",
+    "text": "Avoid 1:length(...) expressions, use seq_len.\ne.g.:\nthe following: my_object &lt;- 1:length(A)\nshould be: my_object &lt;- seq_len(length(A))\nAvoid 1:nrow(...) expressions, use seq_len.\ne.g.:\nthe following: my_object &lt;- 1:nrow(A)\nshould be: my_object &lt;- seq_len(nrow(A))\nCommas should always have a space after.\ne.g.:\nthe following: my_object &lt;- c(“toto”,“titi”)\nshould be: my_object &lt;- c(“toto”, “titi”)\nCommented code should be removed.\nif you really NEED it to appear for understanding purpose, comment it in a documented sentence\nDo not place spaces around code in parentheses or square brackets.\ne.g.:\nthe following: my_object &lt;- c( A[ 1, 2], B[ 3, 4 ] )\nshould be: my_object &lt;- c(A[1, 2], B[3, 4])\nOnly use double-quotes.\ne.g.:\nthe following: my_object &lt;- c(‘toto’, ‘titi’)\nshould be: my_object &lt;- c(“toto”, “titi”)\nPlace a space before left parenthesis, except in a function call.\ne.g.:\nthe following: if(toto) {titi}\nshould be: if (toto) {titi}\nPut spaces around all infix operators.\ne.g.: the following: list_arguments&lt;-parseCommandArgs(evaluate=FALSE)\nshould be: list_arguments &lt;- parseCommandArgs(evaluate = FALSE)\nRemove spaces before the left parenthesis in a function call.\ne.g.:\nthe following: my_fct &lt;- function (toto, titi) {…}\nshould be: my_fct &lt;- function(toto, titi) {…}\nThere should be a space between right parenthesis and an opening curly brace.\ne.g.:\nthe following: if (toto){titi}\nshould be: if (toto) {titi}\nTrailing whitespace is superfluous.\ni.e. no whitespaces at the end of lines\nUse &lt;-, not =, for assignment.\ne.g.:\nthe following: list_arguments = parseCommandArgs(evaluate = FALSE)\nshould be: list_arguments &lt;- parseCommandArgs(evaluate = FALSE)\nVariable and function name style should be snake_case.\ne.g.:\nthe following: myNewObject &lt;- “toto”\nshould be: my_new_object &lt;- “toto”"
+  },
+  {
+    "objectID": "docs_developers/virtualbox.html",
+    "href": "docs_developers/virtualbox.html",
+    "title": "Planemo Virtual Machine",
+    "section": "",
+    "text": "VirtualBox\nPlanemo OVA image: https://images.galaxyproject.org/planemo/latest.ova\n\n\n\n\n\nRight click on the image name\nConfiguration…\n\n\nGénéral\n\nAvancée\n\nPresse papier partagé: Bidirectionel\n\n\nSystem|Système:\n\nCarte mère|Mother board:\n\nFix the Memory with the slider to at least 4000Mo if you can. Otherwise, 2000Mo will be ok.\n\nProcessor|Processeur\n\nFix the number to 2 (or 1) depending of your hardware\n\n\n\n\n\n\n\n\n\n\n\nClick right on the US flag\nClick on Keyboard settings\nClick on the Layout tab\n\nAdd\n\nFind `French(alternative)``\nRemove the English one\nTest the keyboard using the Terminal Emulator\n\n\n\n\n\nMouhai!"
+  },
+  {
+    "objectID": "docs_developers/virtualbox.html#prerequisite",
+    "href": "docs_developers/virtualbox.html#prerequisite",
+    "title": "Planemo Virtual Machine",
+    "section": "",
+    "text": "VirtualBox\nPlanemo OVA image: https://images.galaxyproject.org/planemo/latest.ova"
+  },
+  {
+    "objectID": "docs_developers/virtualbox.html#configure-the-vm-before-launch",
+    "href": "docs_developers/virtualbox.html#configure-the-vm-before-launch",
+    "title": "Planemo Virtual Machine",
+    "section": "",
+    "text": "Right click on the image name\nConfiguration…\n\n\nGénéral\n\nAvancée\n\nPresse papier partagé: Bidirectionel\n\n\nSystem|Système:\n\nCarte mère|Mother board:\n\nFix the Memory with the slider to at least 4000Mo if you can. Otherwise, 2000Mo will be ok.\n\nProcessor|Processeur\n\nFix the number to 2 (or 1) depending of your hardware"
+  },
+  {
+    "objectID": "docs_developers/virtualbox.html#configure-after-the-launch",
+    "href": "docs_developers/virtualbox.html#configure-after-the-launch",
+    "title": "Planemo Virtual Machine",
+    "section": "",
+    "text": "Click right on the US flag\nClick on Keyboard settings\nClick on the Layout tab\n\nAdd\n\nFind `French(alternative)``\nRemove the English one\nTest the keyboard using the Terminal Emulator"
+  },
+  {
+    "objectID": "docs_developers/virtualbox.html#optional-mount-the-host-directory-within-the-vm",
+    "href": "docs_developers/virtualbox.html#optional-mount-the-host-directory-within-the-vm",
+    "title": "Planemo Virtual Machine",
+    "section": "",
+    "text": "Mouhai!"
+  },
+  {
+    "objectID": "GUIDELINES.html",
+    "href": "GUIDELINES.html",
+    "title": "Workflow4Metabolomics Guidelines",
+    "section": "",
+    "text": "Tool dependencies using Conda\nWriting a tool\nWriting a tool using Planemo\nTesting a tool using Planemo\nUsing Ant to run Planemo\nAutomate testing within GitHub using Travis\nPublish a tool in the ToolShed using Planemo\n\n\n\nA tool may require to operate some external softwares (call dependencies) like binaries, python or R packages/libraries. Conda is a package manager that among many other things can be used to manage Python packages. It became since july 2016, the default package manager within Galaxy. In Galaxy, Conda will search by default in 3 channels: defaults, r and bioconda\n\n\nGalaxy currently will use miniconda2 (Python 2.7), so prefer is then miniconda3.\n\n\nFollow this link http://conda.pydata.org/miniconda.html\n\n\n\n\nSee Installing Planemo\nplanemo conda_init --conda_prefix \"/usr/conda/\"\n\n\n\n\nFor testing your recipe, you will need conda.\nInstalling miniconda on macOS:\nbrew cask install miniconda\nThe installation is done in ~/miniconda3. The binaries are installed inside ~/miniconda3/bin.\n\n\n\nThen install conda-build:\n~/miniconda3/bin/conda install conda-build\n\n\n\n\nThe tests may fail if the requirements cannot be found neither in conda nor in bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.\nTo develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in Bioconda recipes README, or fork bioconda-recipes and send a pull-request.\nFollow the instructions in Bioconda recipes README.\n\n\nTo write your recipe, follow the instructions in Guidelines for bioconda recipes. You will find instructions for each development language.\n\n\nFor writing a recipe for a R CRAN package, use the skeleton generator:\ncd recipes\n~/miniconda3/bin/conda skeleton cran mypkg\n\n\n\nFor writing a recipe for a Bioconductor package, use the specific generator:\npython3 scripts/bioconductor/bioconductor_skeleton.py mypkg\nPython3 is required, but is not explicitly called by this script, so you need to specify it unless it is the default on your system. Make sure that you have installed the necessary packages for this script:\npip3 install pyaml bs4 requests\n\n\n\n\nTo build your recipe, run:\n~/miniconda3/bin/conda build recipes/myrecipe\nIf it is a R package add the option --channel r, and if it depends on other bioconda recipes add --channel bioconda.\nSee also Conda build recipes.\n\n\n\nNow you just have to send a pull-request and wait, Travis CI will run the tests, and merge your recipe automatically into the master branch in case of success.\n\n\n\n\n\n\n\n\n\n\nAs a reference, see the Tool XML file syntax from the Galaxy project wiki. The Galaxy Intergalactic Utilities Commission Standards and Best Practices are also worth reading.\n\n\n\n\n\n\nPlanemo is part of the Galaxy project, and is made for easing the development and testing of Galaxy tools. A documentation is available, so we will give here only the basic knowledge. A French course (slides) given at the Galaxy Day (Nov. 11 2015) is also available.\n\n\n\n\n\n\nInstalling Planemo\n\nvirtualenv ~/.planemo-venv\n. ~/.planemo-venv/bin/activate\npip install planemo\n\nBefore using Planemo on your terminal, you will need to activate your virtualenv environment:\n\n. ~/.planemo-venv/bin/activate\n\n\n\nUnder macOS, you can also use Homebrew for installing Planemo:\nbrew tap galaxyproject/tap\nbrew install planemo\n\n\n\nplanemo init will create a file in the home directory called .planemo.yml where you will be able to set your ToolShed credentials\n\n\n\n\nPlanemo propose to create the tool skeloton\nplanemo tool_init\n\n\n\n\n\nThe sections of your tool XML file, must be in the specific order:\n\n&lt;description&gt;\n&lt;requirements&gt;\n&lt;command&gt;\n&lt;inputs&gt;\n&lt;outputs&gt;\n&lt;tests&gt;\n&lt;help&gt;\n&lt;citations&gt;\n\n\n\n\nIf your script mytool-script is written in R, and have the following R library dependencies: batch, PMCMR, you have to define the following lines inside your tool XML file:\n&lt;requirements&gt;\n    &lt;requirement type=\"package\" version=\"3.2.2\"&gt;R&lt;/requirement&gt;\n    &lt;requirement type=\"package\"&gt;r-batch&lt;/requirement&gt;\n    &lt;requirement type=\"package\"&gt;r-pmcmr&lt;/requirement&gt;\n&lt;/requirements&gt;\nRequirements will be looked for inside 3 channels: default, r, and bioconda GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided. In this example, the R language version 3.2.2 will be installed, as well as the batch and PMCMR R libraries (no version specified, but that could have been possible).\n\n\n\nYou must not use anymore the attribute interpreter inside the command tag. The command content will be launched inside a bash session. The programs called must be present inside the PATH, so it must be a standard program (unless you find a way to put your tool program inside the PATH, but we do not recommand that).\nHere is an example with a script in R:\n&lt;command&gt;&lt;![CDATA[\n    Rscript $__tool_directory__/mytool-script\n    ...\n]]&gt;&lt;/command&gt;\nNote the use of the $__tool_directory__ variable. This is because, according to our experience, planemo test may fail to find your script if the whole is not specified.\n\n\n\nAt least one test is required.\nThe param tags describe the inputs.\n&lt;tests&gt;\n    &lt;test&gt;\n        &lt;param name=\"dbfile\" value=\"filedb.tsv\"/&gt;\n        &lt;param name=\"mzrtinput\" value=\"mzrt-input-small.tsv\"/&gt;\n        &lt;param name=\"inputfields\" value=\"\"/&gt;\n        &lt;param name=\"mzmode\" value=\"pos\"/&gt;\n        &lt;output name=\"mainoutput\" file=\"filedb-small-mz-match-output.tsv\"/&gt;\n        &lt;output name=\"peaksoutput\" file=\"filedb-small-mz-match-peaks-output.tsv\"/&gt;\n        &lt;output name=\"htmloutput\" file=\"filedb-small-mz-match-html-output.html\"/&gt;\n    &lt;/test&gt;\n&lt;/tests&gt;\nThe input and output files must be placed in a folder named test-data in the same location as your tool XML file.\nMore documentation here: https://wiki.galaxyproject.org/Admin/Tools/WritingTests.\nBe careful, when referencing parameters that are included in a conditional section. You must not use the name of the conditional section as a prefix. For instance, if you have the following conditional section:\n&lt;conditional name=\"db\"&gt;\n\n    &lt;param name=\"dbtype\" label=\"Database\" type=\"select\"&gt;\n        &lt;option value=\"inhouse\"&gt;In-house&lt;/option&gt;\n        &lt;option value=\"peakforest\"&gt;Peakforest&lt;/option&gt;\n    &lt;/param&gt;\n\n    &lt;!-- .... --&gt;\n&lt;/conditional&gt;\nYou will use the parameter name dbtype as is, without prefix:\n&lt;tests&gt;\n    &lt;test&gt;\n        &lt;param name=\"dbfile\" value=\"filedb.tsv\"/&gt;\n    &lt;!-- .... --&gt;\n    &lt;/test&gt;\n&lt;/tests&gt;\n\n\n\nAn help section is required.\n\n\n\nThis sections is required, as a good practice. In the case you have nothing to put inside this section, and in order to make the planemo lint pass, just write an empty section:\n&lt;citations/&gt;\n\n\n\n\nRunning planemo on an XML tool file:\nplanemo lint mytool.xml\nIt will output a list of checks as the following one:\nApplying linter tests... CHECK\n.. CHECK: 1 test(s) found.\nApplying linter stdio... CHECK\n.. INFO: No stdio definition found, tool will determine an error from stderr.\nApplying linter output... CHECK\n.. INFO: 2 outputs found.\nApplying linter inputs... CHECK\n.. INFO: Found 7 input parameters.\nApplying linter help... CHECK\n.. CHECK: Tool contains help section.\n.. CHECK: Help contains valid reStructuredText.\nApplying linter general... CHECK\n.. CHECK: Tool defines a version [2.1.1].\n.. CHECK: Tool defines a name [Univariate].\n.. CHECK: Tool defines an id [Univariate].\nApplying linter command... CHECK\n.. INFO: Tool contains a command.\n\n\n\nplanemo serve --install_galaxy \nIf you want to launch your tool in this Galaxy instance, you can follow instruction in the Run the tests on your tool section to install Conda dependencies and use planemo serve with --conda_dependency_resolution\n\n\n\n\n\n\n\nIf not already done, initialize conda:\n\nplanemo conda_init\n\nInstall your tool requirements:\n\nplanemo conda_install mytool.xml\n\nRun your tests:\n\nplanemo test --install_galaxy --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml\n\n\nConda installs all its files inside ~/miniconda2 by default. WARNING: When testing the requirements, it may be that you forget to specify some requirements for your tool, but that your test pass anyway. This is because the requirements were already installed inside ~/miniconda2, possibly while testing another tool.\nA first solution to avoid this is to erase the ~/miniconda2 before running planemo conda_install ..\nA second solution is to choose a custom folder for conda for your tool through the --conda_prefix option:\nplanemo conda_init --conda_prefix /tmp/conda\nplanemo conda_install --conda_prefix /tmp/conda mytool.xml\nplanemo test --install_galaxy --galaxy_branch release_16.01 --conda_prefix /tmp/conda --conda_dependency_resolution mytool.xml\nAttention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1. This issue will be solved in Conda-Build 2.0.0.\n\n\n\n\n\nHere is a build.xml file you can use as a base for running Planemo from Ant:\n&lt;project name=\"mytool\" default=\"all\"&gt;\n\n    &lt;property name=\"tool.xml\" value=\"mytool.xml\"/&gt;\n    &lt;property name=\"conda.dir\" value=\"${user.home}/w4m-conda\"/&gt;\n\n    &lt;!--~~~\n    ~ ALL ~\n    ~~~~~--&gt;\n\n    &lt;target name=\"all\"/&gt;\n\n    &lt;!--~~~~\n    ~ TEST ~\n    ~~~~~--&gt;\n\n    &lt;target name=\"test\" depends=\"planemo.lint,planemo.test\"/&gt;\n\n    &lt;!--~~~~~~~~~~~~\n    ~ PLANEMO LINT ~\n    ~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.lint\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"lint\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~\n    ~ PLANEMO TEST ~\n    ~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.test\" depends=\"planemo.conda.install\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"test\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n            &lt;arg value=\"--galaxy_branch\"/&gt;\n            &lt;arg value=\"release_16.01\"/&gt;\n            &lt;arg value=\"--conda_dependency_resolution\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~~~~~~~~~~\n    ~ PLANEMO CONDA INSTALL ~\n    ~~~~~~~~~~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.conda.install\" depends=\"planemo.conda.init\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"conda_install\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~~~~~~~\n    ~ PLANEMO CONDA INIT ~\n    ~~~~~~~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.conda.init\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"conda_init\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~\n    ~ CLEAN ~\n    ~~~~~~--&gt;\n\n    &lt;target name=\"clean\"&gt;\n        &lt;delete dir=\"${conda.dir}\"/&gt;\n    &lt;/target&gt;\n\n&lt;/project&gt;\n\n\n\nTravis CI is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the “Sign with GitHub” button on the Travis CI home page. Then you just have to connect the organization account to your Travis account. Follow the instructions on the Getting started page.\nRoughly, the steps are the following ones:\n\nGo to your profile page (click on your name at the top right).\nMake sure Workflow4Metabolomics is listed in the Organizations listing inside the left column.\nClick on Sync account button (at the top right), and wait.\nEnable the project you want. This will allow Travis CI to track for changes in branches and run the build.\nDefine a file .travis.yml at the root of your project repository. This file will tell Travis CI how to build/test your project.\nPush the changes in your project repository to GitHub, Travis CI will automatically be triggered and start running the instructions contained inside the file .travis.yml.\n\n\n\nA minimal .travis.yml that makes use of Planemo can be:\nbefore_install:\n - sudo apt-get install -y python-virtualenv\n - virtualenv planemo-venv\n - . planemo-venv/bin/activate\n - pip install --upgrade pip setuptools\n - pip install planemo\n - planemo conda_init\n\ninstall:\n - planemo conda_install ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory\n\nscript:\n - planemo test --install_galaxy --no_cache_galaxy --conda_dependency_resolution ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory\n\n\n\nA minimal .travis.yml that makes use of Planemo and Ant can be:\nbefore_install:\n - sudo apt-get install -y python-virtualenv\n - sudo apt-get install -y ant\n - virtualenv planemo-venv\n - . planemo-venv/bin/activate\n - pip install --upgrade pip setuptools\n - pip install planemo\n - planemo conda_init\n\nscript:\n - ant test\n\n\n\n\n\n\nplanemo shed_init --help\n\n\n\nplanemo shed_create --help\n\n\n\nplanemo shed_update --help"
+  },
+  {
+    "objectID": "GUIDELINES.html#outlines",
+    "href": "GUIDELINES.html#outlines",
+    "title": "Workflow4Metabolomics Guidelines",
+    "section": "",
+    "text": "Tool dependencies using Conda\nWriting a tool\nWriting a tool using Planemo\nTesting a tool using Planemo\nUsing Ant to run Planemo\nAutomate testing within GitHub using Travis\nPublish a tool in the ToolShed using Planemo\n\n\n\nA tool may require to operate some external softwares (call dependencies) like binaries, python or R packages/libraries. Conda is a package manager that among many other things can be used to manage Python packages. It became since july 2016, the default package manager within Galaxy. In Galaxy, Conda will search by default in 3 channels: defaults, r and bioconda\n\n\nGalaxy currently will use miniconda2 (Python 2.7), so prefer is then miniconda3.\n\n\nFollow this link http://conda.pydata.org/miniconda.html\n\n\n\n\nSee Installing Planemo\nplanemo conda_init --conda_prefix \"/usr/conda/\"\n\n\n\n\nFor testing your recipe, you will need conda.\nInstalling miniconda on macOS:\nbrew cask install miniconda\nThe installation is done in ~/miniconda3. The binaries are installed inside ~/miniconda3/bin.\n\n\n\nThen install conda-build:\n~/miniconda3/bin/conda install conda-build\n\n\n\n\nThe tests may fail if the requirements cannot be found neither in conda nor in bioconda. Thus you may be forced to develop a new recipe for bioconda in order for the tests to pass.\nTo develop a new recipe, either ask to be part of Bioconda team for contributing to new recipes (repository bioconda-recipes) as explained in Bioconda recipes README, or fork bioconda-recipes and send a pull-request.\nFollow the instructions in Bioconda recipes README.\n\n\nTo write your recipe, follow the instructions in Guidelines for bioconda recipes. You will find instructions for each development language.\n\n\nFor writing a recipe for a R CRAN package, use the skeleton generator:\ncd recipes\n~/miniconda3/bin/conda skeleton cran mypkg\n\n\n\nFor writing a recipe for a Bioconductor package, use the specific generator:\npython3 scripts/bioconductor/bioconductor_skeleton.py mypkg\nPython3 is required, but is not explicitly called by this script, so you need to specify it unless it is the default on your system. Make sure that you have installed the necessary packages for this script:\npip3 install pyaml bs4 requests\n\n\n\n\nTo build your recipe, run:\n~/miniconda3/bin/conda build recipes/myrecipe\nIf it is a R package add the option --channel r, and if it depends on other bioconda recipes add --channel bioconda.\nSee also Conda build recipes.\n\n\n\nNow you just have to send a pull-request and wait, Travis CI will run the tests, and merge your recipe automatically into the master branch in case of success.\n\n\n\n\n\n\n\n\n\n\nAs a reference, see the Tool XML file syntax from the Galaxy project wiki. The Galaxy Intergalactic Utilities Commission Standards and Best Practices are also worth reading.\n\n\n\n\n\n\nPlanemo is part of the Galaxy project, and is made for easing the development and testing of Galaxy tools. A documentation is available, so we will give here only the basic knowledge. A French course (slides) given at the Galaxy Day (Nov. 11 2015) is also available.\n\n\n\n\n\n\nInstalling Planemo\n\nvirtualenv ~/.planemo-venv\n. ~/.planemo-venv/bin/activate\npip install planemo\n\nBefore using Planemo on your terminal, you will need to activate your virtualenv environment:\n\n. ~/.planemo-venv/bin/activate\n\n\n\nUnder macOS, you can also use Homebrew for installing Planemo:\nbrew tap galaxyproject/tap\nbrew install planemo\n\n\n\nplanemo init will create a file in the home directory called .planemo.yml where you will be able to set your ToolShed credentials\n\n\n\n\nPlanemo propose to create the tool skeloton\nplanemo tool_init\n\n\n\n\n\nThe sections of your tool XML file, must be in the specific order:\n\n&lt;description&gt;\n&lt;requirements&gt;\n&lt;command&gt;\n&lt;inputs&gt;\n&lt;outputs&gt;\n&lt;tests&gt;\n&lt;help&gt;\n&lt;citations&gt;\n\n\n\n\nIf your script mytool-script is written in R, and have the following R library dependencies: batch, PMCMR, you have to define the following lines inside your tool XML file:\n&lt;requirements&gt;\n    &lt;requirement type=\"package\" version=\"3.2.2\"&gt;R&lt;/requirement&gt;\n    &lt;requirement type=\"package\"&gt;r-batch&lt;/requirement&gt;\n    &lt;requirement type=\"package\"&gt;r-pmcmr&lt;/requirement&gt;\n&lt;/requirements&gt;\nRequirements will be looked for inside 3 channels: default, r, and bioconda GitHub repository and installed by conda inside a virtual environment. Thus you can check there if your particular package is defined, or if the specific version your tool requests is provided. In this example, the R language version 3.2.2 will be installed, as well as the batch and PMCMR R libraries (no version specified, but that could have been possible).\n\n\n\nYou must not use anymore the attribute interpreter inside the command tag. The command content will be launched inside a bash session. The programs called must be present inside the PATH, so it must be a standard program (unless you find a way to put your tool program inside the PATH, but we do not recommand that).\nHere is an example with a script in R:\n&lt;command&gt;&lt;![CDATA[\n    Rscript $__tool_directory__/mytool-script\n    ...\n]]&gt;&lt;/command&gt;\nNote the use of the $__tool_directory__ variable. This is because, according to our experience, planemo test may fail to find your script if the whole is not specified.\n\n\n\nAt least one test is required.\nThe param tags describe the inputs.\n&lt;tests&gt;\n    &lt;test&gt;\n        &lt;param name=\"dbfile\" value=\"filedb.tsv\"/&gt;\n        &lt;param name=\"mzrtinput\" value=\"mzrt-input-small.tsv\"/&gt;\n        &lt;param name=\"inputfields\" value=\"\"/&gt;\n        &lt;param name=\"mzmode\" value=\"pos\"/&gt;\n        &lt;output name=\"mainoutput\" file=\"filedb-small-mz-match-output.tsv\"/&gt;\n        &lt;output name=\"peaksoutput\" file=\"filedb-small-mz-match-peaks-output.tsv\"/&gt;\n        &lt;output name=\"htmloutput\" file=\"filedb-small-mz-match-html-output.html\"/&gt;\n    &lt;/test&gt;\n&lt;/tests&gt;\nThe input and output files must be placed in a folder named test-data in the same location as your tool XML file.\nMore documentation here: https://wiki.galaxyproject.org/Admin/Tools/WritingTests.\nBe careful, when referencing parameters that are included in a conditional section. You must not use the name of the conditional section as a prefix. For instance, if you have the following conditional section:\n&lt;conditional name=\"db\"&gt;\n\n    &lt;param name=\"dbtype\" label=\"Database\" type=\"select\"&gt;\n        &lt;option value=\"inhouse\"&gt;In-house&lt;/option&gt;\n        &lt;option value=\"peakforest\"&gt;Peakforest&lt;/option&gt;\n    &lt;/param&gt;\n\n    &lt;!-- .... --&gt;\n&lt;/conditional&gt;\nYou will use the parameter name dbtype as is, without prefix:\n&lt;tests&gt;\n    &lt;test&gt;\n        &lt;param name=\"dbfile\" value=\"filedb.tsv\"/&gt;\n    &lt;!-- .... --&gt;\n    &lt;/test&gt;\n&lt;/tests&gt;\n\n\n\nAn help section is required.\n\n\n\nThis sections is required, as a good practice. In the case you have nothing to put inside this section, and in order to make the planemo lint pass, just write an empty section:\n&lt;citations/&gt;\n\n\n\n\nRunning planemo on an XML tool file:\nplanemo lint mytool.xml\nIt will output a list of checks as the following one:\nApplying linter tests... CHECK\n.. CHECK: 1 test(s) found.\nApplying linter stdio... CHECK\n.. INFO: No stdio definition found, tool will determine an error from stderr.\nApplying linter output... CHECK\n.. INFO: 2 outputs found.\nApplying linter inputs... CHECK\n.. INFO: Found 7 input parameters.\nApplying linter help... CHECK\n.. CHECK: Tool contains help section.\n.. CHECK: Help contains valid reStructuredText.\nApplying linter general... CHECK\n.. CHECK: Tool defines a version [2.1.1].\n.. CHECK: Tool defines a name [Univariate].\n.. CHECK: Tool defines an id [Univariate].\nApplying linter command... CHECK\n.. INFO: Tool contains a command.\n\n\n\nplanemo serve --install_galaxy \nIf you want to launch your tool in this Galaxy instance, you can follow instruction in the Run the tests on your tool section to install Conda dependencies and use planemo serve with --conda_dependency_resolution\n\n\n\n\n\n\n\nIf not already done, initialize conda:\n\nplanemo conda_init\n\nInstall your tool requirements:\n\nplanemo conda_install mytool.xml\n\nRun your tests:\n\nplanemo test --install_galaxy --galaxy_branch release_16.01 --conda_dependency_resolution mytool.xml\n\n\nConda installs all its files inside ~/miniconda2 by default. WARNING: When testing the requirements, it may be that you forget to specify some requirements for your tool, but that your test pass anyway. This is because the requirements were already installed inside ~/miniconda2, possibly while testing another tool.\nA first solution to avoid this is to erase the ~/miniconda2 before running planemo conda_install ..\nA second solution is to choose a custom folder for conda for your tool through the --conda_prefix option:\nplanemo conda_init --conda_prefix /tmp/conda\nplanemo conda_install --conda_prefix /tmp/conda mytool.xml\nplanemo test --install_galaxy --galaxy_branch release_16.01 --conda_prefix /tmp/conda --conda_dependency_resolution mytool.xml\nAttention to not choose a too much long prefix, otherwise it could give issue with R Ncurses package, in case your tool depends on it. You would get the error Error: ERROR: placeholder '/Users/aaronmeurer/anaconda/envs/_build_placehold_placehold_placehold_placehold_' too short in: ncurses-5.9-1. This issue will be solved in Conda-Build 2.0.0.\n\n\n\n\n\nHere is a build.xml file you can use as a base for running Planemo from Ant:\n&lt;project name=\"mytool\" default=\"all\"&gt;\n\n    &lt;property name=\"tool.xml\" value=\"mytool.xml\"/&gt;\n    &lt;property name=\"conda.dir\" value=\"${user.home}/w4m-conda\"/&gt;\n\n    &lt;!--~~~\n    ~ ALL ~\n    ~~~~~--&gt;\n\n    &lt;target name=\"all\"/&gt;\n\n    &lt;!--~~~~\n    ~ TEST ~\n    ~~~~~--&gt;\n\n    &lt;target name=\"test\" depends=\"planemo.lint,planemo.test\"/&gt;\n\n    &lt;!--~~~~~~~~~~~~\n    ~ PLANEMO LINT ~\n    ~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.lint\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"lint\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~\n    ~ PLANEMO TEST ~\n    ~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.test\" depends=\"planemo.conda.install\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"test\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n            &lt;arg value=\"--galaxy_branch\"/&gt;\n            &lt;arg value=\"release_16.01\"/&gt;\n            &lt;arg value=\"--conda_dependency_resolution\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~~~~~~~~~~\n    ~ PLANEMO CONDA INSTALL ~\n    ~~~~~~~~~~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.conda.install\" depends=\"planemo.conda.init\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"conda_install\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n            &lt;arg value=\"${tool.xml}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~~~~~~~~~~~~~~\n    ~ PLANEMO CONDA INIT ~\n    ~~~~~~~~~~~~~~~~~~~--&gt;\n\n    &lt;target name=\"planemo.conda.init\"&gt;\n        &lt;exec executable=\"planemo\" failonerror=\"true\"&gt;\n            &lt;arg value=\"conda_init\"/&gt;\n            &lt;arg value=\"--conda_prefix\"/&gt;\n            &lt;arg value=\"${conda.dir}\"/&gt;\n        &lt;/exec&gt;\n    &lt;/target&gt;\n\n    &lt;!--~~~~~\n    ~ CLEAN ~\n    ~~~~~~--&gt;\n\n    &lt;target name=\"clean\"&gt;\n        &lt;delete dir=\"${conda.dir}\"/&gt;\n    &lt;/target&gt;\n\n&lt;/project&gt;\n\n\n\nTravis CI is a continuous integration service, used in Workflow4Metabolomics. If you are already part of the Workflow4Metabolomics team, you just have to connect into Travis CI using the “Sign with GitHub” button on the Travis CI home page. Then you just have to connect the organization account to your Travis account. Follow the instructions on the Getting started page.\nRoughly, the steps are the following ones:\n\nGo to your profile page (click on your name at the top right).\nMake sure Workflow4Metabolomics is listed in the Organizations listing inside the left column.\nClick on Sync account button (at the top right), and wait.\nEnable the project you want. This will allow Travis CI to track for changes in branches and run the build.\nDefine a file .travis.yml at the root of your project repository. This file will tell Travis CI how to build/test your project.\nPush the changes in your project repository to GitHub, Travis CI will automatically be triggered and start running the instructions contained inside the file .travis.yml.\n\n\n\nA minimal .travis.yml that makes use of Planemo can be:\nbefore_install:\n - sudo apt-get install -y python-virtualenv\n - virtualenv planemo-venv\n - . planemo-venv/bin/activate\n - pip install --upgrade pip setuptools\n - pip install planemo\n - planemo conda_init\n\ninstall:\n - planemo conda_install ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory\n\nscript:\n - planemo test --install_galaxy --no_cache_galaxy --conda_dependency_resolution ${TRAVIS_BUILD_DIR}/galaxy/your_tool_directory\n\n\n\nA minimal .travis.yml that makes use of Planemo and Ant can be:\nbefore_install:\n - sudo apt-get install -y python-virtualenv\n - sudo apt-get install -y ant\n - virtualenv planemo-venv\n - . planemo-venv/bin/activate\n - pip install --upgrade pip setuptools\n - pip install planemo\n - planemo conda_init\n\nscript:\n - ant test\n\n\n\n\n\n\nplanemo shed_init --help\n\n\n\nplanemo shed_create --help\n\n\n\nplanemo shed_update --help"
+  },
+  {
+    "objectID": "listing_team.html",
+    "href": "listing_team.html",
+    "title": "W4M team",
+    "section": "",
+    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\nInformatic\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\nWrapper\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\nR\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nDevelopment\n\n\nStatistics\n\n\nNRM\n\n\nXML\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "listing_team.html#current-w4m-team",
+    "href": "listing_team.html#current-w4m-team",
+    "title": "W4M team",
+    "section": "",
+    "text": "Here are all the participants for the development of a beautiful and usefull W4M Galaxy.\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nStatistics\n\n\nInformatic\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\nWrapper\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLCMS\n\n\nStatistics\n\n\n\n???\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInformatic\n\n\nR\n\n\nLCMS\n\n\nGCMS\n\n\nMSMS\n\n\nDevelopment\n\n\nStatistics\n\n\nNRM\n\n\nXML\n\n\n\nBioinformatic Engineer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "listing_team.html#previous-collaborators",
+    "href": "listing_team.html#previous-collaborators",
+    "title": "W4M team",
+    "section": "Previous collaborators",
+    "text": "Previous collaborators\nHere are all the previous collaborators we had the chance to share with\n\n\n\n\n\n\n\n\n\n\nJean-François Martin\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLain Pavot\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarion Landi\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMisharl Monsoor\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNatacha Lenuzza\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierre Péricard\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPierrick Roge-Mele\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRomain Dallet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSophie Goulitquer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "people/old_w4m/Lain_Pavot.html#experience",
+    "href": "people/old_w4m/Lain_Pavot.html#experience",
+    "title": "Lain Pavot",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Misharl_Monsoor.html#experience",
+    "href": "people/old_w4m/Misharl_Monsoor.html#experience",
+    "title": "Misharl Monsoor",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Pierre_Pericard.html#experience",
+    "href": "people/old_w4m/Pierre_Pericard.html#experience",
+    "title": "Pierre Péricard",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/old_w4m/Romain_Dallet.html#experience",
+    "href": "people/old_w4m/Romain_Dallet.html#experience",
+    "title": "Romain Dallet",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Binta_Dieme.html#experience",
+    "href": "people/W4Mteam/Binta_Dieme.html#experience",
+    "title": "Binta Diémé",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Celine_Canlet.html#experience",
+    "href": "people/W4Mteam/Celine_Canlet.html#experience",
+    "title": "Cécile Canlet",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Charlotte_Joly.html#experience",
+    "href": "people/W4Mteam/Charlotte_Joly.html#experience",
+    "title": "Charlotte Joly",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/David_Benaben.html#experience",
+    "href": "people/W4Mteam/David_Benaben.html#experience",
+    "title": "David Benaben",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Etienne_Thevenot.html#experience",
+    "href": "people/W4Mteam/Etienne_Thevenot.html#experience",
+    "title": "Etienne Thévenot",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/franckgiacomoni.html#experience",
+    "href": "people/W4Mteam/franckgiacomoni.html#experience",
+    "title": "Franck Giacomoni",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Isabelle_Schmitz.html#experience",
+    "href": "people/W4Mteam/Isabelle_Schmitz.html#experience",
+    "title": "Isabelle Schmitz",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Marie_TremblayFranco.html#experience",
+    "href": "people/W4Mteam/Marie_TremblayFranco.html#experience",
+    "title": "Marie Tremblay-Franco",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Nils_Paulhe.html#experience",
+    "href": "people/W4Mteam/Nils_Paulhe.html#experience",
+    "title": "Nils Paulhe",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/Sylvain_Chereau.html#experience",
+    "href": "people/W4Mteam/Sylvain_Chereau.html#experience",
+    "title": "Sylvain Chéreau",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "people/W4Mteam/yann_guitton.html#experience",
+    "href": "people/W4Mteam/yann_guitton.html#experience",
+    "title": "Yann Guitton",
+    "section": "Experience",
+    "text": "Experience"
+  },
+  {
+    "objectID": "tool2.html",
+    "href": "tool2.html",
+    "title": "Description of tool 2",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "tooluser.html",
+    "href": "tooluser.html",
+    "title": "User guide",
+    "section": "",
+    "text": "The most effective way to master the use of our tools is by enrolling in our comprehensive training school . Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly."
+  },
+  {
+    "objectID": "tooluser.html#galaxy-training-network-on-metabolomics",
+    "href": "tooluser.html#galaxy-training-network-on-metabolomics",
+    "title": "User guide",
+    "section": "Galaxy Training Network on Metabolomics",
+    "text": "Galaxy Training Network on Metabolomics\nAccess complete and interactive step-by-step guides by visiting the  Galaxy Training Network on metabolomics."
+  },
+  {
+    "objectID": "tooluser.html#galaxy-instance",
+    "href": "tooluser.html#galaxy-instance",
+    "title": "User guide",
+    "section": "Galaxy  Instance",
+    "text": "Galaxy  Instance\nExplore our  Galaxy instance were each tool is accompanied by comprehensive support, including helpful documentation, examples, and references, ensuring that you have the resources you need."
+  },
+  {
+    "objectID": "tooluser.html#workflows-examples",
+    "href": "tooluser.html#workflows-examples",
+    "title": "User guide",
+    "section": "Workflows examples",
+    "text": "Workflows examples"
+  },
+  {
+    "objectID": "tooluser.html#datasets-examples",
+    "href": "tooluser.html#datasets-examples",
+    "title": "User guide",
+    "section": "Datasets examples",
+    "text": "Datasets examples\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\ngalaxyref\n\n\nlink\n\n\nTitle\n\n\nAuthor\n\n\nW4M\n\n\ndoi\n\n\n\n\n\n\nW4M00001\n\n\nMTBLS404\n\n\nSacurine\n\n\nThevenot et al.\n\n\nhistory\n\n\npublication\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "w4e2024.html",
+    "href": "w4e2024.html",
+    "title": "Workflow4Experimenters 2024",
+    "section": "",
+    "text": "Save the date!\nAnalyze your data with Galaxy and the Workflow4metabolomics infrastructure!\nThe next Workflow4Experimenters session (W4E2024) will take place from 8 to 12 April 2024. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data.\nThis year an online pre-session is organised from Monday 25 to Friday 29 March from 10 to 12 am.\nAgenda and preregistration: registration form (Deadline 21/01/2024)\n\nFrom March, 25th to 29th (10am to 12pm): online theoretical sessions (methods and tools)\nFrom April 8th to 12th : tutoring on your own data, at (Archamps). Practical information (more soon) - access map\n\n\n\n\nMap of Archamps, Genève and its airport\n\n\nInvited speaker: TBD\nScientific comitee: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), J. Saint-Vanne, Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)\nAgenda and preregistration: registration form (Deadline 21/01/2024)\nContact: w4e-organisation@groupes.renater.fr"
+  }
+]

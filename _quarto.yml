@@ -1,0 +1,97 @@
+project:
+  type: website
+  output-dir: docs
+execute:
+  freeze: auto
+website: 
+  #margin-header: images/logo-ifb-mono-metabohub_2.1_SD_150px.png
+  title: "W4M Galaxy Documentation"
+  #site-url: https://workflow4metabolomics.github.io/
+  favicon: images/w4m.png
+  twitter-card: true
+  page-footer: 
+    right: "This page is built with ❤️"
+    left: "&copy; Julien Saint-Vanne"
+  
+  
+  # theme:
+  #   light: flatly
+  #   dark: darkly
+  navbar:
+    logo: images/w4m.png 
+    href: https://workflow4metabolomics.org/
+    left:
+      - text: "Home"
+        href: index.qmd
+        icon: "house"
+      - text: "Galaxy W4M"
+        icon: "boxes"
+        menu: 
+          - text: "Introduction"
+            href: galaxyW4M.qmd
+            icon: "info-circle"
+          - text: "Guides for Users"
+            href: tooluser.qmd
+            icon: "code"
+          - text: "Guides for Developpers"
+            href: tooldev.qmd
+            icon: "code"
+          - text: "How to contribute"
+            href: contribute.qmd
+            icon: "person-fill-up"
+      - text: "Tools"
+        icon: "tools"
+        menu: 
+          - text: "Tool 1"
+            href: tool1.qmd
+          - text: "Tool 2"
+            href: tool2.qmd
+      - text: "Events"
+        icon: "calendar-week"
+        menu:
+          - text: ""
+          - href: w4e2024.qmd
+          - text: ""
+          - href: w4e2023.qmd
+      - text: "W4M Team"
+        icon: "people"
+        href: listing_team.qmd
+      - text: "About"
+        href: about.qmd
+        
+    
+    #background: success
+    #foreground: danger
+    tools:
+      - icon: twitter
+        href: https://twitter.com
+      - icon: github
+        menu:
+        - text: Source Code
+          url: https://github.com/workflow4metabolomics/workflow4metabolomics
+        - text: Report a Bug
+          url: https://github.com/workflow4metabolomics/workflow4metabolomics/issues
+        - text: Contribute
+          url: https://github.com/workflow4metabolomics/workflow4metabolomics//Workflow4Metabolomics%20Galaxy%20Documentation#readme
+    pinned: true
+    sidebar:
+      style: "docked"
+      search: FALSE
+      # contents:
+      #   - section: "Home"
+      #   contents:
+      #     _ index.qmd
+      #     - home.qmd
+      #   - section: "Tools"
+      #   contents:
+      #     - about.qmd
+      #     - tool1.qmd
+
+format:
+  html:
+    theme: cosmo 
+    css: styles.css
+    toc: true
+
+editor: visual
+

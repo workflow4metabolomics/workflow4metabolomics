@@ -1,0 +1,20 @@
+---
+title: "Charlotte Joly"
+image: "https://media.licdn.com/dms/image/C5603AQEKReXck6r6SA/profile-displayphoto-shrink_200_200/0/1516787788025?e=2147483647&v=beta&t=52onAWP55MbE-0QYDUfhbzvaXieN6bAai9e0y-4-bW8"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/charlotte-joly-b9335238"
+---
+
+## Education
+
+## Experience

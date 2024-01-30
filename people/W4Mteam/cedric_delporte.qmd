@@ -1,0 +1,20 @@
+---
+title: "Cédric Deplorte"
+image: "https://media.licdn.com/dms/image/C5603AQHWlKrUvmEmhQ/profile-displayphoto-shrink_200_200/0/1516941436955?e=2147483647&v=beta&t=jL4G-NJoNVnP4FuKLY3mbMt9ecClqlhLqXEkgVA5mHc"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://be.linkedin.com/in/c%C3%A9dric-delporte-08134141"
+---
+
+## Education
+
+## Experience
