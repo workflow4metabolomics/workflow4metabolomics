@@ -9,22 +9,22 @@ listing:
     grid-columns: 4
     grid-item-align: left
     grid-item-border: true
-  - id: resources
-    contents: resources*.qmd
-    type: grid
-    image-height: 200px
-    fields: [title, description, image, categories]
-    grid-columns: 4
-    grid-item-align: left
-    grid-item-border: true
-  - id: sponsors
-    contents: sponsor*.qmd
-    type: grid
-    image-height: 200px
-    fields: [title, description, image, categories]
-    grid-columns: 4
-    grid-item-align: left
-    grid-item-border: true
+  # - id: resources
+  #   contents: resources*.qmd
+  #   type: grid
+  #   image-height: 200px
+  #   fields: [title, description, image, categories]
+  #   grid-columns: 4
+  #   grid-item-align: left
+  #   grid-item-border: true
+  # - id: sponsors
+  #   contents: sponsor*.qmd
+  #   type: grid
+  #   image-height: 200px
+  #   fields: [title, description, image, categories]
+  #   grid-columns: 4
+  #   grid-item-align: left
+  #   grid-item-border: true
 ---
 
 :::{.callout-important}
