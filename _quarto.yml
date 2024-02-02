@@ -1,7 +1,7 @@
 project:
   type: website
   output-dir: docs
-  pre-render: https://platform.twitter.com/widget.js
+  #pre-render: https://platform.twitter.com/widget.js
 execute:
   freeze: auto
 website: 
