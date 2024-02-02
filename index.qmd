@@ -1,5 +1,30 @@
 ---
 title: "Workflow4Metabolomics"
+listing: 
+  - id: fast_access
+    contents: test*.qmd
+    type: grid
+    image-height: 200px
+    fields: [title, description, image, categories]
+    grid-columns: 4
+    grid-item-align: left
+    grid-item-border: true
+  - id: resources
+    contents: resources*.qmd
+    type: grid
+    image-height: 200px
+    fields: [title, description, image, categories]
+    grid-columns: 4
+    grid-item-align: left
+    grid-item-border: true
+  - id: sponsors
+    contents: sponsor*.qmd
+    type: grid
+    image-height: 200px
+    fields: [title, description, image, categories]
+    grid-columns: 4
+    grid-item-align: left
+    grid-item-border: true
 ---
 
 :::{.callout-important}
@@ -19,12 +44,18 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 ### Fast access
 
-::: {layout="[ -10, 20, -5, 20, -10]"}
+:::{#fast_access}:::
+
+::: {.grid}
+:::{.g-col-6}
 
 [![](https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png){height=2em} Galaxy instance](https://workflow4metabolomics.usegalaxy.fr/)
 
+:::
+:::{.g-col-6}
 [![](/images/W4E_icon.svg){height=2em} Teaching School](https://workflow4metabolomics.org/W4E2024)
 
+:::
 :::
 
 ### Resources

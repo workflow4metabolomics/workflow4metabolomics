@@ -1,0 +1,5 @@
+---
+title: "LALA"
+---
+
+[![](https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png){height=8em} Galaxy instance](https://workflow4metabolomics.usegalaxy.fr/)

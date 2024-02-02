@@ -1,0 +1,47 @@
+---
+title: "News"
+listing: 
+  - id: w4e
+    contents: w4e*.qmd
+    type: default
+    image-height: 200px
+    fields: [title, description, image]
+    sort: "date desc"
+    table-striped: true
+    table-hover: true
+    categories: false
+page-layout: full
+---
+
+::::{.columns}
+
+:::{.column width="70%"}
+
+:::{#w4e}
+:::
+
+:::
+
+:::{.column width="30%"}
+
+<!-- ```{=html} -->
+<!-- <a  -->
+<!-- class="twitter-timeline"  -->
+<!-- href="https://twitter.com/workflow4metabo?ref_src=twsrc%5Etfw"> -->
+<!-- Tweets by workflow4metabo</a> -->
+<!-- <script async src="https://platform.twitter.com/widgets.js"  -->
+<!-- charset="utf-8"></script> -->
+<!-- ``` -->
+
+```{=html}
+<iframe style="
+  width:90%;
+  height:20em;
+  border-style:none;
+  box-shadow:0px 0px 2px 2px"
+  src="https://twitter.com/workflow4metabo" title="Tweets by @workflow4metabo"
+></iframe>
+```
+:::
+
+::::

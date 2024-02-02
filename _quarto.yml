@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  pre-render: https://platform.twitter.com/widget.js
 execute:
   freeze: auto
 website: 
@@ -46,13 +47,9 @@ website:
             href: tool1.qmd
           - text: "Tool 2"
             href: tool2.qmd
-      - text: "Events"
+      - text: "News & Events"
         icon: "calendar-week"
-        menu:
-          - text: ""
-          - href: w4e2024.qmd
-          - text: ""
-          - href: w4e2023.qmd
+        href: news.qmd
       - text: "W4M Team"
         icon: "people"
         href: listing_team.qmd
