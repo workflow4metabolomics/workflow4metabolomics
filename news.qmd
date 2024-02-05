@@ -13,16 +13,8 @@ listing:
 page-layout: full
 ---
 
-::::{.columns}
-
-:::{.column width="70%"}
-
 :::{#w4e}
 :::
-
-:::
-
-:::{.column width="30%"}
 
 <!-- ```{=html} -->
 <!-- <a  -->
@@ -32,16 +24,14 @@ page-layout: full
 <!-- <script async src="https://platform.twitter.com/widgets.js"  -->
 <!-- charset="utf-8"></script> -->
 <!-- ``` -->
-
+:::{.column-margin}
 ```{=html}
 <iframe style="
   width:90%;
-  height:20em;
+  height:70em;
   border-style:none;
   box-shadow:0px 0px 2px 2px"
   src="https://twitter.com/workflow4metabo" title="Tweets by @workflow4metabo"
 ></iframe>
 ```
 :::
-
-::::

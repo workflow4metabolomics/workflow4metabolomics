@@ -2,21 +2,29 @@
 title: "Workflow4Metabolomics"
 listing: 
   - id: fast_access
-    contents: test*.qmd
+    contents: 
+      - title: "Galaxy instance"
+        image: "https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png"
+        path: "https://workflow4metabolomics.usegalaxy.fr"
+        description: "Here is the Galaxy workflow4metabolomics website"
+      - title: "Teaching school"
+        image: "/images/W4E_icon.svg"
+        path: "https://workflow4metabolomics.org/W4E2024"
+        description: "Let's check the teaching school of W4M"
     type: grid
-    image-height: 200px
+    image-height: 130px
     fields: [title, description, image, categories]
-    grid-columns: 4
+    grid-columns: 2
     grid-item-align: left
     grid-item-border: true
-  # - id: resources
-  #   contents: resources*.qmd
-  #   type: grid
-  #   image-height: 200px
-  #   fields: [title, description, image, categories]
-  #   grid-columns: 4
-  #   grid-item-align: left
-  #   grid-item-border: true
+  - id: resources
+    contents: resources*.qmd
+    type: grid
+    image-height: 130px
+    fields: [title, description, image, categories]
+    grid-columns: 2
+    grid-item-align: left
+    grid-item-border: true
   # - id: sponsors
   #   contents: sponsor*.qmd
   #   type: grid
@@ -44,22 +52,13 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 ### Fast access
 
-:::{#fast_access}:::
-
-::: {.grid}
-:::{.g-col-6}
-
-[![](https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png){height=2em} Galaxy instance](https://workflow4metabolomics.usegalaxy.fr/)
-
-:::
-:::{.g-col-6}
-[![](/images/W4E_icon.svg){height=2em} Teaching School](https://workflow4metabolomics.org/W4E2024)
-
-:::
+:::{#fast_access}
 :::
 
 ### Resources
 
+:::{#resources}
+:::
 
 **I'm a newcomer** and I want to know more about ![](/images/W4M_icon.svg){height=1em}, visit our [about us](about.qmd) section
 

@@ -1,0 +1,50 @@
+---
+title: "Workflow4Experimenters 2016"
+date: 01/01/2016
+---
+  
+W4E 2016
+options de configuration Ouvert
+
+
+Workflow4Experimenters (W4E) course 2016
+
+Using Galaxy and the Workflow4metabolomics infrastructureto analyse metabolomics data
+
+
+
+Overview: Pre-processing, statistical analysis, and annotation of metabolomics data is a complex task. The Workflow4metabolomics online infrastructure provides a user-friendly and high-performance environment with advanced computational modules for building, running, and sharing complete workflows for LC-MS, GC-MS, and NMR analysis (Giacomoni et al, 2015).
+
+Goals: During this one-week course, participants will learn how to use the W4M infrastructure to analyze their own dataset.Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring.
+
+Target audience: LC-MS, GC-MS and NMR experimenters (e.g. biologists, chemists)
+
+Date: Monday 28th November 2016 to Friday 2nd December, 2016
+
+Location: ABiMS platform (Roscoff, France)
+
+
+
+
+
+Les cours auront lieu à l’Hôtel de France :
+  
+  Place Georges Teissier, Roscoff, 29680
+Google Maps
+Hôtels : Vous serez logé dans un des deux hôtels suivants. Nous vous enverrons les codes d'accès quelques jours avant la formation.
+
+Gulf Stream :
+400, rue Marquise de Kergariou, Roscoff, 29680
+Google Maps
+Hôtel de France:
+Place Georges Teissier, Roscoff, 29680
+Google Maps
+Plans
+Plan de Roscoff
+Roscoff sur maps.google.fr
+Venir à la station biologique de Roscoff
+ 
+
+ 
+
+Contact: contact@workflow4metabolomics.org

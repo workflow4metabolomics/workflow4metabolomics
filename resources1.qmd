@@ -1,0 +1,6 @@
+---
+title: "Newcomer"
+image: /images/W4M_icon.svg
+---
+  
+**I'm a newcomer** and I want to know more about ![](/images/W4M_icon.svg){height=1em}, visit our [about us](about.qmd) section
