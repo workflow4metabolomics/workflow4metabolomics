@@ -1,6 +1,7 @@
 ---
 title: "Want to learn"
 image: /images/W4E_icon.svg
+date: 02/01/2024
 ---
   
 **I want to learn** how to **process metabolomics data**, you can either:

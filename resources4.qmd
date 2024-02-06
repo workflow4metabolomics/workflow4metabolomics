@@ -1,0 +1,11 @@
+---
+title: "Reporter"
+image: /images/W4M_icon.svg
+description: "Visit our [about us](about.qmd) section"
+date: 04/01/2024
+---
+  
+**I want to report a problem on:**
+  
+* the galaxy instance, post an issue on the [IFB Communit Support](https://community.france-bioinformatique.fr/c/workflow4metabolomics/10)
+* on this website, post an issue on [lien repo](TODO)

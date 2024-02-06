@@ -19,20 +19,33 @@ listing:
     grid-item-border: true
   - id: resources
     contents: resources*.qmd
+    sort: "date asc"
     type: grid
     image-height: 130px
     fields: [title, description, image, categories]
     grid-columns: 2
     grid-item-align: left
     grid-item-border: true
-  # - id: sponsors
-  #   contents: sponsor*.qmd
-  #   type: grid
-  #   image-height: 200px
-  #   fields: [title, description, image, categories]
-  #   grid-columns: 4
-  #   grid-item-align: left
-  #   grid-item-border: true
+  - id: sponsors
+    contents:
+      - title: "MetaboHub"
+        image: https://www.metabohub.fr/media/752
+        path: https://www.metabohub.fr/
+        description: "The National Infrastructure of Metabolomics and Fluxomics"
+      - title: "IFB"
+        image: https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg
+        path: https://www.france-bioinformatique.fr/
+        description: "The French Institute of Bioinformatics"
+      - title: "RFMF"
+        image: https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png
+        path: https://www.rfmf.fr/
+        description: "The French Network of Metabolomic and Fluxomic"
+    type: grid
+    image-height: 100px
+    fields: [title, description, image, categories]
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
 ---
 
 :::{.callout-important}
@@ -60,43 +73,10 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 :::{#resources}
 :::
 
-**I'm a newcomer** and I want to know more about ![](/images/W4M_icon.svg){height=1em}, visit our [about us](about.qmd) section
-
-**I want to learn** how to **process metabolomics data**, you can either:
-
-* Go to our teaching school event [![](/images/W4E_icon.svg){height=1em} section](TODO)
-* Consult our [user page here](tooluser.qmd)
-* Or directly go to our official [Galaxy training guides ![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em}](https://training.galaxyproject.org/training-material/topics/metabolomics/)
-
-**I want to contribute as:**
-
-* **A tutor** to help people understand how to process metabolomics data: [contact here](TODO)  
-*  **A developper** to propose or add new tools to the community:
-    + Check our guides and how-to [here](TODO)  
-    +  I need help [contact here](TODO)  
-* **I don't know** but I want to help: [contact here](TODO)  
-
-**I want to report a problem on:**
-
-* the galaxy instance, post an issue on the [IFB Communit Support](https://community.france-bioinformatique.fr/c/workflow4metabolomics/10)
-* on this website, post an issue on [lien repo](TODO)
-
-
 **I want to know who** is behind all of these, to our [team member section](listing_team.qmd)
 
 
 ### Our sponsors
 
-* The National Infrastructure of Metabolomics and Fluxomics: [MetaboHUB [MetaboHUB-ANR-11-INBS-0010, 2011]](https://www.metabohub.fr/)
-* The French Institute of Bioinformatics: [IFB [ANR-11-INBS-0013236]](https://www.france-bioinformatique.fr/)
-* The French Network of Metabolomic and Fluxomic: [RFMF](https://www.rfmf.fr/)
-
-::: {layout-ncol=3 layout-valign="center"}
-
-[![](https://www.metabohub.fr/media/752){height=50}](https://www.metabohub.fr/)
-
-[![](https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg){height=50}](https://www.france-bioinformatique.fr/)
-
-[![](https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png){height=50}](https://www.rfmf.fr/)
-
+:::{#sponsors}
 :::
