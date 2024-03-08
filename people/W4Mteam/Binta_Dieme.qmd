@@ -6,6 +6,7 @@ categories:
     - LCMS
     - GCMS
     - MSMS
+    - RMN
     - Statistics
 about:
   template: trestles

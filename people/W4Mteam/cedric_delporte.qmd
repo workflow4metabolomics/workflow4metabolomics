@@ -4,9 +4,7 @@ image: "https://media.licdn.com/dms/image/C5603AQHWlKrUvmEmhQ/profile-displaypho
 description: ???
 categories: 
     - LCMS
-    - GCMS
     - MSMS
-    - Statistics
 about:
   template: trestles
   links: 

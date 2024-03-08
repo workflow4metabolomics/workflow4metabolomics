@@ -9,7 +9,7 @@ listing:
         description: "Here is the Galaxy workflow4metabolomics website"
       - title: "Teaching school"
         image: "/images/W4E_icon.svg"
-        path: "https://workflow4metabolomics.org/W4E2024"
+        path: "w4e2024.qmd"
         description: "Let's check the teaching school of W4M"
     type: grid
     image-height: 130px
@@ -17,15 +17,15 @@ listing:
     grid-columns: 2
     grid-item-align: left
     grid-item-border: true
-  - id: resources
-    contents: resources*.qmd
-    sort: "date asc"
-    type: grid
-    image-height: 130px
-    fields: [title, description, image, categories]
-    grid-columns: 2
-    grid-item-align: left
-    grid-item-border: true
+  # - id: resources
+  #   contents: resources*.qmd
+  #   sort: "date asc"
+  #   type: grid
+  #   image-height: 130px
+  #   fields: [title, description, image, categories]
+  #   grid-columns: 2
+  #   grid-item-align: left
+  #   grid-item-border: true
   - id: sponsors
     contents:
       - title: "MetaboHub"
@@ -70,11 +70,67 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 ### Resources
 
-:::{#resources}
-:::
+```{=html}
+<div class="card-group">
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/cute-alien-concept-illustration_114360-9452.jpg?w=740&t=st=1709885807~exp=1709886407~hmac=a9239acfe6d28eff132bb90c1e81c6fdfe30ba7bb142612e33c311d248c73d57" class="card-img-top" alt="newcomer.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Newcomer</h5>
+      <p class="card-text">I'm a newcomer and I want to know more about <img src="/images/W4M_icon.svg" style="height:20px">, visit our <a href="about.qmd">About us section</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/exams-concept-illustration_114360-2754.jpg?w=740&t=st=1709886361~exp=1709886961~hmac=ed77f36456b1a8877032e0d6bed4bbde67edd840092932cb4e08306297552666" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Want to learn</h5>
+      <p class="card-text">I want to learn how to process metabolomics data, you can either:
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Go to our teaching school event <a href="news.qmd"><img src="/images/W4E_icon.svg" style="height:25px"> section</a></li>
+        <li class="list-group-item">Consult our <a href="tooluser.qmd">user page here</a></li>
+        <li class="list-group-item">Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:25px"></a></li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/share-business-dividend-calculation-percentage-ratio-contribution-size-deposit-amount-accounting-audit-shareholders-cartoon-characters_335657-2986.jpg?t=st=1709886159~exp=1709889759~hmac=b531cfa45a6726fb8be34b2ad992b2a66c4400f20c73ce9263cb66f0ceb41c9b&w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Contributers</h5>
+      <p class="card-text">I want to contribute as:
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><b>A tutor</b> to help people understand how to process metabolomics data: [contact here](TODO)</li>
+        <li class="list-group-item"><b>A developper</b> to propose or add new tools to the community:
+          <ul>
+            <li>Check our guides and how-to [here](TODO)</li>
+            <li>I need help [contact here](TODO)</li>
+          </ul>
+        </li>
+        <li class="list-group-item">I don't know but I want to help: [contact here](TODO)</li>
+      </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://img.freepik.com/free-vector/debugging-firewall-antivirus-scanning-malware-fixing-virus-attack-trojan-search-bugs-detection-system-protection-threat-diagnostic-crash-tester-isolated-concept-metaphor-illustration_335657-1189.jpg?t=st=1709886290~exp=1709889890~hmac=210ebdbc38805399ff78c901910ec6e56f7f161905bcca624a2e480ab05fd8f6&w=740" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Reporters</h5>
+      <p class="card-text">I want to report a problem on:
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></li>
+          <li class="list-group-item">On this website, post an issue on [lien repo](TODO)</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+```
 
-**I want to know who** is behind all of these, to our [team member section](listing_team.qmd)
+<!-- :::{#resources} -->
+<!-- ::: -->
 
+**I want to know who** is behind all of these, go to our [team member section](listing_team.qmd).
 
 ### Our sponsors
 
