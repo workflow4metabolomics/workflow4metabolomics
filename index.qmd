@@ -1,6 +1,6 @@
 ---
 title: "Workflow4Metabolomics"
-listing: 
+listing:
   - id: fast_access
     contents: 
       - title: "Galaxy instance"
@@ -49,7 +49,7 @@ listing:
 ---
 
 :::{.callout-important}
-Workflow4experimenters (![](/images/W4E_icon.svg){height=1em}) course 2024  : [Pre-Registrations Opened - Until 31 Jan](https://workflow4metabolomics.org/W4E2024)
+Workflow4experimenters (![](/images/W4E_icon.svg){height=1em}) course 2024  : [Pre-Registrations CLOSED](https://workflow4metabolomics.org/W4E2024)
 :::
 
 Welcome to the **collaborative portal of** ![](/images/W4M_icon.svg){height=1em} dedicated to metabolomics data processing,
@@ -83,11 +83,11 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
     <img src="https://img.freepik.com/free-vector/exams-concept-illustration_114360-2754.jpg?w=740&t=st=1709886361~exp=1709886961~hmac=ed77f36456b1a8877032e0d6bed4bbde67edd840092932cb4e08306297552666" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Want to learn</h5>
-      <p class="card-text">I want to learn how to process metabolomics data, you can either:
+      <p class="card-text">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Go to our teaching school event <a href="news.qmd"><img src="/images/W4E_icon.svg" style="height:25px"> section</a></li>
-        <li class="list-group-item">Consult our <a href="tooluser.qmd">user page here</a></li>
-        <li class="list-group-item">Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:25px"></a></li>
+        <li class="list-group-item"><small>Go to our teaching school event <a href="news.qmd"><img src="/images/W4E_icon.svg" style="height:25px"> section</a></small></li>
+        <li class="list-group-item"><small>Consult our <a href="tooluser.qmd">user page here</a></small></li>
+        <li class="list-group-item"><small>Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:25px"></a></small></li>
       </ul>
       </p>
     </div>
@@ -98,16 +98,17 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
     <img src="https://img.freepik.com/free-vector/share-business-dividend-calculation-percentage-ratio-contribution-size-deposit-amount-accounting-audit-shareholders-cartoon-characters_335657-2986.jpg?t=st=1709886159~exp=1709889759~hmac=b531cfa45a6726fb8be34b2ad992b2a66c4400f20c73ce9263cb66f0ceb41c9b&w=740" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Contributers</h5>
-      <p class="card-text">I want to contribute as:
+      <p class="card-text">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><b>A tutor</b> to help people understand how to process metabolomics data: [contact here](TODO)</li>
-        <li class="list-group-item"><b>A developper</b> to propose or add new tools to the community:
+        <li class="list-group-item"><small><b>A tutor</b> to help people understand how to process metabolomics data: [contact here](TODO)</small></li>
+        <li class="list-group-item"><small><b>A developper</b> to propose or add new tools to the community:
           <ul>
             <li>Check our guides and how-to [here](TODO)</li>
             <li>I need help [contact here](TODO)</li>
           </ul>
+        </small>
         </li>
-        <li class="list-group-item">I don't know but I want to help: [contact here](TODO)</li>
+        <li class="list-group-item"><small>I don't know but I want to help: [contact here](TODO)</small></li>
       </ul>
       </p>
     </div>
@@ -116,10 +117,10 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
     <img src="https://img.freepik.com/free-vector/debugging-firewall-antivirus-scanning-malware-fixing-virus-attack-trojan-search-bugs-detection-system-protection-threat-diagnostic-crash-tester-isolated-concept-metaphor-illustration_335657-1189.jpg?t=st=1709886290~exp=1709889890~hmac=210ebdbc38805399ff78c901910ec6e56f7f161905bcca624a2e480ab05fd8f6&w=740" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Reporters</h5>
-      <p class="card-text">I want to report a problem on:
+      <p class="card-text">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></li>
-          <li class="list-group-item">On this website, post an issue on [lien repo](TODO)</li>
+          <li class="list-group-item"><small>The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></small></li>
+          <li class="list-group-item"><small>On this website, post an issue on [lien repo](TODO)</small></li>
         </ul>
       </p>
     </div>
@@ -136,3 +137,37 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 :::{#sponsors}
 :::
+
+
+### Where are we ?
+
+```{r}
+#| label: "make_the_map"
+#| echo: FALSE
+#| message: FALSE
+#| warning: false
+#| context: output
+# Script pour generer la carte des labos et personnes de W4M
+library(sf)
+library(openxlsx)
+library(mapview)
+library(sfheaders)
+library(leaflet)
+library(leafpop)
+library(leafem)
+
+logo <- "https://avatars.githubusercontent.com/u/17082156?s=200&v=4"
+people <- read.xlsx("./ressources/people_location.xlsx")
+people$lon <- as.double(people$lon)
+people$lat <- as.double(people$lat)
+labs <- read.xlsx("./ressources/lab_location.xlsx")
+labs$lon <- as.double(labs$lon)
+labs$lat <- as.double(labs$lat)
+
+map_people <- st_as_sf(people, coords = c("lon","lat"), crs = 4326)
+map_labs <- sf_polygon(labs, x = "lon", y = "lat", polygon_id = "lab")
+
+leaflet(data = people) %>% addTiles() %>% leafem::addLogo(logo, url = "https://jsaintvanne.github.io/workflow4metabolomics/") %>%
+  addMarkers(~lon, ~lat, popup = paste0(people$people,"<hr>","text1<br>LAlala:", people$city))# %>% addPolygons(map_labs)
+
+```
