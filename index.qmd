@@ -162,8 +162,13 @@ palPwr <- leaflet::colorFactor(palette = c("metabolomique" = "steelblue",
                                domain = people$domaine)
 
 # create a column with HTML code for popup text
-people <- people %>% 
-  dplyr::mutate(label = paste0('<b><a href=\"', paste0('/people/W4Mteam/',strsplit(people," ")[[1]][1],'_',strsplit(people," ")[[1]][2], '\">', people, '</a></b> <br>', lab)))
+label <- NULL
+# Need to add "/workflow4metabolomics/" to be able to work online
+for(r in 1:nrow(people)){
+  ref <- paste0('<b><a href=',paste0('/workflow4metabolomics/people/W4Mteam/',strsplit(people$people[r]," ")[[1]][1],'_',strsplit(people$people[r]," ")[[1]][2], '.html>', people$people[r], '</a></b> <br>', people$lab[r]))
+  label <- c(label, ref)
+}
+people <- cbind(people, label = label)
 people$long <- as.double(people$long)
 people$lat <- as.double(people$lat)
 #labs <- read.xlsx("./ressources/lab_location.xlsx")
