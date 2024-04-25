@@ -36,3 +36,8 @@ Here are all the previous collaborators we had the chance to share with
 
 :::{#previous_collab}
 :::
+
+## Contributors
+
+Thanks to all these people that contributed to the workflow4metabolomics experience.
+
