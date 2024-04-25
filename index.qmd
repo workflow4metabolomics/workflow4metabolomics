@@ -66,6 +66,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 ### Resources
 
 <!-- Pictures are frm here https://designs.ai/graphicmaker/illustrations/Duotone_Cartoon_Set -->
+
 ```{=html}
 <div class="card-group">
   <div class="card">
@@ -134,7 +135,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 ::: {#sponsors}
 :::
 
-### Where are we ?
+### Where are we working ?
 
 ```{r}
 #| label: "make_the_map"
@@ -162,7 +163,7 @@ palPwr <- leaflet::colorFactor(palette = c("metabolomique" = "steelblue",
 
 # create a column with HTML code for popup text
 people <- people %>% 
-  dplyr::mutate(label = paste0("<b>", people, "</b> <br>", lab))
+  dplyr::mutate(label = paste0('<b><a href=\"', paste0('/people/W4Mteam/',strsplit(people," ")[[1]][1],'_',strsplit(people," ")[[1]][2], '\">', people, '</a></b> <br>', lab)))
 people$long <- as.double(people$long)
 people$lat <- as.double(people$lat)
 #labs <- read.xlsx("./ressources/lab_location.xlsx")

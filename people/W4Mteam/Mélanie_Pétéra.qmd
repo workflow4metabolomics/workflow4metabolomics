@@ -1,0 +1,38 @@
+---
+title: "Mélanie Pétéra"
+image: "https://avatars.githubusercontent.com/u/20553061?v=4"
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/m%C3%A9lanie-p%C3%A9t%C3%A9ra-72383041"
+    - icon: github
+      text: Github
+      href: "https://github.com/melpetera"
+---
+
+## Education  
+  
+## Experience
+
+Engineer in statistics / MSc
+Contact infos
+
+melanie.petera{at}inrae{dot}fr
+phone: +33(0)4 73 62 47 89
+Involved in routine analyses as data analyst and/or data treatment supervisor. Workflow developer for internal data analysis procedures. Participation to Workflow4Metabolomics as a core team member. 
+
+Missions
+
+Data processing and statistical analysis of untargeted MS analyses
+Development and maintenance of in-house data processing workflows
+Training and guidance
+Main publications
+
+Giacomoni, F., Le Corguille, G., Monsoor, M., Landi, M., Pericard, P., Pétéra, M., ... & Caron, C. (2015). Workflow4Metabolomics: a collaborative research infrastructure for computational metabolomics. Bioinformatics, 31(9), 1493-1495.
+dx.doi.org/10.1093/bioinformatics/btu813
+Comte, B., Monnerie, S., Brandolini-Bunlon, M., Canlet, C., Castelli, F., Chu-Van, E., ... & Pujos-Guillot, E. (2021). Multiplatform metabolomics for an integrative exploration of metabolic syndrome in older men. EBioMedicine, 69, 103440.
+doi.org/10.1016/j.ebiom.2021.103440
+Pujos-Guillot, E., Pétéra, M., Jacquemin, J., Centeno, D., Lyan, B., Montoliu, I., ... & Comte, B. (2019). Identification of pre-frailty sub-phenotypes in elderly using metabolomics. Frontiers in physiology, 9, 1903.
+dx.doi.org/10.3389/fphys.2018.01903

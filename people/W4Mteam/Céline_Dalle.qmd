@@ -1,0 +1,20 @@
+---
+title: "Céline Dalle"
+image: "https://media.licdn.com/dms/image/C5103AQEamNwKi--fAg/profile-displayphoto-shrink_200_200/0/1517340697546?e=2147483647&v=beta&t=HFxKoTwBcwtYCJZz0dUJdIg4QK90LcwOYGI72Rw-7vc"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/c%C3%A9line-dalle-29a8a759"
+---
+
+## Education
+
+## Experience
