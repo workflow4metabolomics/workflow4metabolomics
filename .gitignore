@@ -2,5 +2,5 @@
 .*.swp
 .Rproj.user
 
-/.quarto/
-./docs/
+/.quarto/*
+./docs/*
