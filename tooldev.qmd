@@ -4,15 +4,16 @@
 
 ## Developing Galaxy tools in general
 
-In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improuving.
+In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improving.
 
-**TODO** A voir : 
-- [rediriger ici](https://github.com/jsaintvanne/workflow4metabolomics/blob/doc-ju/GUIDELINES.md#writing-a-tool) et compléter (mention des GTN)
-- OU
-- délocaliser le contenu ici et compléter (toujours mention des GTN)
+Don't know where to start? There are 
+[very cool and easy-to-handle tutorials](https://training.galaxyproject.org/training-material/topics/dev/#st-tooldev)
+hosted by the Galaxy Training Network. You can also have a look at the
+[contribution guidelines](https://github.com/workflow4metabolomics/workflow4metabolomics/blob/master/GUIDELINES.md#writing-a-tool)
+we wrote for our W4M contributors and collaborators. 
 
 Please note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. 
-[More information available in the Readme](https://github.com/workflow4metabolomics/tools-metabolomics)
+[More information available in the associated Readme](https://github.com/workflow4metabolomics/tools-metabolomics)
 
 ## Developing tools compatible with W4M input/output datasets
 
