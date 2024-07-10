@@ -4,7 +4,7 @@ image: "https://i1.rgstatic.net/ii/profile.image/11431281182238812-1692343501206
 description: Research Engineer in Mass Spectrometry
 categories: 
     - LCMS
-    - Statistics
+    - MSMS
 about:
   template: trestles
   links: 

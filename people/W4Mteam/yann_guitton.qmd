@@ -2,6 +2,13 @@
 title: "Yann Guitton"
 image: "https://avatars.githubusercontent.com/u/5373737?v=4"
 description: Metabolomics facility manager
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Bioinfo/ToolsDev
+    - Galaxy
+    - PeakForest
 about:
   template: trestles
   links: 

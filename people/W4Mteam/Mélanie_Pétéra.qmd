@@ -2,6 +2,12 @@
 title: "Mélanie Pétéra"
 image: "https://avatars.githubusercontent.com/u/20553061?v=4"
 description: Engineer in Statistics
+categories: 
+    - LCMS
+    - Statistics
+    - Wrapper (XML)
+    - Bioinfo/ToolsDev
+    - Galaxy
 about:
   template: trestles
   links: 

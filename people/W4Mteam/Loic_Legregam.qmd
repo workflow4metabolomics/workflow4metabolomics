@@ -1,0 +1,23 @@
+---
+title: "Loïc Legregam"
+image: "https://avatars.githubusercontent.com/u/75795040?v=4"
+description: ???
+categories: 
+    - Wrapper (XML)
+    - Bioinfo/ToolsDev
+    - Fluxomics
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://www.linkedin.com/in/isabelle-schmitz-376b7211/"
+    - icon: researchgate
+      text: Research Gate
+      href: ""
+---
+
+## Education
+
+## Experience
+

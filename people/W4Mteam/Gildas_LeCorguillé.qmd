@@ -3,8 +3,10 @@ title: "Gildas Le Corguillé"
 image: "https://media.licdn.com/dms/image/C5603AQEK3fH7Zkm2GA/profile-displayphoto-shrink_200_200-alternative/0/1529329339807?e=2147483647&v=beta&t=uizCs9qTJCyi9loJBDKLNP846hGfPJez2LKSDF_3TnA"
 description: ???
 categories: 
-    - Informatic
-    - Wrapper
+    - Wrapper (XML)
+    - HPC
+    - Bioinfo/ToolsDev
+    - Galaxy
 about:
   template: trestles
   links: 

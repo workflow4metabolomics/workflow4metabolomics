@@ -4,10 +4,11 @@ image: "https://media.licdn.com/dms/image/C4E03AQF4I6WYpVlGFw/profile-displaypho
 description: ???
 categories: 
     - LCMS
-    - GCMS
-    - MSMS
-    - Statistics
-    - Informatic
+    - Wrapper (XML)
+    - HPC
+    - Bioinfo/ToolsDev
+    - Galaxy
+    - PeakForest
 about:
   template: trestles
   links: 

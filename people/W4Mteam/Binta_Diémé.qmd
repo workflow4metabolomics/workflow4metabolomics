@@ -4,9 +4,7 @@ image: "https://media.licdn.com/dms/image/C5603AQEHwsAAKwmoRw/profile-displaypho
 description: Data processing biologist
 categories: 
     - LCMS
-    - GCMS
     - MSMS
-    - RMN
     - Statistics
 about:
   template: trestles
