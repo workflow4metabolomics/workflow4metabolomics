@@ -1,6 +1,13 @@
 ---
 title: "Marie Tremblay-Franco"
 image: "https://avatars.githubusercontent.com/u/17181264?v=4"
+description: ???
+categories: 
+    - RMN
+    - Statistics
+    - Wrapper (XML)
+    - Bioinfo/ToolsDev
+    - Galaxy
 about:
   template: trestles
   links: 

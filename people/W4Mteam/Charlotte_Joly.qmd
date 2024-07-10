@@ -4,9 +4,9 @@ image: "https://media.licdn.com/dms/image/C5603AQEKReXck6r6SA/profile-displaypho
 description: ???
 categories: 
     - LCMS
-    - GCMS
     - MSMS
-    - Statistics
+    - Galaxy
+    - PeakForest
 about:
   template: trestles
   links: 

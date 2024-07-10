@@ -1,20 +1,17 @@
 ---
-  title: "Julien Saint-Vanne"
-  image: "https://avatars.githubusercontent.com/u/35449860?v=4"
-  description: Bioinformatic Engineer
-  categories: 
-    - Informatic
-    - R
-    - LCMS
-    - GCMS
-    - MSMS
-    - Development
-    - Statistics
-    - NRM
-    - XML
-  about:
-    template: trestles
-    links: 
+title: "Julien Saint-Vanne"
+image: "https://avatars.githubusercontent.com/u/35449860?v=4"
+description: Bioinformatic Engineer
+categories: 
+  - LCMS
+  - GCMS
+  - MSMS
+  - Wrapper (XML)
+  - Bioinfo/ToolsDev
+  - Galaxy
+about:
+  template: trestles
+  links: 
     - icon: twitter
       text: Twitter
       href: "https://twitter.com/workflow4metabo"

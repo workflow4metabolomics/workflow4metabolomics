@@ -1,6 +1,13 @@
 ---
 title: "Sylvain Dechaumet"
 image: "https://avatars.githubusercontent.com/u/29856567?v=4"
+description: ??
+categories: 
+    - LCMS
+    - MSMS
+    - Wrapper (XML)
+    - HPC
+    - Bioinfo/ToolsDev
 about:
   template: trestles
   links: 

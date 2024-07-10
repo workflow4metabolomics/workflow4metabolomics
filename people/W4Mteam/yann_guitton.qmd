@@ -1,6 +1,14 @@
 ---
 title: "Yann Guitton"
 image: "https://avatars.githubusercontent.com/u/5373737?v=4"
+description: Metabolomics facility manager
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Bioinfo/ToolsDev
+    - Galaxy
+    - PeakForest
 about:
   template: trestles
   links: 
@@ -11,7 +19,26 @@ about:
       text: Github
       href: "https://github.com/yguitton"
 ---
+
+I am an agronomist that felt into mass spectrometry based metabolomics and even worth into bioinformatics. I am a technology lover and do think that by fully understanding how our mass spectrometers work we can achieve more. I see in Galaxy W4M a great opportunity to exchange with colleagues and create with them better basis for FAIR Science.
+I am also the happy father of 2 and a big fan of cuisine
   
 ## Education
 
+**PhD** in plant physiology 2010
+
+**Engineer Degree** in agronomy 2004
+
 ## Experience
+
+**LABERCA – UMR1329 ONIRIS/INRAE** in Nantes as a metabolomics facility manager since 2015
+
+**University Labs** Between 2006 and 2015 on the road from Saint-Etienne, Villeneuve d’Ascq, Nantes, Rennes as a PhD, a Post-Doct, an engineer to develop easy to use, user friendly methods and bioinformatics tools for the metabolomics community. Helping colleagues to achieve their goals in the wet and dry lab
+
+**Agronomist** in Bretagne with environment protection in mind.
+
+## Networks
+
+**RFMF board** from 2015 to 2023
+
+**MetaboHUB** Head of the Grand-Ouest facilities node since 2022

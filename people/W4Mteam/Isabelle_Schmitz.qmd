@@ -1,21 +1,34 @@
 ---
 title: "Isabelle Schmitz"
 image: "https://i1.rgstatic.net/ii/profile.image/11431281182238812-1692343501206_Q128/Isabelle-Schmitz.jpg"
-description: ???
+description: Research Engineer in Mass Spectrometry
 categories: 
     - LCMS
-    - Statistics
+    - MSMS
 about:
   template: trestles
   links: 
     - icon: linkedin
       text: Linkedin
-      href: "https://fr.linkedin.com/in/isabelle-schmitz-376b7211?trk=public_post_feed-actor-name&original_referer=https%3A%2F%2Ffr.linkedin.com%2Fposts%2Fisabelle-schmitz-376b7211_en-poste-pour-de-nouvelles-aventures-en-spectrom%25C3%25A9trie-activity-7137544373839261696-RR3k"
+      href: "https://www.linkedin.com/in/isabelle-schmitz-376b7211/"
     - icon: researchgate
       text: Research Gate
       href: "https://www.researchgate.net/profile/Isabelle-Schmitz/4"
 ---
 
+Research Engineer in Mass spectrometry working on research and development projects in metabolomics based on coupling liquid chromatography / ion mobility / high resolution mass spectrometry and mass spectrometry imaging. 
+I also swim and manage a swimming association during my free time ! 
+
 ## Education
 
+**Engineer** in chemistry in 1997
+
 ## Experience
+
+**CNRS – PBS Laboratory** in Mont-Saint-Aignan (76) as Research Engineer in Mass Spectrometry for Metabolomics (2024 – present)
+
+**CNRS – COBRA Laboratory** in Mont-Saint-Aignan (76) as Research Engineer in Mass Spectrometry for Metabolomics. Operational manager of FTICR 12T (2014-2023)
+
+**CNRS – ICSN Laboratory** in Gif-sur-Yvette (91) as Research Engineer in Mass Spectrometry for Metabolomics of natural plant extracts. (2002-2014)
+
+**USDA – Agricultural Research Service** Beltsville (USA) as Research Chemist for development of LCMS methods of environmental pollutants in biological tissues. (2000-2002)

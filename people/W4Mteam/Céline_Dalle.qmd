@@ -1,20 +1,32 @@
 ---
 title: "Céline Dalle"
 image: "https://media.licdn.com/dms/image/C5103AQEamNwKi--fAg/profile-displayphoto-shrink_200_200/0/1517340697546?e=2147483647&v=beta&t=HFxKoTwBcwtYCJZz0dUJdIg4QK90LcwOYGI72Rw-7vc"
-description: ???
+description: Metabolomics Research Engineer
 categories: 
     - LCMS
-    - GCMS
-    - MSMS
     - Statistics
 about:
   template: trestles
   links: 
     - icon: linkedin
       text: Linkedin
-      href: "https://fr.linkedin.com/in/c%C3%A9line-dalle-29a8a759"
+      href: "https://www.linkedin.com/in/céline-dalle-29a8a759/"
 ---
+
+Since the end of my master, I work in metabolomics. In my laboratory (Analytical Development and Bioanalysis Unit), I can both be in the lab to prepare and realize samples analysis by UHPLC-HRMS and work on data processing, statistical analysis and annotation.
+I use Galaxy-W4M for the processing of my data since a long time ago. Participate each year to the Workflow4Experimenters training session, as tutor, is a great opportunity to share scientific and human experiences.
+
 
 ## Education
 
+**Master degree** in Biochemistry - Metabolomics in 2013 (University of Toulouse – France)
+
+**Ph. D.** in Biology & Health in 2021 (University of Clermont Auvergne – France)
+
 ## Experience
+
+**INRAE – PFEM – UNH** in Theix as a study engineer in metabolomics data treatment (from 2015 to 2017)
+
+**INRAE – UNH** in Theix as a PhD student and working on lipidomics profiling of oxylipins to identify candidate biomarkers of metabolic syndrome and its relationships with diet (from 2017 to 2021)
+
+**IRBA – UDAB** in Brétigny-sur-Orge as a research engineer in metabolomics analysis (from 2021)
