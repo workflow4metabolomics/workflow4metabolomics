@@ -5,8 +5,7 @@
 
 ## Our project 
 
-The
-![](/images/Workflow4Metabolomic_icon.svg){height=1em}, ![](/images/W4M_icon.svg){height=1em} in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform.
+The ![](/images/Workflow4Metabolomic_icon.svg){height=1em}, ![](/images/W4M_icon.svg){height=1em} in short, is a French infrastructure offering software tool processing, analyzing and annotating metabolomics data. It is based on the Galaxy platform. It was created in 2012 by Metabomer and Abims labs in order to provide an integrated analysis environment for Metabolomics. Since, other contributors joins us and now we are actually an international team of dozen of peoples from several Labs. 
 
 In a collaborative efforts between metabolomics (
 [![](https://www.metabohub.fr/media/752){height=1.5em}](https://www.metabohub.fr/) French infrastructure

@@ -1,0 +1,26 @@
+---
+title: "NMR Mus musculus dataset"
+doi: "[publication](https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588)"
+author: "Cabaton et al."
+description: "Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice"
+bibliography: "../references.bib"
+galaxyref: "W4M00006"
+W4M: "[history](https://workflow4metabolomics.usegalaxy.fr/published/history?id=c342a31eb03b9648)"
+link: ""
+---
+
+## Description
+
+**Study:** 
+This study used metabolomics—a method for determining metabolic changes in response to nutritional, pharmacological, or toxic stimuli—to examine metabolic shifts induced in vivo by perinatal exposure to low doses of BPA in CD-1 mice (see @Cabaton_2013).
+
+**Dataset:** 
+The dataset contains brain samples from 24 mice pups:  
+  - Mothers exposed to BPA (25 or 250 ng / kg body weight / day)  
+  - Pups sacrificed at 21 days: brain collection  
+
+NMR analysis was performed on a Bruker DRX-600-Avance spectrometer using an inverse detection 5mm cryoprobe attached to a cryoplatform; CPMG spin-echo pulse sequence. Fourier transformation was applied, then all spectra were phased and baseline corrected using TopSpin.
+
+**Workflow:** 
+
+**Comments:** 

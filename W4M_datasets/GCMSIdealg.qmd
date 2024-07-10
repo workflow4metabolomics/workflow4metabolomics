@@ -1,0 +1,23 @@
+---
+title: "GC-MS Idealg dataset"
+doi: "[publication](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x)"
+author: "Dittami et al."
+description: "Towards deciphering dynamic changes and evolutionary mechanisms involved in the adaptation to low salinities in Ectocarpus (brown algae)"
+bibliography: "../references.bib"
+galaxyref: "?"
+W4M: "[W4M00004_GCMS-Algae](https://workflow4metabolomics.usegalaxy.fr/published/history?id=85be02a450bd0e8c)"
+link: ""
+---
+
+## Description
+
+**Study:** 
+
+**Dataset:** 
+
+**Workflow:** 
+
+**Comments:** 
+
+## Citations
+@DITTAMI_2012
