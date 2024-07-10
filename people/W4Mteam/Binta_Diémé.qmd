@@ -1,7 +1,7 @@
 ---
 title: "Binta Diémé"
 image: "https://media.licdn.com/dms/image/C5603AQEHwsAAKwmoRw/profile-displayphoto-shrink_200_200/0/1574098911686?e=2147483647&v=beta&t=UmErCeOzQnfOAsp-05HJstNSZ5Vf4l9GtkTXH6wpFI4"
-description: ???
+description: Data processing biologist
 categories: 
     - LCMS
     - GCMS
@@ -13,9 +13,19 @@ about:
   links: 
     - icon: linkedin
       text: Linkedin
-      href: "https://fr.linkedin.com/in/binta-di%C3%A9m%C3%A9-090676106"
+      href: "https://www.linkedin.com/in/binta-diémé-090676106/"
 ---
+
+I am a research engineer on the metabolism platform exploration (PFEM). I am in charge of environmental project management. We are interested in the metabolic adaptations of microorganism’s communities in different ecosystems. I contribute to the development of experimental design for metabolomics studies and I am responsible for the statistical analysis and biological interpretation of results. For that, I work in the networking of metabolic/protein biomarkers in relation to the research problematic.
 
 ## Education
 
+**Master degree** in Biology in 2012
+
+**PhD** in Metabolomics in 2016
+
 ## Experience
+
+**Université Aix-Marseille** in Marseille as a project leader in Metabolomics (from 2016 to 2017)
+
+**UCA** in Clermont-Ferrand as a data processing biologist since 2017

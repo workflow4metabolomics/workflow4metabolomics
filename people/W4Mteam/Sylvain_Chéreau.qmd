@@ -1,14 +1,31 @@
 ---
 title: "Sylvain Chéreau"
 image: "https://media.licdn.com/dms/image/C5603AQGFRRfn3v1PiA/profile-displayphoto-shrink_200_200/0/1618990111037?e=2147483647&v=beta&t=LBgWpLziVzgqwDy4EhmpD-69uK9xKuH37_sXP1GsajI"
+description: Engineer in chemical ecology
 about:
   template: trestles
   links: 
+    - icon: orcid
+      text: Orcid
+      href: "https://orcid.org/0000-0003-1898-7344"
+    - icon: researchergate
+      text: ResearchGate
+      href: "https://www.researchgate.net/profile/Sylvain-Chereau"
     - icon: linkedin
       text: Linkedin
       href: "https://fr.linkedin.com/in/sylvain-ch%C3%A9reau-530aab5a"
 ---
 
+I am involved in metabolomic projects (from sample collection to statistics) since the begining of my carreer and specialized in mass spectrometry. I had the chance to work on many differents matrices (from biofluids to bees, oysters, and now plants) this is one of the strenght of mass spectrometry & metabolomics approaches, so versatiles !  Engineer in chemical ecology at INRAE (Rennes), I am now trying to decipher metabolic interactions in the tryptic plant – pathogen – microbiota !
+
 ## Education
 
+**Master degree** in Analytical Chemistry in 2009
+
 ## Experience
+
+**ONIRIS - LABERCA** in Nantes. Development of metabolomics workflows based on LC-HRMS (2009-2014).
+
+**INRAE – UR1264 – MycSA** in Bordeaux. Responsible of the analytical plateform of the laboratory, development of metabolomic approaches to decipher the determinism of fusarium's mycotoxins contamination in cereales. (2014-2021).
+
+**INRAE – UR1349 – IGEPP** in Rennes. Engineer in chemical ecology. Metabolomics to decipher the "chemical dialog" in the soil between plants, pathogens & microbiota.
