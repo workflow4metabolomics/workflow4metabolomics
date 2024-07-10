@@ -1,20 +1,27 @@
 ---
 title: "News"
 listing: 
-  - id: w4e
-    contents: w4e*.qmd
-    type: default
-    image-height: 200px
-    fields: [title, description, image]
-    sort: "date desc"
-    table-striped: true
-    table-hover: true
-    categories: false
+  - id: list_w4e
+    contents: "W4E/*.qmd"
+    type: table
+    sort: "year"
+    max-items: 100
+    fields: [year, place, date, title, speakers]
 page-layout: full
 ---
 
-:::{#w4e}
+::: {.panel-tabset}
+## Workflow4Experimenters
+
+:::{#list_w4e}
 :::
+
+## Trainings
+
+Blablablbalbabl
+
+:::
+
 
 <!-- ```{=html} -->
 <!-- <a  -->

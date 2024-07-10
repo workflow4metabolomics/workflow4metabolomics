@@ -1,0 +1,30 @@
+---
+title: "Workflow4Experimenters 2024"
+year: 2024
+place: Grenoble, France
+date: 8-12 April
+speakers: TBD
+---
+
+**Save the date!**
+
+Analyze your data with Galaxy and the Workflow4metabolomics infrastructure! 
+
+The next Workflow4Experimenters session (W4E2024) will take place from **8 to 12 April 2024**. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data. 
+
+This year an online pre-session is organised from **Monday 25 to Friday 29 March from 10 to 12 am**. 
+
+Agenda and preregistration: [registration form](https://sondages.inrae.fr/index.php/688996?lang=fr) (Deadline 21/01/2024) 
+  
+- From March, 25th to 29th (10am to 12pm): online theoretical sessions (methods and tools) 
+- From April 8th to 12th : tutoring on your own data, at (Archamps). Practical information (more soon) - access map
+
+![Map of Archamps, Genève and its airport](images/W4E_maps_Archamps.png)
+
+**Invited speaker**: TBD
+
+**Scientific comitee**: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), J. Saint-Vanne, Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)
+
+**Agenda and preregistration**: [registration form](https://sondages.inrae.fr/index.php/688996?lang=fr) (Deadline 21/01/2024)
+
+**Contact**: [w4e-organisation@groupes.renater.fr](w4e-organisation@groupes.renater.fr)
