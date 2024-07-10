@@ -19,10 +19,30 @@ Please note that W4M also hosts a GitHub repository aiming to gather tools and c
 
 Due to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.
 
-### About the W4M 3-tables format
+### About the W4M standardised 3-tables format
 
-**TODO** topo sur le format 3 tableaux ? ou lien vers un endroit où ya le topo ?
+As W4M provides a large variety of tools, we set a common way to handle data, in order to
+enable easy links between the tools, limiting format switches 
+and ensuring users can easily find the information they seek inside their data sets. 
 
+For any extracted data (*i.e.* a single intensity value per {analytical variable; sample} pair), 
+we settled for a standardised 3-tables format, in the form of 'tabular' files 
+(as defined in Galaxy, *i.e.* plain text files (.txt, .tsv, .tabular) containing tables with columns separated by tabulations).
+One file is dedicated to the intensity values measured for each analytical variable and each sample,
+a second file gathers the meta-data concerning the samples,
+and a third file is about the meta-data of the analytical variables.
+
+Detailed information about this W4M 3-tables format is [available here](https://nextcloud.inrae.fr/s/qLkNZRf84QQ5YLY). 
+
+Familiar with [Biobase formating](https://bioconductor.org/packages/release/bioc/html/Biobase.html) from Bioconductor? 
+The W4M 3-tables format is very similar to the ExpressionSets organisation of data, 
+the main difference being that the dataMatrix table is a transposition of the assay data table:
+
+| W4M format       | ExpressionSets                            |
+|------------------|-------------------------------------------|
+| dataMatrix       | *transposed* assay data (assayData)       |
+| sampleMetadata   | phenotypic data (phenoData)               |
+| variableMetadata | annotations and feature data (annotation) |
 
 ## Developing tools in a W4M-approuved format
 
