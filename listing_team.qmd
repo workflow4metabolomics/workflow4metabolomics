@@ -22,22 +22,20 @@ listing:
 page-layout: full
 ---
 
-
-## Current W4M team 
+## Current W4M team
 
 Here are all the participants for the development of a beautiful and usefull W4M Galaxy.
 
-:::{#current}
+::: {#current}
 :::
 
 ## Previous collaborators
 
 Here are all the previous collaborators we had the chance to share with
 
-:::{#previous_collab}
+::: {#previous_collab}
 :::
 
 ## Contributors
 
 Thanks to all these people that contributed to the workflow4metabolomics experience.
-

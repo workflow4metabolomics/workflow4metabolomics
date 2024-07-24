@@ -13,6 +13,8 @@
 
 The most effective way to master the use of our tools is by enrolling in our comprehensive [training school ![](/images/W4E_icon.svg){height=1em}](/news.qmd). Below you will find in-depth learning guides, providing you with the skills you need to leverage our tools seamlessly.
 
+If you have any questions or troubleshooting on Galaxy, one way to find an answer or solution is to visit the [IFB User Community](community.france-bioinformatique.fr/c/workflow4metabolomics/).
+
 ## Galaxy Training Network on Metabolomics
 
 Access complete and interactive step-by-step guides by visiting the [![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em} Galaxy Training Network on metabolomics](https://training.galaxyproject.org/training-material/topics/metabolomics/).

@@ -1,6 +1,11 @@
 ---
 title: "Nils Paulhe"
 image: "https://peakforest.org/sites/default/files/inline-images/paulhe_nils_300%2A452.png"
+description: ???
+categories: 
+    - Bioinfo/ToolsDev
+    - Galaxy
+    - PeakForest
 about:
   template: trestles
   links: 

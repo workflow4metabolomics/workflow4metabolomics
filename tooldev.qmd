@@ -63,10 +63,46 @@ Among the possible variations for functional XML wrappers, W4M is willing to gar
 
 ### Documenting the Galaxy tool
 
-**TODO** Topo sur l'importance de la doc
+Documentation in vital to any tool. Among the many advantages it provides, it enables potential users as well as already initiated ones
+to understand what the tool is meant for and how it can be relevantly used.
+
+As you may already know, there are two distinct targets for documentation, that are equally important:
+- the developers' community: people that may evaluate your tool in a 'code and structure' perspective, 
+that may deploy it for others or themselves to use it, and that may also contribute to its development in the future
+- the users' community: people that may test your tool in order to obtain results, that may use it for their routine or R&D works,
+and that may even use it for learning purpose. 
+
+W4M supports Galaxy tools that combine these two aspects of documentation. 
+Consequently, we highly recommend that any tool you share with our community 
+is provided with at least basic documentation for both these target publics.
+
+#### Documentation for developers
+
+**TODO** Mentionner les BP (comm etc) + dire que minimum un ReadMe mais aussi les tests pour exemple a rejouer
+
+#### Documentation for users
+
+There is a large variety of ways to provide user documentations, including embedded help files,
+online content and even live trainings' supports.
+
+As one of Galaxy's goals is to provide a user-friendly environment and easy access to ressources, 
+several channels exists that are especially designed to be efficient for users 
+(easily found, convenient to use...). 
+
+As W4M, we highly recommend to consider at least the three following options.
+
+##### The Galaxy tool Help section
 
 **TODO** Presenter les section mandatory et facultative
 
 About the format, you can find [here](ressources/Help_template.txt)
 a template of Help tag to help you initiating your writing with the recommanded sections and formats.
 
+##### Other Galaxy tool's XML information usefull for users
+
+**TODO** les balises recommandees
+
+##### Materials to provide through the Galaxy Training Network
+
+**TODO** Le fait que bon moyen de mettre en ontexte un outil + Lien vers GTN et howto GTN-build + le fait 
+que ça apparaitra direct en bas de l'outil 
