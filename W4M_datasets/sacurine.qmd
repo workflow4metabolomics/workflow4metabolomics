@@ -1,12 +1,14 @@
 ---
 title: "Sacurine"
-doi: "[publication](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354)"
-author: "Thevenot et al."
-description: "Analysis of the human adult urinary metabolome"
+doi-link: "[doi link](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354)"
+subtitle: "Analysis of the human adult urinary metabolome"
+publication: "@THEVENOT_2015"
+author: "Thevenot *et al.*, 2015"
+description: "[doi link](https://pubs.acs.org/doi/10.1021/acs.jproteome.5b00354)"
 bibliography: "../references.bib"
 galaxyref: "W4M00001"
-W4M: "[history](https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5)"
-link: "[MTBLS404](https://www.ebi.ac.uk/metabolights/editor/MTBLS404/descriptors)"
+W4M: "[W4M00001](https://workflow4metabolomics.usegalaxy.fr/published/history?id=3052e053b71f3ff5)"
+Respository: "[MTBLS404](https://www.ebi.ac.uk/metabolights/editor/MTBLS404/descriptors)"
 ---
 
 ## Description
@@ -21,4 +23,4 @@ In this study conducted by the MetaboHUB French Infrastructure for Metabolomics,
 This history describes the statistical analysis of the data set from the negative ionization mode (113 identified metabolites at MSI levels 1 or 2): correction of signal drift (loess model built on QC pools) and batch effects (two batches), variable filtering (QC coefficent of variation < 30%), normalization by the sample osmolality, log10 transformation, sample filtering (Hotelling, decile and missing pvalues > 0.001) resulting in the HU_096 sample being discarded, univariate hypothesis testing of significant variations with age, BMI, or between genders (FDR < 0.05), and OPLS(-DA) modeling of age, BMI and gender.
 
 **Comments:** 
-The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository. For a comprehensive analysis of the dataset (starting from the preprocessing of the raw files and including all detected features in the subsequent steps), please see the companion ‘W4M00002_Sacurine-comprehensive’ reference history.
+The ‘sacurine’ data set (after normalization and filtering) is also available in the ropls R package from the Bioconductor repository.
