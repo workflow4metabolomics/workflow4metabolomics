@@ -40,6 +40,6 @@ As we deploy the Galaxy tools we support and use on usegalaxy.fr,
 and since this Galaxy instance implementation is publicly available, 
 you will find the list of all the tools we include in our W4M subdomain on Usegalaxy.fr's GitLab repository.
 
-In particular, you will find this [yml file](xxxxxxxxx) where ...
+In particular, you will find this [yml file](https://gitlab.com/ifb-elixirfr/usegalaxy-fr/tools) where ...
 
 #### Have a nice W4M journey!
