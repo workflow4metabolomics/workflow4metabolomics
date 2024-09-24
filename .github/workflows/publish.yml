@@ -37,7 +37,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
       
       - name: Install GDAL, UDUNITS2
-        run: sudo apt install libgdal-dev libudunits2-dev
+        run: sudo apt update; sudo apt install libgdal-dev libudunits2-dev
         
       - name: Install R
         uses: r-lib/actions/setup-r@v2
