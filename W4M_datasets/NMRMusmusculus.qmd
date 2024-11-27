@@ -1,12 +1,14 @@
 ---
 title: "NMR Mus musculus dataset"
-doi: "[publication](https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588)"
-author: "Cabaton et al."
-description: "Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice"
+subtitle: "Effects of Low Doses of Bisphenol A on the Metabolome of Perinatally Exposed CD-1 Mice"
+doi-link: "[doi link](https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588)"
+author: "Cabaton *et al.*, 2013"
+publication: "@Cabaton_2013"
+description: "[doi link](https://ehp.niehs.nih.gov/doi/10.1289/ehp.1205588)"
 bibliography: "../references.bib"
 galaxyref: "W4M00006"
-W4M: "[history](https://workflow4metabolomics.usegalaxy.fr/published/history?id=c342a31eb03b9648)"
-link: ""
+W4M: "[W4M00006](https://workflow4metabolomics.usegalaxy.fr/published/history?id=c342a31eb03b9648)"
+Respository: ""
 ---
 
 ## Description
@@ -20,7 +22,3 @@ The dataset contains brain samples from 24 mice pups:
   - Pups sacrificed at 21 days: brain collection  
 
 NMR analysis was performed on a Bruker DRX-600-Avance spectrometer using an inverse detection 5mm cryoprobe attached to a cryoplatform; CPMG spin-echo pulse sequence. Fourier transformation was applied, then all spectra were phased and baseline corrected using TopSpin.
-
-**Workflow:** 
-
-**Comments:** 

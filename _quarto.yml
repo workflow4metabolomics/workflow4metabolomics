@@ -43,6 +43,9 @@ website:
           - text: "Guides for Developpers"
             href: tooldev.qmd
             icon: "code"
+          - text: "Guides for Administrators"
+            href: tooladmin.qmd
+            icon: "code"
           - text: "How to contribute"
             href: contribute.qmd
             icon: "person-fill-up"

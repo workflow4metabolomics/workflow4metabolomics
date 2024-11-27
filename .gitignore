@@ -1,8 +1,7 @@
-.swp
 .*.swp
 .Rproj.user
 .Rhistory
 /.quarto/*
 ./docs/*
-/.quarto/
 docs/*
+_freeze/*
