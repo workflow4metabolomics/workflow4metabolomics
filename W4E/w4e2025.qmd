@@ -18,7 +18,7 @@ Since 2023 an online pre-session is organised from **Monday 28th to Wednesday 30
 
 **Invited speaker**: 
 
-![Map of Rouen](images/rouen_view.PNG)
+![Map of Rouen](/images/rouen_view.PNG)
 
 **Program**:
 
