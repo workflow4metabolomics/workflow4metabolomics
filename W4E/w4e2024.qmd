@@ -2,7 +2,7 @@
 title: "Workflow4Experimenters 2024"
 year: 2024
 place: Grenoble, France
-date: from April 8th to April 12th
+date: from April 8th to April 12th 2024
 speakers: TBD
 ---
 
@@ -17,7 +17,7 @@ Agenda and preregistration: [registration form](https://sondages.inrae.fr/index.
 - From March, 25th to 29th (10am to 12pm): online theoretical sessions (methods and tools) 
 - From April 8th to 12th : tutoring on your own data, at (Archamps). Practical information (more soon) - access map
 
-![Map of Archamps, Genève and its airport](images/W4E_maps_Archamps.png)
+![Map of Archamps, Genève and its airport](./images/W4E_maps_Archamps.png)
 
 **Invited speaker**: TBD
 
@@ -25,88 +25,110 @@ Agenda and preregistration: [registration form](https://sondages.inrae.fr/index.
 
 **Program**:
 
-<!--<table class="table cart table-hover table-colored">
+<table class="table cart table-hover table-colored">
   <thead>
     <tr>
-      <th colspan="5">The time schedule corresponds to the realised live: watch the replay</th>
+      <th colspan="5">W4E Webinar: Monday 25th 2024</th>
     </tr>
   </thead>
   <tbody>
     <tr class="remove-data">
-      <td class="product">09:00 – 09:05</td>
+      <td class="product">10:00 - 10:30</td>
       <td class="product">INTRODUCTION</td>
-      <td colspan="2" class="product">Welcome and presentation of the webinar and the speakers
-        <br/><em><a href="https://www.saraf-educ.org/saraf-in-nantes/teaching-contributors/bruno-le-bizec/" target="blank_">Pr Bruno Le Bizec</a>, NRL, LABERCA, Nantes, France</em>
-      </td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/00-Bruno_Le_Bizec.pdf" target="_blank">PDF</a></td>
+      <td colspan="2" class="product">Welcome and presentation of the webinar and the speakers</td>
     </tr>
+  <tbody>
     <tr class="remove-data">
-      <td class="product">09:05 – 09:35</td>
-      <td class="product">INTRODUCTION</td>
-      <td colspan="2" class="product">Latest developments in EU regulation related to residues of veterinary pharmacologically active substances 2022/1644, 2022/1646, 2022/2292 and 2022/2293
-        <br/><em><a href="https://ec.europa.eu/info/departments/health-and-food-safety_en" target="blank_">Mr Frans Verstraete</a>, EU DG SANTE, Brussels, Belgium</em>
-      </td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/01-Frans_Verstraete-final.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">09:35 – 10:05</td>
-      <td class="product">OPENING</td>
-      <td colspan="2" class="product">Commission Implementing Regulation (EU) 2021/808
-        <br/>Overview of the "EURL Guidance document on the extension of quantitative confirmation methods" in the scope of CIR (EU) 2021/808
-        <br/><em><a href="https://www.bvl.bund.de/EN/Tasks/09_Laboratories/01_Tasks/02_reference_laboratories/01_reference_laboratories_EURL/reference_laboratories_EU_node.html " target="blank_">Dr Joachim Polzer</a>, EURL Berlin, BVL, Germany</em>
-      </td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/02-Joachim_Polzer_final.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">10:05 – 10:25<small>(1:26:20)</small></td>
+      <td class="product">10:30 - 12:00</td>
       <td class="product">PRESENTATION</td>
-      <td colspan="2" class="product">Implementation of CIR (EU) 2021/808
-      	<br/>Illustration on MRL compounds
-        <br/><em>Dr Piotr Jedziniak, Pulawy, Poland</em>
+      <td colspan="2" class="product">Galaxy session: Initiation and data management
+        <br/><em>M. Pétéra, Y. Guitton and G. Le Corguillé</em>
       </td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/04-Piotr_Jedziniak.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">10:25 – 10:45</td>
-      <td class="product">PRESENTATION</td>
-      <td colspan="2" class="product">Implementation of CIR (EU) 2021/808
-        <br/>Illustration on forbidden/non authorized substances
-        <br/><em>Dr Nathalie Gillard, Marloie, Belgium</em>
-      </td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/05-Nathalie_Gillard.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">10:45 – 11:00</td>
-      <td class="product">BREAK</td>
-      <td class="product"></td>
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/03-Break.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">11:00 – 11:20</td>
-      <td class="product">PRESENTATION</td>
-      <td colspan="2" class="product">Implementation of CIR (EU) 2021/808
-        <br/>Illustration on selected substances
-        <br/><em>Dr Sami Darkaoui, Rabat, Morocco</em>
-      </td>   
-      <td class="product"><a href="/fileadmin/SARAF/webinars/Regulation2023/06-Sami_Darkaoui.pdf" target="_blank">PDF</a></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">11:20 – 11:55</td>
-      <td class="product">ROUND TABLE</td>
-      <td>Round table using quizzes and word clouds
-        <br/><em><a href="https://ec.europa.eu/info/departments/health-and-food-safety_en" target="blank_">Mr Frans Verstraete</a>, <a href="https://eurl-veterinaryresidues.anses.fr/" target="blank_">Dr Eric Verdon</a>, Drs Saskia Sterk, Dr Joachim Polzer, <a href="https://www.saraf-educ.org/saraf-in-nantes/teaching-contributors/bruno-le-bizec/" target="blank_">Prof. Bruno Le Bizec</a></em>
-      </td>
-      <td class="product"></td>
-    </tr>
-    <tr class="remove-data">
-      <td class="product">11:55 – 12:00</td>
-      <td class="product">CONCLUSION</td>
-      <td colspan="2" class="product">Main messages, acknowledgments, future SARAF events
-        <br/><em><a href="https://www.saraf-educ.org/saraf-in-nantes/teaching-contributors/bruno-le-bizec/" target="blank_">Pr Bruno Le Bizec</a>, NRL, LABERCA, Nantes, France</em>
-      </td>
-      <td class="product"></td>
     </tr>
   </tbody>
-</table> -->
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Tuesday 26th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 11:30</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Data Preprocessing
+        <br/><em>M. Pétéra, Y. Guitton</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">10:00 - 11:30</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Data Preprocessing
+        <br/><em>C. Canlet, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">11:30 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Signal Drift and Batch-Effect Correction
+        <br/><em>M. Pétéra</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Wednesday 27th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Statistical analysis
+        <br/><em>M. Pétéra, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Thursday 28th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Annotation
+        <br/><em>Y. Guitton, R. Weber</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Annotation
+        <br/><em>C. Canlet</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Friday 29th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Real-Time Insights: Focusing on Your Key Topics 
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 **Contact**: [w4e-organisation@groupes.renater.fr](w4e-organisation@groupes.renater.fr)
