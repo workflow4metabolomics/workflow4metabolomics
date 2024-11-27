@@ -165,7 +165,7 @@ palPwr <- leaflet::colorFactor(palette = c("metabolomique" = "steelblue",
 label <- NULL
 # Need to add "/workflow4metabolomics/" to be able to work online
 for(r in 1:nrow(people)){
-  ref <- paste0('<b><a href=',paste0('/workflow4metabolomics/people/W4Mteam/',strsplit(people$people[r]," ")[[1]][1],'_',strsplit(people$people[r]," ")[[1]][2], '.html>', people$people[r], '</a></b> <br>', people$lab[r]))
+  ref <- paste0('<b><a href=',paste0('/people/W4Mteam/',strsplit(people$people[r]," ")[[1]][1],'_',strsplit(people$people[r]," ")[[1]][2], '.html>', people$people[r], '</a></b> <br>', people$lab[r]))
   label <- c(label, ref)
 }
 people <- cbind(people, label = label)

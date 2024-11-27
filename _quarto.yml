@@ -6,7 +6,13 @@ execute:
   freeze: auto
 website: 
   #margin-header: images/logo-ifb-mono-metabohub_2.1_SD_150px.png
-  title: "W4M Galaxy Documentation"
+  #announcement:
+  #  icon: info-cricle
+  #  dismissable: true
+  #  content: "**Important** - this website is under construction !"
+  #  type: warning
+  #  position: below-navbar
+  title: "Workflow4Metabolomics"
   #site-url: https://workflow4metabolomics.github.io/
   favicon: images/w4m.png
   twitter-card: true
@@ -89,6 +95,5 @@ format:
     theme: cosmo 
     css: styles.css
     toc: true
-
 editor: visual
 

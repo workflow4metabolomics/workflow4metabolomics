@@ -6,11 +6,11 @@ listing:
     type: table
     sort: "year desc"
     max-items: 100
-    fields: [year, place, date, title, speakers]
+    fields: [year, place, title]
     sort-ui: false
 page-layout: full
 ---
-
+ 
 ::: {.panel-tabset}
 ## Workflow4Experimenters
 

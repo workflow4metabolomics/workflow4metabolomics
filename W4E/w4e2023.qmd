@@ -2,48 +2,37 @@
 title: "Workflow4Experimenters 2023"
 year: 2023
 place: Paris, France
-date: 6-10 March
-speakers: Helge Hecht, Callum Martin
+#speakers: Helge Hecht, Callum Martin
 ---
 
-Overview
-
-   
-
-Save the date! Analyze your data with Galaxy and the Workflow4metabolomics infrastructure!The next Workflow4Experimenters session (W4E2023) will take place in March 2023. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data.
+Since 2014, Workflow4Metabolomics organizes its own school during one week. It aims to analyze your data with Galaxy and the Workflow4metabolomics infrastructure! The 2023 Workflow4Experimenters session (W4E2023) took place in March 2023. During this one-week course (entirely in English), you learned how to use the W4M infrastructure and analyzed your own LC-MS, GC-MS, or NMR data.
 
 
- 
+For this 2023 new session, format changed:
 
+• From March, 6th to 10th (10am to 12pm): online theoretical sessions (methods and tools)
 
+![W4E2023 first week](images/planning_w4e_2023_bis.png)
 
-For this new session, format changes:
+Invited online speaker: Callum Martin (EMBL-EBI Metabolights, United Kingdom), **'MetaboLights: the home for metabolomics experiments and derived information'**.
 
-• From March, 6 to 10 (10am to 12pm): online theoretical sessions (methods and tools)
+• From March, 20th to 24th: tutoring on your own data, at *Institut des systèmes complexes* (Paris). Practical information - access map
 
-Invited online speaker: Callum Martin (EMBL-EBI Metabolights, United Kingdom) 
-
-• From March, 20 to 24 : tutoring on your own data, at Institut des systèmes complexes (Paris). Practical information - access map
+![W4E2023 second week](images/planning_w4e_2023.png)
 
 Invited speaker: Helge Hecht (Masaryk University, République Tchèque)
 
 Scientific comitee: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)
 
-Agenda and preregistration: registration form (Deadline 31/12/2022)
 
-Contact: contact@workflow4metabolomics.org
+Contact: *contact@workflow4metabolomics.org*
 
-Costs: 1200€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals)
-Including: Lunch, coffee break, pedagogic support and the Thursday social event. Not included: travel expenses, accommodation and 3 diners (Monday, Tuesday, Wednesday)
+Costs: 1200€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals).
+Including: Lunch, coffee break, pedagogic support and the Thursday social event. Not included: travel expenses, accommodation and 3 diners (Monday, Tuesday, Wednesday).
 
 Target audience: LC-MS, GC-MS, NMR, FIA-MS and DI-MS experimenters (e.g. biologists, chemists).
 
-
-Materials: Participants will use their laptop to perform the analysis on their W4M account. All presentations, reference datasets and workflows will be available online.
-
-
-Invited speaker: Helge Hecht (Masaryk University, République Tchèque)  
- 
+Materials: Participants will use their own laptop to perform the analysis on their W4M account. All presentations, reference datasets and workflows will be available online.
 
 Tutors: Each participant will be paired with a duo of tutors (preprocessing / statistics experts) who will help him/her preparing data and assist him/her during each analysis step.
 
@@ -67,9 +56,6 @@ Program (updated 22/02/2023)
 Webinars 
 
 
-
-
-Update! On Friday 10th Callum Martin will present  'MetaboLights: the home for metabolomics experiments and derived information'.
 
 
 On-site training
