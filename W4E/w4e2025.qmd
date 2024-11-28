@@ -16,7 +16,9 @@ Since 2023 an online pre-session is organised from **Monday 28th to Wednesday 30
 [WILL ARRIVE SOON] Agenda and preregistration: [registration form]() (Deadline XX/XX/2025) 
 :::
 
-**Invited speaker**: 
+**Invited speaker**:  
+*Ultra-high resolution mass spectrometry and metabolomics*, by **Hélène Lavanant** (COBRA, Univ Rouen) & **Isabelle Schmitz** (PBS, CNRS, Rouen)
+
 
 ![Map of Rouen](/images/rouen_view.PNG)
 
@@ -48,6 +50,6 @@ Since 2023 an online pre-session is organised from **Monday 28th to Wednesday 30
   </thead>
 </table>
 
-**Scientific comitee**: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), J. Saint-Vanne, Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)
+**Scientific comitee**: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), Y. Guitton & J. Saint Vanne (Laberca INRAE, Nantes), C. Joly & M. Pétéra (PFEM INRAE, Clermont-Ferrand), G. Le Corguillé (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRAE, Toulouse), I. Schmitz (PBS, CNRS, Rouen), S. Chéreau (INRAE, Rennes), H. Hecht (RECETOX, Brno), R.Weber (University of Birmingham), S. Dechaumet (CEA, Saclay)
 
 **Contact**: [w4e-organisation@groupes.renater.fr](w4e-organisation@groupes.renater.fr)
