@@ -11,8 +11,9 @@ Analyze your data with ![](/images/galaxy_logo_25percent_transparent.png){height
 The next Workflow4Experimenters session (![](/images/W4E_icon.svg){height="1em"}2025) will take place from in May 2025. During this one-week course (entirely in English), you will learn how to use the ![](/images/W4M_icon.svg){height="1em"} infrastructure and analyze your own LC-MS, GC-MS, or NMR data. 
 
 For this new session, format changed:
-- From April, 28th to 30th: online theoreticalsessions (methods and tools). This session is *only accessible to person who will be present in Rouen for the onsite session.*
-- From May, 12th to 16th: tutoring on your own data, PBS Laboratory Rouen (France, close to Paris).
+
+  - From April, 28th to 30th: online theoreticalsessions (methods and tools). This session is *only accessible to person who will be present in Rouen for the onsite session.*
+  - From May, 12th to 16th: tutoring on your own data, PBS Laboratory Rouen (France, close to Paris).
 
 ::: callout-important
 Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !! (Deadline 31/01/2025) 
