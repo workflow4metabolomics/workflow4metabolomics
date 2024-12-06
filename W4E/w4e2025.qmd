@@ -152,6 +152,8 @@ Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !
 
 **Sponsor**: ![](/images/W4M_icon.svg){height="1em"} is jointly developed and maintained by the French Bioinformatics Infrastructure  (IFB, Elixir) and the French Infrastructure for Metabolomics and Fluxomics (MetaboHUB).
 
+**Costs**: 1300€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals). A special discount of 100€ is offered for ![RFMF](https://www.rfmf.fr/) members 2025.
+
 See you soon in Rouen!
 
 ![](/images/bandeau_w4e_rouen.PNG)
