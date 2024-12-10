@@ -13,7 +13,7 @@ The next Workflow4Experimenters session (![](/images/W4E_icon.svg){height="1em"}
 For this new session, format changed:
 
   - From April, 28th to 30th: online theoreticalsessions (methods and tools). This session is *only accessible to person who will be present in Rouen for the onsite session.*
-  - From May, 12th to 16th: tutoring on your own data, PBS Laboratory Rouen (France, close to Paris).
+  - From May, 12th to 16th: tutoring on your own data, PBS Laboratory Rouen (Rouen University, Campus de Mont Saint-Aignan, France, close to Paris).
 
 ::: callout-important
 Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !! (Deadline 31/01/2025) 
@@ -23,7 +23,7 @@ Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !
 *Ultra-high resolution mass spectrometry and metabolomics*, by **Hélène Lavanant** (COBRA, Univ Rouen) & **Isabelle Schmitz** (PBS, CNRS, Rouen)
 
 
-![Map of Rouen](/images/rouen_view.PNG)
+![Map of Rouen](/images/map_rouen_w4e2025.PNG)
 
 **Program**:
 
