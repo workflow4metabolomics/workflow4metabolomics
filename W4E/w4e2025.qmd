@@ -19,6 +19,8 @@ For this new session, format changed:
 Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !! (Deadline 31/01/2025) 
 :::
 
+**Costs**: 1300€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals). A special discount of 100€ is offered for ![RFMF](https://www.rfmf.fr/) members 2025.
+
 **Invited speaker**:  
 *Ultra-high resolution mass spectrometry and metabolomics*, by **Hélène Lavanant** (COBRA, Univ Rouen) & **Isabelle Schmitz** (PBS, CNRS, Rouen)
 
@@ -151,8 +153,6 @@ Preregistration is now open [here](https://sondages.inrae.fr/index.php/425432) !
 **Contact**: [workflow4metabolomics@proton.me](workflow4metabolomics@proton.me)
 
 **Sponsor**: ![](/images/W4M_icon.svg){height="1em"} is jointly developed and maintained by the French Bioinformatics Infrastructure  (IFB, Elixir) and the French Infrastructure for Metabolomics and Fluxomics (MetaboHUB).
-
-**Costs**: 1300€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals). A special discount of 100€ is offered for ![RFMF](https://www.rfmf.fr/) members 2025.
 
 See you soon in Rouen!
 
