@@ -1,0 +1,20 @@
+---
+title: "Christophe Duperier"
+image: "https://peakforest.org/sites/default/files/inline-images/duperier_ch_300%2A452_0.png"
+description: ???
+categories: 
+    - LCMS
+    - GCMS
+    - MSMS
+    - Statistics
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/christophe-duperier-600391157"
+---
+
+## Education
+
+## Experience
