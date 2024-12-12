@@ -4,7 +4,7 @@ project:
   #pre-render: https://platform.twitter.com/widget.js
 execute:
   freeze: auto
-website: 
+website:
   #margin-header: images/logo-ifb-mono-metabohub_2.1_SD_150px.png
   #announcement:
   #  icon: info-cricle
@@ -16,16 +16,16 @@ website:
   #site-url: https://workflow4metabolomics.github.io/
   favicon: images/w4m.png
   twitter-card: true
-  page-footer: 
+  page-footer:
     right: "This page is built with ❤️"
     left: "&copy; Julien Saint-Vanne"
-  
-  
+
+
   # theme:
   #   light: flatly
   #   dark: darkly
   navbar:
-    logo: images/w4m.png 
+    logo: images/w4m.png
     href: https://workflow4metabolomics.org/
     left:
       - text: "Home"
@@ -33,7 +33,7 @@ website:
         icon: "house"
       - text: "Galaxy W4M"
         icon: "boxes"
-        menu: 
+        menu:
           - text: "Introduction"
             href: galaxyW4M.qmd
             icon: "info-circle"
@@ -51,7 +51,7 @@ website:
             icon: "person-fill-up"
       - text: "Tools"
         icon: "tools"
-        menu: 
+        menu:
           - text: "Tool 1"
             href: tool1.qmd
           - text: "Tool 2"
@@ -64,13 +64,13 @@ website:
         href: listing_team.qmd
       - text: "About"
         href: about.qmd
-        
-    
+
+
     #background: success
     #foreground: danger
     tools:
-      - icon: twitter
-        href: https://twitter.com
+      - icon: linkedin
+        href: https://www.linkedin.com/company/workflow4metabolomics/
       - icon: github
         menu:
         - text: Source Code
@@ -95,7 +95,7 @@ website:
 
 format:
   html:
-    theme: cosmo 
+    theme: cosmo
     css: styles.css
     toc: true
 editor: visual
