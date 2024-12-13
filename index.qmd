@@ -65,7 +65,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
 
 ### Resources
 
-<!-- Pictures are frm here https://designs.ai/graphicmaker/illustrations/Duotone_Cartoon_Set -->
+<!-- Pictures are from here https://designs.ai/graphicmaker/illustrations/Duotone_Cartoon_Set -->
 
 ```{=html}
 <div class="card-group">
@@ -208,4 +208,36 @@ mapPlot
   #addPolygons(data = map_labs, color = "blue")
 
 
+```
+
+```{=html}
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; max-width: 100%;">    
+  <style>
+    .logo-cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Ajustez la hauteur selon vos besoins */
+      overflow: hidden;
+    }
+
+    .logo-cell img {
+      max-width: 150px; /* Ajustez la largeur maximale des logos */
+      max-height: 150px; /* Ajustez la hauteur maximale des logos */
+      object-fit: contain; /* Assure que l'image garde ses proportions */
+    }
+  </style>
+   <div class="logo-cell">
+    <img src="/images/logo/logo_inrae.png" alt="logo inrae" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_oniris.png" alt="logo oniris" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_ifb.png" alt="logo ifb" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_cnrs.png" alt="logo cnrs" />
+  </div>
+</div>
 ```
