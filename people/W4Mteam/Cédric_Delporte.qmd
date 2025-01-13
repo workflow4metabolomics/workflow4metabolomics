@@ -1,7 +1,7 @@
 ---
 title: "Cédric Deplorte"
 image: "https://media.licdn.com/dms/image/C5603AQHWlKrUvmEmhQ/profile-displayphoto-shrink_200_200/0/1516941436955?e=2147483647&v=beta&t=jL4G-NJoNVnP4FuKLY3mbMt9ecClqlhLqXEkgVA5mHc"
-description: ???
+description: Associate Professor (ULB, Belgium)
 categories: 
     - LCMS
     - MSMS
@@ -11,8 +11,28 @@ about:
     - icon: linkedin
       text: Linkedin
       href: "https://be.linkedin.com/in/c%C3%A9dric-delporte-08134141"
+    - icon: personal website
+      text: personal website
+      href: " https://pharmacie.ulb.be/version-francaise/la-recherche/chercheurs/cedric-delporte"
 ---
+
+Associate professor at the Faculty of Pharmacy at ULB in Brussels, in analytical chemistry and biological therapeutics. I’m specialized in metabolomics based on LC-MS(/MS) but also un glycosylation analysis of glycoproteins, including pharmaceutical biotherapeutics.
 
 ## Education
 
+**Master degree** in Pharmacy in 2008 (ULB, Belgium)
+
+**Ph D** in Pharmaceutical Sciences in 2012 (ULB, Belgium)
+
 ## Experience
+
+**ULB** PhD on posttranslational modification analysis by LC-MSMS in Brussels, Faculty of Pharmacy, (2008-2012).
+
+**NIBRT** in Dublin, Postdoc on glycomics (2012-2013).
+
+**ULB** postdoc on glycomics in Brussels, Faculty of Pharmacy (2013-2017.)
+
+**Lille** postdoc on glycomics (2014).
+
+**ULB** premier assistant (2017-2022) and then associate professor (2022- now), at ULB, Phaculty of Pharmacy.
+
