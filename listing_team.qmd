@@ -29,6 +29,112 @@ Here are all the participants for the development of a beautiful and usefull W4M
 ::: {#current}
 :::
 
+### Where are we working ?
+
+```{r}
+#| label: "make_the_map"
+#| echo: FALSE
+#| message: FALSE
+#| warning: false
+#| context: output
+# Script pour generer la carte des labos et personnes de W4M
+library(sf)
+library(openxlsx)
+library(mapview)
+library(sfheaders)
+library(leaflet)
+library(leafpop)
+library(leafem)
+library(leaflet.extras)
+
+logo <- "https://avatars.githubusercontent.com/u/17082156?s=200&v=4"
+people <- read.xlsx("./ressources/people_location.xlsx")
+# prepare a palette - manual colors according to branch column
+palPwr <- leaflet::colorFactor(palette = c("metabolomique" = "steelblue", 
+                                           "genomique" = "goldenrod", 
+                                           "informatique" = "yellow"), 
+                               domain = people$domaine)
+
+# create a column with HTML code for popup text
+label <- NULL
+# Need to add "/workflow4metabolomics/" to be able to work online
+for(r in 1:nrow(people)){
+  ref <- paste0('<b><a href=',paste0('/workflow4metabolomics/people/W4Mteam/',strsplit(people$people[r]," ")[[1]][1],'_',strsplit(people$people[r]," ")[[1]][2], '.html>', people$people[r], '</a></b> <br>', people$lab[r]))
+  label <- c(label, ref)
+}
+people <- cbind(people, label = label)
+people$long <- as.double(people$long)
+people$lat <- as.double(people$lat)
+#labs <- read.xlsx("./ressources/lab_location.xlsx")
+#labs$long <- as.double(labs$long)
+#labs$lat <- as.double(labs$lat)
+
+#declare an icon - link to an image somwehere on the net
+ikonka <- leaflet::makeIcon(iconUrl = "https://cdn1.iconfinder.com/data/icons/working-at-office/90/activity-work_at_office-working-people-man-23-512.png", iconWidth = 50, iconHeight = 50) # sizing as required
+
+#map_people <- st_as_sf(people, coords = c("long","lat"), crs = 4326)
+#map_labs <- sf_polygon(labs, x = "long", y = "lat", polygon_id = "lab")
+
+mapPlot <- leaflet(people) %>%
+  addProviderTiles("OpenStreetMap.Mapnik") %>%
+  addMarkers(lng = ~long,
+             lat = ~lat,
+             popup = ~label, 
+             clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
+                                  var childCount = cluster.getChildCount(); 
+                                  var c = ' marker-cluster-';  
+                                  if (childCount > 10) {  
+                                    c += 'large';  
+                                  } else if (childCount > 5) {  
+                                    c += 'medium';  
+                                  } else { 
+                                    c += 'small';  
+                                  }    
+                                  return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+
+  }")), 
+             icon = ikonka) %>% 
+  addResetMapButton() %>%
+  leafem::addLogo(logo, url = "https://jsaintvanne.github.io/workflow4metabolomics/")
+mapPlot
+
+  #addPolygons(data = map_labs, color = "blue")
+
+
+```
+
+```{=html}
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; max-width: 100%;">    
+  <style>
+    .logo-cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Ajustez la hauteur selon vos besoins */
+      overflow: hidden;
+    }
+
+    .logo-cell img {
+      max-width: 150px; /* Ajustez la largeur maximale des logos */
+      max-height: 150px; /* Ajustez la hauteur maximale des logos */
+      object-fit: contain; /* Assure que l'image garde ses proportions */
+    }
+  </style>
+   <div class="logo-cell">
+    <img src="/images/logo/logo_inrae.png" alt="logo inrae" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_oniris.png" alt="logo oniris" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_ifb.png" alt="logo ifb" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_cnrs.png" alt="logo cnrs" />
+  </div>
+</div>
+```
+
 ## Previous collaborators
 
 Here are all the previous collaborators we had the chance to share with

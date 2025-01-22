@@ -73,7 +73,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
     <img src="/images/39-Adventurer.svg" class="card-img-top" alt="newcomer.jpg">
     <div class="card-body">
       <h4 class="card-title">Newcomer</h4>
-      <p class="card-text">I'm a newcomer and I want to know more about <img src="/images/W4M_icon.svg" style="height:20px">, visit our <a href="about.qmd">About us section</a></p>
+      <p class="card-text">I'm a newcomer and I want to know more about <img src="/images/W4M_icon.svg" style="height:20px">, visit our <a href="galaxyW4M.qmd">Introduction section</a> and <a href="tooluser.qmd">Guide for Users</a></p>
     </div>
   </div>
   <div class="card">
@@ -97,15 +97,15 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
       <h4 class="card-title">Contributers</h4>
       <p class="card-text">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><small><b>A tutor</b> to help people understand how to process metabolomics data: [contact here](TODO)</small></li>
+        <li class="list-group-item"><small><b>A tutor</b> to help people understand how to process metabolomics data <a href="new.qmd">see here</a></small></li>
         <li class="list-group-item"><small><b>A developper</b> to propose or add new tools to the community:
           <ul>
-            <li>Check our guides and how-to [here](TODO)</li>
-            <li>I need help [contact here](TODO)</li>
+            <li>Check our <a href="tooldev.qmd">Guides</a> and <a href="contribute.qmd">how-to</a></li>
+            <li>I need help: <a href="https://github.com/workflow4metabolomics/tools-metabolomics/issues"> create an issue</a></li>
           </ul>
         </small>
         </li>
-        <li class="list-group-item"><small>I don't know but I want to help: [contact here](TODO)</small></li>
+        <li class="list-group-item"><small>I don't know but I want to help: workflow4metabolomics@proton.me</small></li>
       </ul>
       </p>
     </div>
@@ -117,7 +117,7 @@ You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/
       <p class="card-text">
         <ul class="list-group list-group-flush">
           <li class="list-group-item"><small>The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></small></li>
-          <li class="list-group-item"><small>On this website, post an issue on [lien repo](TODO)</small></li>
+          <li class="list-group-item"><small>On this website, post an issue on <a href="https://github.com/workflow4metabolomics/workflow4metabolomics/issues">Github website</a></small></li>
         </ul>
       </p>
     </div>

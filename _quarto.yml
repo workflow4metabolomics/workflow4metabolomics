@@ -18,7 +18,7 @@ website:
   twitter-card: true
   page-footer:
     right: "This page is built with ❤️"
-    left: "&copy; Julien Saint-Vanne"
+    left: "Contact us: workflow4metabolomics@proton.me"
 
 
   # theme:
