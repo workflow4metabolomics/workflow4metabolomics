@@ -1,6 +1,6 @@
 ---
 title: "Binta Diémé"
-image: "https://media.licdn.com/dms/image/C5603AQEHwsAAKwmoRw/profile-displayphoto-shrink_200_200/0/1574098911686?e=2147483647&v=beta&t=UmErCeOzQnfOAsp-05HJstNSZ5Vf4l9GtkTXH6wpFI4"
+image: "https://media.licdn.com/dms/image/v2/D4D03AQGX1sj9kJl8LA/profile-displayphoto-shrink_800_800/B4DZSJP4vYG4Ag-/0/1737469431266?e=1743033600&v=beta&t=U04lGmbz0qeBu-hiKbuKOgXjp4COIvDaWtC4syGDzso"
 description: Data processing biologist
 categories: 
     - LCMS
