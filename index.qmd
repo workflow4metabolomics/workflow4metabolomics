@@ -49,7 +49,7 @@ listing:
 ---
 
 ::: callout-important
-Workflow4experimenters (![](/images/W4E_icon.svg){height="1em"}) course 2025 : [Pre-registration are open !!](https://jsaintvanne.github.io/workflow4metabolomics/W4E/w4e2025.html)
+Workflow4experimenters (![](/images/W4E_icon.svg){height="1em"}) course 2025 : Registration are now closed !
 :::
 
 Welcome to the **collaborative portal of** ![](/images/W4M_icon.svg){height="1em"} dedicated to metabolomics data processing, analysis and annotation for the **Metabolomics community**. On this website you will find information on our **main missions** as well as **users** and **developpers guides**.
