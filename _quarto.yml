@@ -34,9 +34,6 @@ website:
       - text: "Galaxy W4M"
         icon: "boxes"
         menu:
-          - text: "Introduction"
-            href: galaxyW4M.qmd
-            icon: "info-circle"
           - text: "Guides for Users"
             href: tooluser.qmd
             icon: "code"
