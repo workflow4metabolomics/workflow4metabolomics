@@ -64,7 +64,8 @@ website:
         href: listing_team.qmd
       - text: "About"
         href: about.qmd
-
+      - text: "How to cite"
+        href: cite_us.qmd
 
     #background: success
     #foreground: danger
