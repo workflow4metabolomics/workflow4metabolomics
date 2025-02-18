@@ -46,6 +46,9 @@ website:
           - text: "Guides for Administrators"
             href: tooladmin.qmd
             icon: "code"
+          - text: "How to get help"
+            href: get_help.qmd
+            icon: "person-fill-up"
           - text: "How to contribute"
             href: contribute.qmd
             icon: "person-fill-up"
