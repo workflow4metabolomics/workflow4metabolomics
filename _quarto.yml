@@ -52,6 +52,8 @@ website:
       - text: "Tools"
         icon: "tools"
         menu:
+          - text: "General information"
+            href: tool_general.qmd
           - text: "Tool 1"
             href: tool1.qmd
           - text: "Tool 2"
