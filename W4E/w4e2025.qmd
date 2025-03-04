@@ -152,7 +152,7 @@ Preregistration are now closed !! Thanks to all ! We are now selecting participa
 
 **Contact**: [workflow4metabolomics@proton.me](workflow4metabolomics@proton.me)
 
-**Sponsor**: ![](/images/W4M_icon.svg){height="1em"} is jointly developed and maintained by the French Bioinformatics Infrastructure  (IFB, Elixir) and the French Infrastructure for Metabolomics and Fluxomics (MetaboHUB).
+**Sponsor**: ![](/images/W4M_icon.svg){height="1em"} is jointly developed and maintained by the French Bioinformatics Infrastructure  (IFB, Elixir), the French Infrastructure for Metabolomics and Fluxomics (MetaboHUB) and the Réseau Français de Métabolomique et Fluxomique (RFMF).
 
 See you soon in Rouen!
 
