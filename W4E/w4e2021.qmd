@@ -1,0 +1,95 @@
+---
+title: "Workflow4Experimenters 2021"
+year: 2021
+place: Toulouse, France
+date: 11-15 October
+speakers: Sylvain Dechaumet, David Touboul, Fabien Jourdan
+---
+
+![W4E 2021 affiche](images/W4E_2021_affiche.png)
+
+Processing, statistical analysis, and annotation of metabolomics data is a complex task for experimenters since it involves many steps and requires a good knowledge of both the methodology and software tools. The Workflow4Metabolomics.org (W4M) online infrastructure provides a user-friendly and high-performance environment with advanced computational modules for building, running, and sharing complete workflows for LC-MS, GC-MS, FIA and NMR analysis. Such features are of major values for teaching computational metabolomics to experimenters, and previous courses using W4M since 2014 have been very successful.
+
+Pre-Registration: - CLOSED -
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Goals: During this one-week course, participants will learn how to use the W4M infrastructure to analyze their own dataset. Morning sessions will be dedicated to methodology and tools. Afternoon sessions will be devoted to tutoring.
+
+
+
+Date: from Monday 11th, (lunch time) to Friday October 15th (lunch time) 2021
+
+
+
+Costs: 900 € for academic and 2000 € for private institution (to cover expenses for trainers, organization, materials and meals)
+
+Including : Lunch, coffee break, pedagogic support and the Thursday social eventNot included : travel expenses, accomodation and 3 diners (Monday, Tuesday, Wednesday)
+
+
+
+Target audience: LC-MS, GC-MS, NMR, FIA-MS and DI-MS  experimenters (e.g. biologists, chemists).
+
+Materials: Participants will use their laptop to perform the analysis on their W4M account. All presentations, reference datasets and workflows will be available online.
+
+
+
+Tutors: Each participant will be paired with a duo of tutors (preprocessing / statistics experts) who will help him/her preparing data and assist him/her during each analysis step.
+
+
+
+Location: [UMR Toxalim](https://www6.toulouse.inrae.fr/toxalim) INRAE, 180 chemin de Tournefeuille – Toulouse (France)
+
+
+
+Language: English
+
+
+
+Number of attendees: 20 max.
+
+
+
+Keynote speakers: L. Mervant (Ph.D. student, UMR Toxalim, INRAE Toulouse, France), Dr D. Touboul (Institute of Natural Substances Chemistry ICSN, Gif-sur-Yvette, France), Dr F. Jourdan (UMR Toxalim, INRAE Toulouse, France)
+
+
+
+Sponsors:[ELIXIR](https://www.elixir-europe.org/), French Bioinformatics Institute ([IFB](http://www.france-bioinformatique.fr/en)), French Infrastructure for Metabolomics and Fluxomics ([MetaboHUB](http://www.metabohub.fr/index.php?lang=en&Itemid=473)), Francophone Network for Metabolomics and Fluxomics ([RFMF](http://www.rfmf.fr/)), [Genotoul](https://www.genotoul.fr/)
+
+
+
+Program
+
+
+
+
+
+
+
+Scientific committee
+
+Université Libre de Bruxelles: Cédric DelporteELIXIR-France (IFB): Gildas Le Corguillé, Valentin Saint-Leger (organization)MetaboHUB: Marie Tremblay-Franco, Mélanie Pétéra, Cécile Canlet, Binta Diemé, Franck Giacomoni and the W4M coreteamU DAB IRBA(Institut de Recherche Biomédicale des Armées): Céline DalleLABERCA Nantes: Yann Guitton
+
+
+
+Conference Lodging
+
+We will provide a list of hotels near to the school location.
+
+Hosted by UMR Toxalim INRAE
+
+
+
+
+
+
+
+For any requests, please contact the team: support@workflow4metabolomics.org
+
+Privacy policy

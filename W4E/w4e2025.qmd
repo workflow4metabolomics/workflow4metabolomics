@@ -1,0 +1,159 @@
+---
+title: "Workflow4Experimenters 2025"
+year: 2025
+place: Rouen, France
+date: 2024/11/27
+speakers: 
+---
+  
+Analyze your data with ![](/images/galaxy_logo_25percent_transparent.png){height="1em"} and the ![](/images/W4M_icon.svg){height="1em"} infrastructure! 
+  
+The next Workflow4Experimenters session (![](/images/W4E_icon.svg){height="1em"}2025) will take place from in May 2025. During this one-week course (entirely in English), you will learn how to use the ![](/images/W4M_icon.svg){height="1em"} infrastructure and analyze your own LC-MS, GC-MS, or NMR data. 
+
+For this new session, format changed:
+
+  - From April, 28th to 30th: online theoreticalsessions (methods and tools). This session is *only accessible to person who will be present in Rouen for the onsite session.*
+  - From May, 12th to 16th: tutoring on your own data, PBS Laboratory Rouen (Rouen University, Campus de Mont Saint-Aignan, France, close to Paris).
+
+::: callout-important
+Preregistration are now closed !! Thanks to all ! We are now selecting participants... 
+:::
+
+**Costs**: 1300€ for academic and 2500 € for private institution (to cover expenses for trainers, organization, materials and meals). A special discount of 100€ is offered for ![RFMF](https://www.rfmf.fr/) members 2025.
+
+**Invited speaker**:  
+*Ultra-high resolution mass spectrometry and metabolomics*, by **Hélène Lavanant** (COBRA, Univ Rouen) & **Isabelle Schmitz** (PBS, CNRS, Rouen)
+
+
+![Map of Rouen](/images/map_rouen_w4e2025.PNG)
+
+**Program**:
+
+<table class="table cart table-hover table-colored">
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: from 28th to 30th of April</th>
+    </tr>
+  </thead>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Monday 28th April 2025</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 10:30</td>
+      <td class="product">INTRODUCTION</td>
+      <td colspan="2" class="product">Welcome and presentation of the webinar and the speakers</em>
+      </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:30 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">Galaxy session: Initiation and data management
+        <br/><em>M. Pétéra, Y. Guitton and G. Le Corguillé</em>
+      </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">14:00 - 16:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Data Preprocessing
+        <br/><em>M. Pétéra, Y. Guitton</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">14:00 - 16:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Data Preprocessing
+        <br/><em>C. Canlet, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">16:00 - 16:30</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Signal Drift and Batch-Effect Correction
+        <br/><em>M. Pétéra</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Tuesday 29th April 2025</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Statistical analysis
+        <br/><em>M. Pétéra, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">14:00 - 16:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Annotation
+        <br/><em>Y. Guitton, R. Weber</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">14:00 - 16:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Annotation
+        <br/><em>C. Canlet</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Wednesday 30th 2025</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Real-Time Insights: Focusing on Your Key Topics 
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<table class="table cart table-hover table-colored">
+  <thead>
+    <tr>
+      <th colspan="5">W4E School: from 12th to 16th of May</th>
+    </tr>
+  </thead>
+  <thead>
+    <tr>
+      <th colspan="5">
+        <img src="/images/planning_w4e25.png" alt="Coming Soon!" style="width: 100%; max-width: 900px;" />
+      </th>
+    </tr>
+  </thead>
+</table>
+
+**Scientific comitee**: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), Y. Guitton & J. Saint Vanne (Laberca Oniris/INRAE, Nantes), C. Joly & M. Pétéra (PFEM INRAE, Clermont-Ferrand), G. Le Corguillé (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRAE, Toulouse), I. Schmitz (PBS, CNRS, Rouen), S. Chéreau (INRAE, Rennes), H. Hecht (RECETOX, Brno), R.Weber (University of Birmingham), S. Dechaumet (CEA, Saclay)
+
+**Contact**: [workflow4metabolomics@proton.me](workflow4metabolomics@proton.me)
+
+**Sponsor**: ![](/images/W4M_icon.svg){height="1em"} is jointly developed and maintained by the French Bioinformatics Infrastructure  (IFB, Elixir), the French Infrastructure for Metabolomics and Fluxomics (MetaboHUB) and the Réseau Français de Métabolomique et Fluxomique (RFMF).
+
+See you soon in Rouen!
+
+![](/images/bandeau_w4e_rouen.PNG)

@@ -1,0 +1,243 @@
+---
+title: "Workflow4Metabolomics"
+listing:
+  - id: fast_access
+    contents: 
+      - title: "Galaxy instance"
+        image: "https://galaxyproject.org/images/galaxy-logos/galaxy_project_logo_square.png"
+        path: "https://workflow4metabolomics.usegalaxy.fr"
+        description: "Here is the Galaxy workflow4metabolomics website"
+      - title: "Teaching school"
+        image: "/images/W4E_icon.svg"
+        path: "W4E/w4e2025.qmd"
+        description: "Let's check the teaching school of W4M"
+    type: grid
+    image-height: 130px
+    fields: [title, description, image, categories]
+    grid-columns: 2
+    grid-item-align: left
+    grid-item-border: true
+  # - id: resources
+  #   contents: resources*.qmd
+  #   sort: "date asc"
+  #   type: grid
+  #   image-height: 130px
+  #   fields: [title, description, image, categories]
+  #   grid-columns: 2
+  #   grid-item-align: left
+  #   grid-item-border: true
+  - id: sponsors
+    contents:
+      - title: "MetaboHub"
+        image: https://www.metabohub.fr/media/752
+        path: https://www.metabohub.fr/
+        description: "The National Infrastructure of Metabolomics and Fluxomics"
+      - title: "IFB"
+        image: https://www.france-bioinformatique.fr/wp-content/uploads/logo-ifb-couleur.svg
+        path: https://www.france-bioinformatique.fr/
+        description: "The French Institute of Bioinformatics"
+      - title: "RFMF"
+        image: https://www.rfmf.fr/wp-content/uploads/2020/06/logo_seul.png
+        path: https://www.rfmf.fr/
+        description: "The French Network of Metabolomic and Fluxomic"
+    type: grid
+    image-height: 100px
+    fields: [title, description, image, categories]
+    grid-columns: 3
+    grid-item-align: left
+    grid-item-border: true
+---
+
+::: callout-important
+Workflow4experimenters (![](/images/W4E_icon.svg){height="1em"}) course 2025 : Registration are now closed !
+:::
+
+Welcome to the **collaborative portal of** ![](/images/W4M_icon.svg){height="1em"} dedicated to metabolomics data processing, analysis and annotation for the **Metabolomics community**. On this website you will find information on our **main missions** as well as **users** and **developpers guides**.
+
+### Keep in touch
+
+You can subscribe to [our newsletter](https://groupes.france-bioinformatique.fr/sympa/subscribe/workflow4metabolomics-newsletter?previous_action=info) to get updated on new events !
+
+### Fast access
+
+::: {#fast_access}
+:::
+
+### Resources
+
+<!-- Pictures are from here https://designs.ai/graphicmaker/illustrations/Duotone_Cartoon_Set -->
+
+```{=html}
+<div class="card-group">
+  <div class="card">
+    <img src="/images/39-Adventurer.svg" class="card-img-top" alt="newcomer.jpg">
+    <div class="card-body">
+      <h4 class="card-title">Newcomer</h4>
+      <p class="card-text">I'm a newcomer and I want to know more about <img src="/images/W4M_icon.svg" style="height:20px">, visit our <a href="galaxyW4M.qmd">Introduction section</a> and <a href="tooluser.qmd">Guide for Users</a></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/images/106-Management-Trainee.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Want to learn</h4>
+      <p class="card-text">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><small>Go to our teaching school event <a href="news.qmd"><img src="/images/W4E_icon.svg" style="height:25px"> section</a></small></li>
+        <li class="list-group-item"><small>Consult our <a href="tooluser.qmd">user page here</a></small></li>
+        <li class="list-group-item"><small>Or directly go to our official <a href="https://training.galaxyproject.org/training-material/topics/metabolomics/">Galaxy training guides <img src="https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png" style="height:25px"></a></small></li>
+      </ul>
+      </p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img src="/images/58-Teamwork.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Contributers</h4>
+      <p class="card-text">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item"><small><b>A tutor</b> to help people understand how to process metabolomics data <a href="new.qmd">see here</a></small></li>
+        <li class="list-group-item"><small><b>A developper</b> to propose or add new tools to the community:
+          <ul>
+            <li>Check our <a href="tooldev.qmd">Guides</a> and <a href="contribute.qmd">how-to</a></li>
+            <li>I need help: <a href="https://github.com/workflow4metabolomics/tools-metabolomics/issues"> create an issue</a></li>
+          </ul>
+        </small>
+        </li>
+        <li class="list-group-item"><small>I don't know but I want to help: workflow4metabolomics@proton.me</small></li>
+      </ul>
+      </p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="/images/121-SEO-Analysis.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h4 class="card-title">Reporters</h4>
+      <p class="card-text">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><small>The galaxy instance, post an issue on the <a href="https://community.france-bioinformatique.fr/c/workflow4metabolomics/10">IFB Communit Support</a></small></li>
+          <li class="list-group-item"><small>On this website, post an issue on <a href="https://github.com/workflow4metabolomics/workflow4metabolomics/issues">Github website</a></small></li>
+        </ul>
+      </p>
+    </div>
+  </div>
+</div>
+```
+
+<!-- :::{#resources} -->
+
+<!-- ::: -->
+
+**I want to know who** is behind all of these, go to our [team member section](listing_team.qmd).
+
+### Our sponsors
+
+::: {#sponsors}
+:::
+
+### Where are we working ?
+
+```{r}
+#| label: "make_the_map"
+#| echo: FALSE
+#| message: FALSE
+#| warning: false
+#| context: output
+# Script pour generer la carte des labos et personnes de W4M
+library(sf)
+library(openxlsx)
+library(mapview)
+library(sfheaders)
+library(leaflet)
+library(leafpop)
+library(leafem)
+library(leaflet.extras)
+
+logo <- "https://avatars.githubusercontent.com/u/17082156?s=200&v=4"
+people <- read.xlsx("./ressources/people_location.xlsx")
+# prepare a palette - manual colors according to branch column
+palPwr <- leaflet::colorFactor(palette = c("metabolomique" = "steelblue", 
+                                           "genomique" = "goldenrod", 
+                                           "informatique" = "yellow"), 
+                               domain = people$domaine)
+
+# create a column with HTML code for popup text
+label <- NULL
+# Need to add "/workflow4metabolomics/" to be able to work online
+for(r in 1:nrow(people)){
+  ref <- paste0('<b><a href=',paste0('/workflow4metabolomics/people/W4Mteam/',strsplit(people$people[r]," ")[[1]][1],'_',strsplit(people$people[r]," ")[[1]][2], '.html>', people$people[r], '</a></b> <br>', people$lab[r]))
+  label <- c(label, ref)
+}
+people <- cbind(people, label = label)
+people$long <- as.double(people$long)
+people$lat <- as.double(people$lat)
+#labs <- read.xlsx("./ressources/lab_location.xlsx")
+#labs$long <- as.double(labs$long)
+#labs$lat <- as.double(labs$lat)
+
+#declare an icon - link to an image somwehere on the net
+ikonka <- leaflet::makeIcon(iconUrl = "https://cdn1.iconfinder.com/data/icons/working-at-office/90/activity-work_at_office-working-people-man-23-512.png", iconWidth = 50, iconHeight = 50) # sizing as required
+
+#map_people <- st_as_sf(people, coords = c("long","lat"), crs = 4326)
+#map_labs <- sf_polygon(labs, x = "long", y = "lat", polygon_id = "lab")
+
+mapPlot <- leaflet(people) %>%
+  addProviderTiles("OpenStreetMap.Mapnik") %>%
+  addMarkers(lng = ~long,
+             lat = ~lat,
+             popup = ~label, 
+             clusterOptions = markerClusterOptions(iconCreateFunction=JS("function (cluster) {    
+                                  var childCount = cluster.getChildCount(); 
+                                  var c = ' marker-cluster-';  
+                                  if (childCount > 10) {  
+                                    c += 'large';  
+                                  } else if (childCount > 5) {  
+                                    c += 'medium';  
+                                  } else { 
+                                    c += 'small';  
+                                  }    
+                                  return new L.DivIcon({ html: '<div><span>' + childCount + '</span></div>', className: 'marker-cluster' + c, iconSize: new L.Point(40, 40) });
+
+  }")), 
+             icon = ikonka) %>% 
+  addResetMapButton() %>%
+  leafem::addLogo(logo, url = "https://jsaintvanne.github.io/workflow4metabolomics/")
+mapPlot
+
+  #addPolygons(data = map_labs, color = "blue")
+
+
+```
+
+```{=html}
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; max-width: 100%;">    
+  <style>
+    .logo-cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100px; /* Ajustez la hauteur selon vos besoins */
+      overflow: hidden;
+    }
+
+    .logo-cell img {
+      max-width: 150px; /* Ajustez la largeur maximale des logos */
+      max-height: 150px; /* Ajustez la hauteur maximale des logos */
+      object-fit: contain; /* Assure que l'image garde ses proportions */
+    }
+  </style>
+   <div class="logo-cell">
+    <img src="/images/logo/logo_inrae.png" alt="logo inrae" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_oniris.png" alt="logo oniris" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_ifb.png" alt="logo ifb" />
+  </div>
+  <div class="logo-cell">
+    <img src="/images/logo/logo_cnrs.png" alt="logo cnrs" />
+  </div>
+</div>
+```

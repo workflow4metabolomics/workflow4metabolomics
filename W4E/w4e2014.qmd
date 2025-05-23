@@ -1,0 +1,7 @@
+---
+title: "Workflow4Experimenters 2014"
+year: 2014
+place: Lyon, France
+date: ??
+speakers: 
+---

@@ -1,0 +1,134 @@
+---
+title: "Workflow4Experimenters 2024"
+year: 2024
+place: Grenoble, France
+date: from April 8th to April 12th 2024
+speakers: TBD
+---
+
+Analyze your data with Galaxy and the Workflow4metabolomics infrastructure! 
+
+The next Workflow4Experimenters session (W4E2024) will take place from **8 to 12 April 2024**. During this one-week course (entirely in English), you will learn how to use the W4M infrastructure and analyze your own LC-MS, GC-MS, or NMR data. 
+
+This year an online pre-session is organised from **Monday 25 to Friday 29 March from 10 to 12 am**. 
+
+Agenda and preregistration: [registration form](https://sondages.inrae.fr/index.php/688996?lang=fr) (Deadline 21/01/2024) 
+  
+- From March, 25th to 29th (10am to 12pm): online theoretical sessions (methods and tools) 
+- From April 8th to 12th : tutoring on your own data, at (Archamps). Practical information (more soon) - access map
+
+![Map of Archamps, Genève and its airport](./images/W4E_maps_Archamps.png)
+
+**Invited speaker**: TBD
+
+**Scientific comitee**: C. Delporte (ULB, Bruxelles), C. Dalle (U.DAB IRBA, Brétigny-sur-Orge), J. Saint-Vanne, Y. Guitton (Laberca, Nantes), C. Joly, M. Pétéra, F. Giacomoni (PFEM INRA, Clermont-Ferrand), G. Le Corguillé, (Abims, Roscoff), B. Diémé (PFEM Université Clermont Auvergne), F. Souard (ULB, Bruxelles & Université de Grenoble), C. Canlet, M. Tremblay-Franco (Toxalim INRA, Toulouse), Ralf Weber (University of Birmingham)
+
+**Program**:
+
+<table class="table cart table-hover table-colored">
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Monday 25th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 10:30</td>
+      <td class="product">INTRODUCTION</td>
+      <td colspan="2" class="product">Welcome and presentation of the webinar and the speakers</td>
+    </tr>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:30 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">Galaxy session: Initiation and data management
+        <br/><em>M. Pétéra, Y. Guitton and G. Le Corguillé</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Tuesday 26th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 11:30</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Data Preprocessing
+        <br/><em>M. Pétéra, Y. Guitton</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">10:00 - 11:30</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Data Preprocessing
+        <br/><em>C. Canlet, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">11:30 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Signal Drift and Batch-Effect Correction
+        <br/><em>M. Pétéra</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Wednesday 27th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Statistical analysis
+        <br/><em>M. Pétéra, M. Tremblay-Franco</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Thursday 28th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [MS] Annotation
+        <br/><em>Y. Guitton, R. Weber</em>
+      </td>
+    </tr>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        [NMR] Annotation
+        <br/><em>C. Canlet</em>
+      </td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <th colspan="5">W4E Webinar: Friday 29th 2024</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="remove-data">
+      <td class="product">10:00 - 12:00</td>
+      <td class="product">PRESENTATION</td>
+      <td colspan="2" class="product">
+        Real-Time Insights: Focusing on Your Key Topics 
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Contact**: [w4e-organisation@groupes.renater.fr](w4e-organisation@groupes.renater.fr)

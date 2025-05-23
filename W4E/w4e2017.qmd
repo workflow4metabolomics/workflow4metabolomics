@@ -1,0 +1,7 @@
+---
+title: "Workflow4Experimenters 2017"
+year: 2017
+place: Paris, France
+date: 29 May - 2 June
+speakers: Tim Ebbels, Steffen Neumann, Ralf Weber
+---

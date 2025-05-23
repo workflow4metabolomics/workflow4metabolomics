@@ -1,0 +1,14 @@
+---
+title: "Lain Pavot"
+image: "https://avatars.githubusercontent.com/u/72435441?v=4"
+about:
+  template: trestles
+  links: 
+    - icon: github
+      text: Github
+      href: "https://github.com/Lain-inrae"
+---
+
+## Education
+
+## Experience

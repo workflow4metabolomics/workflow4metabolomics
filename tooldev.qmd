@@ -1,0 +1,108 @@
+---
+  title: "Tool development"
+---
+
+## Developing Galaxy tools in general
+
+In case you are not familiar with Galaxy tool development, there is plenty of supports to help you beginning and improving.
+
+Don't know where to start? There are 
+[very cool and easy-to-handle tutorials](https://training.galaxyproject.org/training-material/topics/dev/#st-tooldev)
+hosted by the Galaxy Training Network. You can also have a look at the
+[contribution guidelines](https://github.com/workflow4metabolomics/workflow4metabolomics/blob/master/GUIDELINES.md#writing-a-tool)
+we wrote for our W4M contributors and collaborators. 
+
+Please note that W4M also hosts a GitHub repository aiming to gather tools and contributors from the metabolomics world. 
+[More information available in the associated Readme](https://github.com/workflow4metabolomics/tools-metabolomics)
+
+## Developing tools compatible with W4M input/output datasets
+
+Due to the diversity of tools needed to construct comprehensive metabolomic workflows, W4M chose to adopt common standards across its tools, in particular regarding data table formats.
+
+### About the W4M standardised 3-tables format
+
+As W4M provides a large variety of tools, we set a common way to handle data, in order to
+enable easy links between the tools, limiting format switches 
+and ensuring users can easily find the information they seek inside their data sets. 
+
+For any extracted data (*i.e.* a single intensity value per {analytical variable; sample} pair), 
+we settled for a standardised 3-tables format, in the form of 'tabular' files 
+(as defined in Galaxy, *i.e.* plain text files (.txt, .tsv, .tabular) containing tables with columns separated by tabulations).
+One file is dedicated to the intensity values measured for each analytical variable and each sample,
+a second file gathers the meta-data concerning the samples,
+and a third file is about the meta-data of the analytical variables.
+
+Detailed information about this W4M 3-tables format is [available here](https://nextcloud.inrae.fr/s/qLkNZRf84QQ5YLY). 
+
+Familiar with [Biobase formating](https://bioconductor.org/packages/release/bioc/html/Biobase.html) from Bioconductor? 
+The W4M 3-tables format is very similar to the ExpressionSets organisation of data, 
+the main difference being that the dataMatrix table is a transposition of the assay data table:
+
+| W4M format       | ExpressionSets                            |
+|------------------|-------------------------------------------|
+| dataMatrix       | *transposed* assay data (assayData)       |
+| sampleMetadata   | phenotypic data (phenoData)               |
+| variableMetadata | annotations and feature data (annotation) |
+
+## Developing tools in a W4M-approuved format
+
+**TODO** blabla intro
+
+### The tool being wrapped
+
+**TODO** topo sur le user experience
+
+**TODO** Ajout de la ref à [W4MRUtils](https://cran.r-project.org/web/packages/W4MRUtils/index.html) dans le cas de codes en R.
+
+
+### The Galaxy XML wrapper
+
+Among the possible variations for functional XML wrappers, W4M is willing to garantee [...]
+
+**TODO** les reco W4M du XML
+
+### Documenting the Galaxy tool
+
+Documentation in vital to any tool. Among the many advantages it provides, it enables potential users as well as already initiated ones
+to understand what the tool is meant for and how it can be relevantly used.
+
+As you may already know, there are two distinct targets for documentation, that are equally important:
+- the developers' community: people that may evaluate your tool in a 'code and structure' perspective, 
+that may deploy it for others or themselves to use it, and that may also contribute to its development in the future
+- the users' community: people that may test your tool in order to obtain results, that may use it for their routine or R&D works,
+and that may even use it for learning purpose. 
+
+W4M supports Galaxy tools that combine these two aspects of documentation. 
+Consequently, we highly recommend that any tool you share with our community 
+is provided with at least basic documentation for both these target publics.
+
+#### Documentation for developers
+
+**TODO** Mentionner les BP (comm etc) + dire que minimum un ReadMe mais aussi les tests pour exemple a rejouer
+
+#### Documentation for users
+
+There is a large variety of ways to provide user documentations, including embedded help files,
+online content and even live trainings' supports.
+
+As one of Galaxy's goals is to provide a user-friendly environment and easy access to ressources, 
+several channels exists that are especially designed to be efficient for users 
+(easily found, convenient to use...). 
+
+As W4M, we highly recommend to consider at least the three following options.
+
+##### The Galaxy tool Help section
+
+**TODO** Presenter les section mandatory et facultative
+
+About the format, you can find [here](ressources/Help_template.txt)
+a template of Help tag to help you initiating your writing with the recommanded sections and formats.
+
+##### Other Galaxy tool's XML information usefull for users
+
+**TODO** les balises recommandees
+
+##### Materials to provide through the Galaxy Training Network
+
+**TODO** Le fait que bon moyen de mettre en ontexte un outil + Lien vers GTN et howto GTN-build + le fait 
+que ça apparaitra direct en bas de l'outil 

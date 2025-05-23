@@ -1,0 +1,11 @@
+---
+title: "Want to learn"
+image: /images/W4E_icon.svg
+date: 02/01/2024
+---
+  
+**I want to learn** how to **process metabolomics data**, you can either:
+
+* Go to our teaching school event [![](/images/W4E_icon.svg){height=1em} section](TODO)
+* Consult our [user page here](tooluser.qmd)
+* Or directly go to our official [Galaxy training guides ![](https://training.galaxyproject.org/training-material/assets/images/GTN-60px.png){height=1em}](https://training.galaxyproject.org/training-material/topics/metabolomics/)

@@ -1,0 +1,14 @@
+---
+title: "Contributers"
+image: /images/W4M_icon.svg
+description: "I want to contribute as who?..."
+date: 03/01/2024
+---
+  
+**I want to contribute as:**
+
+* **A tutor** to help people understand how to process metabolomics data: [contact here](TODO)  
+*  **A developper** to propose or add new tools to the community:
+    + Check our guides and how-to [here](TODO)  
+    +  I need help [contact here](TODO)  
+* **I don't know** but I want to help: [contact here](TODO)  

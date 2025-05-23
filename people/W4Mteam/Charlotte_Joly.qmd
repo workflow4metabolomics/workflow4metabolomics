@@ -1,0 +1,34 @@
+---
+title: "Charlotte Joly"
+image: "https://media.licdn.com/dms/image/C5603AQEKReXck6r6SA/profile-displayphoto-shrink_200_200/0/1516787788025?e=2147483647&v=beta&t=52onAWP55MbE-0QYDUfhbzvaXieN6bAai9e0y-4-bW8"
+description: Assistant engineer in biomolecule analysis
+categories: 
+    - LCMS
+    - MSMS
+    - Galaxy
+    - PeakForest
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/charlotte-joly-b9335238"
+    - icon: orcid
+      text: ORCiD
+      href: "https://orcid.org/0000-0003-2534-1867"
+
+---
+
+Assistant Engineer in mass spectrometry applied to metabolomics.
+I carry out metabolomics studies including : sample preparation, analyte extraction, LC-MS acquisition and data processing. Biomarker annotation and quantification is a motivating challenge that I am trying to answer.
+On my free time I play handball and I'm also a firefighter.
+
+## Education
+
+
+
+## Experience
+
+**INRAE - UNH ** in Theix (France) as Analytical Chemist Techincian (2006-2007)
+
+**INRAE - UNH - PFEM - MetaboHUB-Clermont ** in Theix (France) as Assistant engineer in biomolecule analysis (from 2007)

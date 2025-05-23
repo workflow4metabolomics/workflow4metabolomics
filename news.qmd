@@ -1,0 +1,64 @@
+---
+title: "News"
+listing: 
+  - id: list_w4e
+    contents: "W4E/*.qmd"
+    type: table
+    sort: "year desc"
+    max-items: 100
+    fields: [year, place, title]
+    sort-ui: false
+page-layout: full
+---
+ 
+::: {.panel-tabset}
+## Workflow4Experimenters
+
+:::{#list_w4e}
+:::
+
+## Trainings
+
+| Year | Place                    | Date            | Event                                                                                       | Training                                                                             | Speaker                                     |
+|------|--------------------------|-----------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|---------------------------------------------|
+| 2024 | St Malo, France          | 3-6 June        | RFMF                                                                                        | Atelier                                                                              |                                             |
+| 2022 | Sète, France             | 17-20 October   | Chemomics                                                                                   | 3rd School => Bar camp ChemFlow / W4M                                                |                                             |
+| 2021 | Online Session           | 15-19 March     | Chemomics                                                                                   | 2nd School => Bar camp ChemFlow / W4M                                                |                                             |
+| 2020 | Breda, NDL               | 5-6 November    | Avans Galaxy workshop                                                                       | Introduction of to XCMS, Analyzing LC-MS data with Galaxy by XCMS functions          | Yann Guitton                                |
+| 2020 | Toulouse, France         | 21 January      | RFMF                                                                                        | Interactive tutorial, How to process LC-MS data with workflow4metabolomics.org       | Y Guitton, M. Tremblay-Franco, F. Giacomoni |
+| 2019 | Sète, France             | 18-22 November  | Chemomics                                                                                   | 1st => Bar camp ChemFlow / W4M                                                       |                                             |
+| 2019 | St Etienne, France       | 16-21 June      | ETEC                                                                                        | Approches "Omiques" en ecologie chimique - Atelier Metabolomique avec W4M            | Binta Dieme                                 |
+| 2018 | EBI, UK                  | 21-23 March     | EMBL-EBI Training                                                                           | Introduction to Metabolomics Analysis                                                | Etienne Thevenot                            |
+| 2017 | Pula, Italy              | 11-15 September | CloudMET                                                                                    | 1st scientific school on Cloud-based Metabolomics Data Analysis and Collaboration    |                                             |
+| 2017 | Lausanne, Switzerland    | 12-15 June      | Metabolomics : from data to publication                                                     | LC-MS data pre-processing/MS data processing                                         | Yann Guitton                                |
+| 2017 | Paris, France            | 6-9 June        | Applications de R pour l’analyse de données spectroscopiques                                | SM et RMN : XCMS et Batman                                                           | Alain PARIS                                 |
+| 2016 | Toulouse, France         | 8 November      | Master in Structural and Functional Biology                                                 | Introduction to Statistics for Metabolomics and Proteomics                           | Marie Tremblay-Franco                       |
+| 2016 | Sardenia, Italy          | 12-16 September | 2nd Metabolomics Sardinian Scientific School: How to bridge metabolomics and genomics       | The Workflow4Metabolomics (W4M) online infrastructure for omics analysis with Galaxy |                                             |
+| 2015 | Tours, France            | 27 November     | workshop Pharmaco-métabolomique et recherche de nouveaux biomarqueurs en onco-pharmacologie | Atelier Analyses multivariées des données métabolomiques                             |                                             |
+| 2014 | Lyon, France             | 19 May          | RFMF                                                                                        | Initiation au traitement et à l'Analyse des données métabolomiques                   |                                             |
+| 2014 | Clermont-Ferrand, France | 19-20 March     |                                                                                             | Galaxy pour l'analyse de données métabolomique                                       |                                             |
+| 2014 | Roscoff, France          | 12-14 March     |                                                                                             | Galaxy for developper                                                                |                                             |
+| 2014 | Roscoff, France          | 28 January      |                                                                                             | Galaxy pour l'analyse de données métabolomique                                       |                                             |
+
+:::
+
+
+<!-- ```{=html} -->
+<!-- <a  -->
+<!-- class="twitter-timeline"  -->
+<!-- href="https://twitter.com/workflow4metabo?ref_src=twsrc%5Etfw"> -->
+<!-- Tweets by workflow4metabo</a> -->
+<!-- <script async src="https://platform.twitter.com/widgets.js"  -->
+<!-- charset="utf-8"></script> -->
+<!-- ``` -->
+:::{.column-margin}
+```{=html}
+<iframe style="
+  width:90%;
+  height:70em;
+  border-style:none;
+  box-shadow:0px 0px 2px 2px"
+  src="https://twitter.com/workflow4metabo" title="Tweets by @workflow4metabo"
+></iframe>
+```
+:::

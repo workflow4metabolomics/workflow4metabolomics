@@ -1,0 +1,31 @@
+---
+  title: "GC-MS Idealg dataset"
+  subtitle: "Towards deciphering dynamic changes and evolutionary mechanisms involved in the adaptation to low salinities in Ectocarpus (brown algae)"
+  doi-link: "[doi link](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x)"
+  author: "Dittami *et al.*, 2012"
+  publication: "@DITTAMI_2012"
+  description: "[doi link](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2012.04982.x)"
+  bibliography: "../references.bib"
+  galaxyref: "W4M00004"
+  W4M: "[W4M00004](https://workflow4metabolomics.usegalaxy.fr/published/history?id=85be02a450bd0e8c)"
+  Respository: ""
+---
+
+
+## Description
+
+**Background:** Colonizations of freshwater by marine species are rare events, and little information is known about the underlying mechanisms. Brown algae are an independent lineage of photosynthetic and multicellular organisms from which few species inhabit freshwater. As a marine alga that is also found in freshwater, Ectocarpus is of particular interest for studying the transition between these habitats.  
+
+**Objective:** To gain insights into mechanisms of the transition, we examined salinity tolerance and adaptations to low salinities in a freshwater strain of Ectocarpus on physiological and molecular levels.  
+
+**Results:** We show that this isolate belongs to a widely distributed and highly stress-resistant clade, and differed from the genome-sequenced marine strain in its tolerance of low salinities. It also exhibited profound, but reversible, morphological, physiological, and transcriptomic changes when transferred to seawater. Although gene expression profiles were similar in both strains under identical conditions, metabolite and ion profiles differed strongly, the freshwater strain exhibiting e.g. higher cellular contents of amino acids and nitrate, higher contents of n-3 fatty acids, and lower intracellular mannitol and sodium concentrations. Moreover, several stress markers were noted in the freshwater isolate in seawater.  
+
+**Conclusion:** This finding suggests that, while high stress tolerance and plasticity may be prerequisites for the colonization of freshwater, genomic alterations have occurred that produced permanent changes in the metabolite profiles to stabilize the transition.
+
+**Dataset:**  
+
+The dataset contains 12 GC-MS injection of *Ectocarpus sp.* (Ectocarpales, Phaeophyceae) samples.
+
+**Workflow:**  
+
+The W4M workflow use XCMS Matched Filter method for peak detection.

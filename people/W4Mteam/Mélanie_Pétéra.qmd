@@ -1,0 +1,36 @@
+---
+title: "Mélanie Pétéra"
+image: "https://avatars.githubusercontent.com/u/20553061?v=4"
+description: Engineer in Statistics
+categories: 
+    - LCMS
+    - Statistics
+    - Wrapper (XML)
+    - Bioinfo/ToolsDev
+    - Galaxy
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/m%C3%A9lanie-p%C3%A9t%C3%A9ra-72383041"
+    - icon: github
+      text: Github
+      href: "https://github.com/melpetera"
+---
+
+Currently working at the ‘Metabolism Exploration Platform’ (PFEM), I am involved in routine MS-based untargeted metabolomic analyses as data analyst and/or data treatment supervisor. I also develop Galaxy tools and workflows for my team’s internal data analysis procedures, having my heart set on making theses tools also available to the Metabolomics’ community. 
+
+Convinced that nice things and knowledge should be widely shared, I try to keep spending some time providing training and feedback insofar as my skills and schedule enable me to do so. 
+
+## Education  
+
+**Master degree** (MSc) in Statistics and data processing in 2012 (University of Clermont Auvergne - France)
+
+
+## Experience
+
+**Biogemma** in Chappes (France) as a research engineer (2012 - 2013)
+
+**INRAE – PFEM – MetaboHUB-Clermont** in Theix (France) as a study engineer in Statistics (2013 – present day)
+

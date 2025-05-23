@@ -1,0 +1,7 @@
+---
+title: "Workflow4Experimenters 2015"
+year: 2015
+place: Roscoff, France
+date: 21-25 September
+speakers: 
+---

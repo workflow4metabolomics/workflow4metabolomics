@@ -1,0 +1,33 @@
+---
+title: "Marie Tremblay-Franco"
+image: "https://avatars.githubusercontent.com/u/17181264?v=4"
+description: Engineer in Statistics
+categories: 
+    - RMN
+    - Statistics
+    - Wrapper (XML)
+    - Bioinfo/ToolsDev
+    - Galaxy
+about:
+  template: trestles
+  links: 
+    - icon: linkedin
+      text: Linkedin
+      href: "https://fr.linkedin.com/in/marie-tremblay-franco-b1563795"
+    - icon: github
+      text: Github
+      href: "https://github.com/mtremblayfr"
+---
+
+Research engineer in Statistics working on development of methods for metabolomic data statistical analysis (uni or multi blocks) as principal activity. I also develop NMR processing and statistical tools for W4M.
+
+
+## Education
+
+**Ph.D. degree** in Statistics in 2004
+
+## Experience
+
+**INRAE** in Toulouse as research engineer in development of statistical methods and tools for (multimodal) metabolomic data from 2010, October 1st
+
+**C.H.U.** in Montpellier as engineer to analyze data from PMSI (Programme de Médicalisation des Systèmes d'Information).
